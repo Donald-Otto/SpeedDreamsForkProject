@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/ssggraph.dir/grMoonpos.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grMoon.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grSun.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grCloudLayer.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grSky.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grSkyDome.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grSphere.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grStars.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grboard.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grcam.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grcar.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grcarlight.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grmain.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grsimplestate.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grmultitexstate.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grloadac.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grscene.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grbackground.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grscreen.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grshadow.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grskidmarks.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grsmoke.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grtexture.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grtracklight.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grtrackmap.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grutil.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grvtxtable.cpp.obj"
+  "CMakeFiles/ssggraph.dir/grrain.cpp.obj"
+  "CMakeFiles/ssggraph.dir/ssggraph.cpp.obj"
+  "ssggraph.pdb"
+  "../../../../lib/modules/graphic/ssggraph.dll"
+  "libssggraph.dll.a"
+  "../../../../lib/modules/graphic/ssggraph.dll.manifest"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/ssggraph.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

@@ -1,0 +1,1 @@
+-I"D:/CIS 3238/speed-dreams-src-base-2.1.0-beta" -IC:/MinGW/msys/1.0/local/include -I"D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces" -I"D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" -I"D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/math" -I"D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf" 

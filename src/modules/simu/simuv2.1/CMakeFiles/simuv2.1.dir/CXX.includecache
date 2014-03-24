@@ -1,0 +1,326 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/MinGW/msys/1.0/local/include/FreeSOLID/SOLID/solid.h
+
+C:/MinGW/msys/1.0/local/include/FreeSOLID/SOLID/types.h
+
+C:/MinGW/msys/1.0/local/include/plib/sg.h
+stdio.h
+-
+ul.h
+C:/MinGW/msys/1.0/local/include/plib/ul.h
+
+C:/MinGW/msys/1.0/local/include/plib/ul.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+ctype.h
+-
+assert.h
+-
+windows.h
+-
+mmsystem.h
+-
+regstr.h
+-
+unistd.h
+-
+be/kernel/image.h
+-
+CodeFragments.h
+-
+unistd.h
+-
+unistd.h
+-
+unistd.h
+-
+dlfcn.h
+-
+fcntl.h
+-
+sys/param.h
+-
+assert.h
+-
+limits.h
+-
+math.h
+-
+float.h
+-
+errno.h
+-
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/aero.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/aero.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/axle.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/axle.h
+differential.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/differential.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/brake.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/brake.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/car.cpp
+cstring
+-
+stdio.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/carstruct.h
+plib/sg.h
+-
+SOLID/solid.h
+-
+aero.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/aero.h
+susp.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/susp.h
+brake.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/brake.h
+axle.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/axle.h
+steer.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/steer.h
+wheel.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/wheel.h
+transmission.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/transmission.h
+engine.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/engine.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/categories.cpp
+stdio.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/collide.cpp
+SOLID/types.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/differential.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/differential.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/engine.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/engine.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+cmath
+-
+cstdio
+-
+cstring
+-
+portability.h
+-
+tgf.h
+-
+track.h
+-
+car.h
+-
+raceman.h
+-
+robottools.h
+-
+carstruct.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/carstruct.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/simu.cpp
+cstdlib
+-
+cstdio
+-
+memory.h
+-
+cmath
+-
+portability.h
+-
+tgf.h
+-
+robottools.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/simuv21.cpp
+simuv21.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/simuv21.h
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/simuv21.h
+iphysicsengine.h
+-
+tgf.hpp
+-
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/steer.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/steer.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/susp.cpp
+stdio.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/susp.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/transmission.cpp
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/transmission.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/wheel.cpp
+stdio.h
+-
+sim.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/sim.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/wheel.h
+differential.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/simuv2.1/differential.h
+
+config.h
+
+src/interfaces/car.h
+track.h
+-
+plib/sg.h
+-
+
+src/interfaces/iphysicsengine.h
+
+src/interfaces/raceman.h
+tgf.h
+-
+car.h
+-
+track.h
+-
+
+src/interfaces/track.h
+tgf.h
+-
+linalg_t.h
+-
+
+src/libs/math/linalg_t.h
+v2_t.h
+src/libs/math/v2_t.h
+v3_t.h
+src/libs/math/v3_t.h
+v4_t.h
+src/libs/math/v4_t.h
+straight2_t.h
+src/libs/math/straight2_t.h
+
+src/libs/math/straight2_t.h
+v2_t.h
+src/libs/math/v2_t.h
+
+src/libs/math/v2_t.h
+v3_t.h
+-
+
+src/libs/math/v3_t.h
+cmath
+-
+
+src/libs/math/v4_t.h
+
+src/libs/portability/portability.h
+cstdlib
+-
+cstring
+-
+cmath
+-
+direct.h
+-
+process.h
+-
+unistd.h
+-
+config.h
+-
+cstdarg
+-
+cstdio
+-
+
+src/libs/robottools/robottools.h
+car.h
+-
+track.h
+-
+
+src/libs/tgf/modinfo.h
+
+src/libs/tgf/osspec.h
+
+src/libs/tgf/tgf.h
+cstdio
+-
+climits
+-
+osspec.h
+src/libs/tgf/osspec.h
+modinfo.h
+src/libs/tgf/modinfo.h
+string
+-
+
+src/libs/tgf/tgf.hpp
+string
+-
+list
+-
+vector
+-
+map
+-
+ostream
+-
+tgf.h
+src/libs/tgf/tgf.h
+

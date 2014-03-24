@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    file        : car.xml
+    created     : Sun Aug 17 22:09:03 CEST 2003
+    copyright   : (C) 2003 by Eric Espié                         
+    email       : Eric.Espie@torcs.org   
+    version     : $Id: car.xml 5646 2013-08-01 21:50:10Z kakukri $                                  
+-->
+
+<!--    This program is free software; you can redistribute it and/or modify  -->
+<!--    it under the terms of the GNU General Public License as published by  -->
+<!--    the Free Software Foundation; either version 2 of the License, or     -->
+<!--    (at your option) any later version.                                   -->
+
+<!DOCTYPE params SYSTEM "../../../../src/libs/tgf/params.dtd">
+
+<params name="default car" version="1.2">
+
+<!-- Enabling new simuv4 features -->
+	<section name="Features">
+		<attstr name="shifting aero coordinates" in="yes,no" val="yes"/>
+		<attstr name="fixed low speed grip" in="yes,no" val="yes"/>
+		<attstr name="realistic gear change" in="yes,no" val="no"/>
+		<attstr name="realistic rev limiter" in="yes,no" val="yes"/>
+		<attstr name="tire temperature and degradation" in="yes,no" val="no"/>
+		<attstr name="fixed wheel force" in="yes,no" val="yes"/>
+	</section>
+
+</params>
+
+

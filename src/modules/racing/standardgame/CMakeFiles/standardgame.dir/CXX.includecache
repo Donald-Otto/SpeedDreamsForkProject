@@ -1,0 +1,950 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL.h
+SDL_main.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_main.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_audio.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_audio.h
+SDL_cdrom.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_cdrom.h
+SDL_cpuinfo.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_cpuinfo.h
+SDL_endian.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_endian.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_events.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_events.h
+SDL_loadso.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_loadso.h
+SDL_mutex.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mutex.h
+SDL_rwops.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_rwops.h
+SDL_thread.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_thread.h
+SDL_timer.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_timer.h
+SDL_video.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_video.h
+SDL_version.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_version.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_active.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_audio.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_endian.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_endian.h
+SDL_mutex.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mutex.h
+SDL_thread.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_thread.h
+SDL_rwops.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_rwops.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_cdrom.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_config.h
+SDL_platform.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_platform.h
+stdarg.h
+-
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_cpuinfo.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_endian.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+endian.h
+-
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_events.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_active.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_active.h
+SDL_keyboard.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_keyboard.h
+SDL_mouse.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mouse.h
+SDL_joystick.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_joystick.h
+SDL_quit.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_quit.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_joystick.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_keyboard.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_keysym.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_keysym.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_keysym.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_loadso.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_main.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mouse.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_video.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_video.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mutex.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_platform.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_quit.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_rwops.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_config.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_config.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdlib.h
+-
+malloc.h
+-
+stddef.h
+-
+stdarg.h
+-
+memory.h
+-
+string.h
+-
+strings.h
+-
+inttypes.h
+-
+stdint.h
+-
+ctype.h
+-
+iconv.h
+-
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+malloc.h
+-
+stdlib.h
+-
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_thread.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_mutex.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_mutex.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+process.h
+-
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_timer.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_version.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/SDL_video.h
+SDL_stdinc.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_error.h
+SDL_rwops.h
+C:/MinGW/msys/1.0/local/include/SDL/SDL_rwops.h
+begin_code.h
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+close_code.h
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
+
+C:/MinGW/msys/1.0/local/include/SDL/close_code.h
+
+C:/MinGW/msys/1.0/local/include/enet/callbacks.h
+stdlib.h
+-
+
+C:/MinGW/msys/1.0/local/include/enet/enet.h
+stdlib.h
+-
+enet/win32.h
+C:/MinGW/msys/1.0/local/include/enet/enet/win32.h
+enet/unix.h
+C:/MinGW/msys/1.0/local/include/enet/enet/unix.h
+enet/types.h
+C:/MinGW/msys/1.0/local/include/enet/enet/types.h
+enet/protocol.h
+C:/MinGW/msys/1.0/local/include/enet/enet/protocol.h
+enet/list.h
+C:/MinGW/msys/1.0/local/include/enet/enet/list.h
+enet/callbacks.h
+C:/MinGW/msys/1.0/local/include/enet/enet/callbacks.h
+
+C:/MinGW/msys/1.0/local/include/enet/list.h
+stdlib.h
+-
+
+C:/MinGW/msys/1.0/local/include/enet/protocol.h
+enet/types.h
+C:/MinGW/msys/1.0/local/include/enet/enet/types.h
+
+C:/MinGW/msys/1.0/local/include/enet/types.h
+
+C:/MinGW/msys/1.0/local/include/enet/unix.h
+stdlib.h
+-
+sys/time.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+unistd.h
+-
+
+C:/MinGW/msys/1.0/local/include/enet/win32.h
+stdlib.h
+-
+winsock2.h
+-
+
+C:/MinGW/msys/1.0/local/include/plib/sg.h
+stdio.h
+-
+ul.h
+C:/MinGW/msys/1.0/local/include/plib/ul.h
+
+C:/MinGW/msys/1.0/local/include/plib/ul.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+ctype.h
+-
+assert.h
+-
+windows.h
+-
+mmsystem.h
+-
+regstr.h
+-
+unistd.h
+-
+be/kernel/image.h
+-
+CodeFragments.h
+-
+unistd.h
+-
+unistd.h
+-
+unistd.h
+-
+dlfcn.h
+-
+fcntl.h
+-
+sys/param.h
+-
+assert.h
+-
+limits.h
+-
+math.h
+-
+float.h
+-
+errno.h
+-
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp
+ctime
+-
+portability.h
+-
+tgf.h
+-
+raceman.h
+-
+robot.h
+-
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racecareer.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp
+cstdlib
+-
+portability.h
+-
+raceman.h
+-
+network.h
+-
+robot.h
+-
+robottools.h
+-
+teammanager.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racecars.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
+car.h
+-
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp
+cstdlib
+-
+cstdio
+-
+string
+-
+sstream
+-
+map
+-
+raceman.h
+-
+robot.h
+-
+teammanager.h
+-
+robottools.h
+-
+portability.h
+-
+tgf.hpp
+-
+racemanagers.h
+-
+race.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racemain.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+racestate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racecareer.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp
+sstream
+-
+portability.h
+-
+robot.h
+-
+network.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+raceutil.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racecareer.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racestate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+racetrack.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.h
+teammanager.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/teammanager.h
+racemain.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp
+limits
+-
+portability.h
+-
+raceman.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racemessage.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp
+network.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racenetwork.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp
+ctime
+-
+vector
+-
+algorithm
+-
+string
+-
+portability.h
+-
+robot.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racestate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp
+tgf.h
+-
+raceman.h
+-
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racecars.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
+racesimusimu.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp
+cstdlib
+-
+sstream
+-
+iomanip
+-
+SDL.h
+-
+SDL_thread.h
+-
+portability.h
+-
+network.h
+-
+robot.h
+-
+raceman.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racecars.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racemessage.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.h
+racenetwork.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+string
+-
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp
+raceman.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racemain.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+racenetwork.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racestate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp
+cstdlib
+-
+cstdio
+-
+ctime
+-
+tgf.h
+-
+portability.h
+-
+raceman.h
+-
+track.h
+-
+tracks.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+racetrack.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp
+cstdlib
+-
+sstream
+-
+portability.h
+-
+robot.h
+-
+raceman.h
+-
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+raceresults.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
+racesimusimu.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.h
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racenetwork.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp
+tgf.h
+-
+robot.h
+-
+raceutil.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp
+sstream
+-
+tgf.hpp
+-
+car.h
+-
+raceman.h
+-
+tgfdata.h
+-
+race.h
+-
+tracks.h
+-
+racesituation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+racemain.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
+raceinit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
+racestate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
+raceupdate.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
+standardgame.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+iphysicsengine.h
+-
+iraceengine.h
+-
+itrackloader.h
+-
+tgf.hpp
+-
+
+config.h
+
+src/interfaces/car.h
+track.h
+-
+plib/sg.h
+-
+
+src/interfaces/iphysicsengine.h
+
+src/interfaces/iraceengine.h
+iuserinterface.h
+-
+
+src/interfaces/itrackloader.h
+track.h
+-
+
+src/interfaces/iuserinterface.h
+iraceengine.h
+-
+
+src/interfaces/raceman.h
+tgf.h
+-
+car.h
+-
+track.h
+-
+
+src/interfaces/robot.h
+raceman.h
+-
+
+src/interfaces/track.h
+tgf.h
+-
+linalg_t.h
+-
+
+src/libs/math/linalg_t.h
+v2_t.h
+src/libs/math/v2_t.h
+v3_t.h
+src/libs/math/v3_t.h
+v4_t.h
+src/libs/math/v4_t.h
+straight2_t.h
+src/libs/math/straight2_t.h
+
+src/libs/math/straight2_t.h
+v2_t.h
+src/libs/math/v2_t.h
+
+src/libs/math/v2_t.h
+v3_t.h
+-
+
+src/libs/math/v3_t.h
+cmath
+-
+
+src/libs/math/v4_t.h
+
+src/libs/portability/portability.h
+cstdlib
+-
+cstring
+-
+cmath
+-
+direct.h
+-
+process.h
+-
+unistd.h
+-
+config.h
+-
+cstdarg
+-
+cstdio
+-
+
+src/libs/robottools/robottools.h
+car.h
+-
+track.h
+-
+
+src/libs/robottools/teammanager.h
+car.h
+-
+track.h
+-
+raceman.h
+-
+robottools.h
+src/libs/robottools/robottools.h
+
+src/libs/tgf/modinfo.h
+
+src/libs/tgf/osspec.h
+
+src/libs/tgf/tgf.h
+cstdio
+-
+climits
+-
+osspec.h
+src/libs/tgf/osspec.h
+modinfo.h
+src/libs/tgf/modinfo.h
+string
+-
+
+src/libs/tgf/tgf.hpp
+string
+-
+list
+-
+vector
+-
+map
+-
+ostream
+-
+tgf.h
+src/libs/tgf/tgf.h
+
+src/libs/tgfdata/race.h
+string
+-
+vector
+-
+tgfdata.h
+src/libs/tgfdata/tgfdata.h
+
+src/libs/tgfdata/racemanagers.h
+string
+-
+vector
+-
+tgfdata.h
+src/libs/tgfdata/tgfdata.h
+
+src/libs/tgfdata/tgfdata.h
+
+src/libs/tgfdata/tracks.h
+string
+-
+vector
+-
+itrackloader.h
+-
+tgfdata.h
+src/libs/tgfdata/tgfdata.h
+
+src/modules/networking/network.h
+string
+-
+vector
+-
+set
+-
+map
+-
+enet.h
+-
+enet/enet.h
+-
+track.h
+-
+raceman.h
+-
+

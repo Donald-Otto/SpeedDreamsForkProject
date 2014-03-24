@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dgroup.cpp
+cstdio
+-
+cstdlib
+-
+ctype.h
+-
+cstring
+-
+cmath
+-
+portability.h
+-
+accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dload.cpp
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+cstring
+-
+sstream
+-
+math.h
+-
+float.h
+-
+portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/portability.h
+accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+windows.h
+-
+float.h
+-
+
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/mainaccc.cpp
+cstdio
+-
+ctype.h
+-
+portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/portability.h
+accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+
+config.h
+
+src/libs/portability/portability.h
+cstdlib
+-
+cstring
+-
+cmath
+-
+direct.h
+-
+process.h
+-
+unistd.h
+-
+config.h
+-
+cstdarg
+-
+cstdio
+-
+
