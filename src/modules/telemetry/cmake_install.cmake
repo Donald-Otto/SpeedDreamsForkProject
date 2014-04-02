@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -394,25 +394,9 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.cpp
-stdio.h
--
-stdlib.h
--
-ctype.h
--
-cstring
--
-unistd.h
--
-tgf.h
--
-ac3d.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/ac3d.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/easymesh.cpp
 math.h
 -
 stdio.h
@@ -428,149 +412,29 @@ track.h
 robottools.h
 -
 trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/trackgen.h
 elevation.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/elevation.h
 easymesh.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/easymesh.h
 objects.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/objects.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/objects.h
 relief.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/relief.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/relief.h
 ac3d.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/ac3d.h
 easymesh.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/easymesh.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/easymesh.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.cpp
-stdio.h
--
-stdlib.h
--
-ctype.h
--
-cstring
--
-stdlib.h
--
-unistd.h
--
-math.h
--
-tgfclient.h
--
-track.h
--
-trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
-util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.h
-elevation.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/elevation.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/objects.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/main.cpp
-cstdio
--
-ctype.h
--
-sstream
--
-unistd.h
--
-getopt.h
--
-plib/ul.h
--
-plib/ssg.h
--
-SDL.h
--
-config.h
--
-tgf.hpp
--
-portability.h
--
-itrackloader.h
--
-ac3d.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
-easymesh.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.h
-objects.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/objects.h
-elevation.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.h
-trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/relief.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/objects.cpp
-stdio.h
--
-stdlib.h
--
-ctype.h
--
-cstring
--
-unistd.h
--
-math.h
--
-plib/ssg.h
--
-tgfclient.h
--
-track.h
--
-trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
-util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.h
-elevation.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/elevation.h
-ac3d.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
-objects.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/objects.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/objects.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/relief.cpp
-cstdio
--
-cstdlib
--
-ctype.h
--
-cstring
--
-unistd.h
--
-windows.h
--
-cmath
--
-plib/ssg.h
--
-tgfclient.h
--
-track.h
--
-trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
-easymesh.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/easymesh.h
-relief.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/relief.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/relief.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/track.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/track.cpp
 stdio.h
 -
 stdlib.h
@@ -590,46 +454,22 @@ track.h
 robottools.h
 -
 ac3d.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/ac3d.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/ac3d.h
 util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/util.h
 trackgen.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/trackgen.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/trackgen.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/trackgen.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.cpp
-stdio.h
--
-stdlib.h
--
-ctype.h
--
-cstring
--
-unistd.h
--
-plib/ul.h
--
-tgfclient.h
--
-util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/util.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/util.h
 plib/ssg.h
 -
-
-config.h
 
 src/interfaces/car.h
 track.h
 -
 plib/sg.h
--
-
-src/interfaces/itrackloader.h
-track.h
 -
 
 src/interfaces/track.h
@@ -661,26 +501,6 @@ cmath
 -
 
 src/libs/math/v4_t.h
-
-src/libs/portability/portability.h
-cstdlib
--
-cstring
--
-cmath
--
-direct.h
--
-process.h
--
-unistd.h
--
-config.h
--
-cstdarg
--
-cstdio
--
 
 src/libs/robottools/robottools.h
 car.h

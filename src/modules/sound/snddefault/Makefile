@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ snddefault: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/rule
 
 # fast build rule for target.
 snddefault/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build
 .PHONY : snddefault/fast
 
 CarSoundData.obj: CarSoundData.cpp.obj
@@ -181,7 +171,7 @@ CarSoundData.obj: CarSoundData.cpp.obj
 
 # target to build an object file
 CarSoundData.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj
 .PHONY : CarSoundData.cpp.obj
 
 CarSoundData.i: CarSoundData.cpp.i
@@ -189,7 +179,7 @@ CarSoundData.i: CarSoundData.cpp.i
 
 # target to preprocess a source file
 CarSoundData.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.i
 .PHONY : CarSoundData.cpp.i
 
 CarSoundData.s: CarSoundData.cpp.s
@@ -197,7 +187,7 @@ CarSoundData.s: CarSoundData.cpp.s
 
 # target to generate assembly for a file
 CarSoundData.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.s
 .PHONY : CarSoundData.cpp.s
 
 OpenalSound.obj: OpenalSound.cpp.obj
@@ -205,7 +195,7 @@ OpenalSound.obj: OpenalSound.cpp.obj
 
 # target to build an object file
 OpenalSound.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj
 .PHONY : OpenalSound.cpp.obj
 
 OpenalSound.i: OpenalSound.cpp.i
@@ -213,7 +203,7 @@ OpenalSound.i: OpenalSound.cpp.i
 
 # target to preprocess a source file
 OpenalSound.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.i
 .PHONY : OpenalSound.cpp.i
 
 OpenalSound.s: OpenalSound.cpp.s
@@ -221,7 +211,7 @@ OpenalSound.s: OpenalSound.cpp.s
 
 # target to generate assembly for a file
 OpenalSound.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.s
 .PHONY : OpenalSound.cpp.s
 
 OpenalSoundInterface.obj: OpenalSoundInterface.cpp.obj
@@ -229,7 +219,7 @@ OpenalSoundInterface.obj: OpenalSoundInterface.cpp.obj
 
 # target to build an object file
 OpenalSoundInterface.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj
 .PHONY : OpenalSoundInterface.cpp.obj
 
 OpenalSoundInterface.i: OpenalSoundInterface.cpp.i
@@ -237,7 +227,7 @@ OpenalSoundInterface.i: OpenalSoundInterface.cpp.i
 
 # target to preprocess a source file
 OpenalSoundInterface.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
 .PHONY : OpenalSoundInterface.cpp.i
 
 OpenalSoundInterface.s: OpenalSoundInterface.cpp.s
@@ -245,7 +235,7 @@ OpenalSoundInterface.s: OpenalSoundInterface.cpp.s
 
 # target to generate assembly for a file
 OpenalSoundInterface.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
 .PHONY : OpenalSoundInterface.cpp.s
 
 PlibSound.obj: PlibSound.cpp.obj
@@ -253,7 +243,7 @@ PlibSound.obj: PlibSound.cpp.obj
 
 # target to build an object file
 PlibSound.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj
 .PHONY : PlibSound.cpp.obj
 
 PlibSound.i: PlibSound.cpp.i
@@ -261,7 +251,7 @@ PlibSound.i: PlibSound.cpp.i
 
 # target to preprocess a source file
 PlibSound.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.i
 .PHONY : PlibSound.cpp.i
 
 PlibSound.s: PlibSound.cpp.s
@@ -269,7 +259,7 @@ PlibSound.s: PlibSound.cpp.s
 
 # target to generate assembly for a file
 PlibSound.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.s
 .PHONY : PlibSound.cpp.s
 
 PlibSoundInterface.obj: PlibSoundInterface.cpp.obj
@@ -277,7 +267,7 @@ PlibSoundInterface.obj: PlibSoundInterface.cpp.obj
 
 # target to build an object file
 PlibSoundInterface.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj
 .PHONY : PlibSoundInterface.cpp.obj
 
 PlibSoundInterface.i: PlibSoundInterface.cpp.i
@@ -285,7 +275,7 @@ PlibSoundInterface.i: PlibSoundInterface.cpp.i
 
 # target to preprocess a source file
 PlibSoundInterface.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
 .PHONY : PlibSoundInterface.cpp.i
 
 PlibSoundInterface.s: PlibSoundInterface.cpp.s
@@ -293,7 +283,7 @@ PlibSoundInterface.s: PlibSoundInterface.cpp.s
 
 # target to generate assembly for a file
 PlibSoundInterface.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
 .PHONY : PlibSoundInterface.cpp.s
 
 Sound.obj: Sound.cpp.obj
@@ -301,7 +291,7 @@ Sound.obj: Sound.cpp.obj
 
 # target to build an object file
 Sound.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj
 .PHONY : Sound.cpp.obj
 
 Sound.i: Sound.cpp.i
@@ -309,7 +299,7 @@ Sound.i: Sound.cpp.i
 
 # target to preprocess a source file
 Sound.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.i
 .PHONY : Sound.cpp.i
 
 Sound.s: Sound.cpp.s
@@ -317,7 +307,7 @@ Sound.s: Sound.cpp.s
 
 # target to generate assembly for a file
 Sound.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.s
 .PHONY : Sound.cpp.s
 
 SoundInterface.obj: SoundInterface.cpp.obj
@@ -325,7 +315,7 @@ SoundInterface.obj: SoundInterface.cpp.obj
 
 # target to build an object file
 SoundInterface.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj
 .PHONY : SoundInterface.cpp.obj
 
 SoundInterface.i: SoundInterface.cpp.i
@@ -333,7 +323,7 @@ SoundInterface.i: SoundInterface.cpp.i
 
 # target to preprocess a source file
 SoundInterface.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.i
 .PHONY : SoundInterface.cpp.i
 
 SoundInterface.s: SoundInterface.cpp.s
@@ -341,7 +331,7 @@ SoundInterface.s: SoundInterface.cpp.s
 
 # target to generate assembly for a file
 SoundInterface.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.s
 .PHONY : SoundInterface.cpp.s
 
 grsound.obj: grsound.cpp.obj
@@ -349,7 +339,7 @@ grsound.obj: grsound.cpp.obj
 
 # target to build an object file
 grsound.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj
 .PHONY : grsound.cpp.obj
 
 grsound.i: grsound.cpp.i
@@ -357,7 +347,7 @@ grsound.i: grsound.cpp.i
 
 # target to preprocess a source file
 grsound.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.i
 .PHONY : grsound.cpp.i
 
 grsound.s: grsound.cpp.s
@@ -365,7 +355,7 @@ grsound.s: grsound.cpp.s
 
 # target to generate assembly for a file
 grsound.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.s
 .PHONY : grsound.cpp.s
 
 snddefault.obj: snddefault.cpp.obj
@@ -373,7 +363,7 @@ snddefault.obj: snddefault.cpp.obj
 
 # target to build an object file
 snddefault.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj
 .PHONY : snddefault.cpp.obj
 
 snddefault.i: snddefault.cpp.i
@@ -381,7 +371,7 @@ snddefault.i: snddefault.cpp.i
 
 # target to preprocess a source file
 snddefault.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.i
 .PHONY : snddefault.cpp.i
 
 snddefault.s: snddefault.cpp.s
@@ -389,7 +379,7 @@ snddefault.s: snddefault.cpp.s
 
 # target to generate assembly for a file
 snddefault.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build.make src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.s
 .PHONY : snddefault.cpp.s
 
 # Help Target
@@ -401,7 +391,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -445,6 +434,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

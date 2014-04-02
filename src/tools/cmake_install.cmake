@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,12 +29,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/xmlversion/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/xmlversion/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

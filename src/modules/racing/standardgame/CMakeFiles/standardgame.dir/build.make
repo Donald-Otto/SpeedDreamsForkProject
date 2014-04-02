@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj: src/modules/racing/standardgame/standardgame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/standardgame.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/standardgame.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/standardgame.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp" > CMakeFiles/standardgame.dir/standardgame.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.cpp" > CMakeFiles/standardgame.dir/standardgame.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/standardgame.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp" -o CMakeFiles/standardgame.dir/standardgame.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.cpp" -o CMakeFiles/standardgame.dir/standardgame.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj: src/modules/racing/standardgame/racecareer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecareer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecareer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racecareer.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp" > CMakeFiles/standardgame.dir/racecareer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.cpp" > CMakeFiles/standardgame.dir/racecareer.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racecareer.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp" -o CMakeFiles/standardgame.dir/racecareer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.cpp" -o CMakeFiles/standardgame.dir/racecareer.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj.requires
@@ -103,17 +103,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj.p
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj: src/modules/racing/standardgame/raceupdate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceupdate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceupdate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceupdate.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp" > CMakeFiles/standardgame.dir/raceupdate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.cpp" > CMakeFiles/standardgame.dir/raceupdate.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceupdate.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp" -o CMakeFiles/standardgame.dir/raceupdate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.cpp" -o CMakeFiles/standardgame.dir/raceupdate.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj.requires
@@ -127,17 +127,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj.p
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj: src/modules/racing/standardgame/racenetwork.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racenetwork.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racenetwork.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racenetwork.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp" > CMakeFiles/standardgame.dir/racenetwork.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.cpp" > CMakeFiles/standardgame.dir/racenetwork.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racenetwork.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp" -o CMakeFiles/standardgame.dir/racenetwork.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.cpp" -o CMakeFiles/standardgame.dir/racenetwork.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj.requires
@@ -151,17 +151,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj: src/modules/racing/standardgame/racecars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecars.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racecars.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racecars.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp" > CMakeFiles/standardgame.dir/racecars.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.cpp" > CMakeFiles/standardgame.dir/racecars.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racecars.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp" -o CMakeFiles/standardgame.dir/racecars.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.cpp" -o CMakeFiles/standardgame.dir/racecars.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj.requires
@@ -175,17 +175,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj.pro
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj: src/modules/racing/standardgame/raceinit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceinit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceinit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceinit.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp" > CMakeFiles/standardgame.dir/raceinit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.cpp" > CMakeFiles/standardgame.dir/raceinit.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceinit.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp" -o CMakeFiles/standardgame.dir/raceinit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.cpp" -o CMakeFiles/standardgame.dir/raceinit.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj.requires
@@ -199,17 +199,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj.pro
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj: src/modules/racing/standardgame/racemain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemain.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemain.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racemain.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp" > CMakeFiles/standardgame.dir/racemain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.cpp" > CMakeFiles/standardgame.dir/racemain.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racemain.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp" -o CMakeFiles/standardgame.dir/racemain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.cpp" -o CMakeFiles/standardgame.dir/racemain.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj.requires
@@ -223,17 +223,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj.pro
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj: src/modules/racing/standardgame/racetrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racetrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racetrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racetrack.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp" > CMakeFiles/standardgame.dir/racetrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.cpp" > CMakeFiles/standardgame.dir/racetrack.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racetrack.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp" -o CMakeFiles/standardgame.dir/racetrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.cpp" -o CMakeFiles/standardgame.dir/racetrack.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj.requires
@@ -247,17 +247,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj.pr
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj: src/modules/racing/standardgame/raceresults.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceresults.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceresults.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceresults.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp" > CMakeFiles/standardgame.dir/raceresults.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.cpp" > CMakeFiles/standardgame.dir/raceresults.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceresults.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp" -o CMakeFiles/standardgame.dir/raceresults.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.cpp" -o CMakeFiles/standardgame.dir/raceresults.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj.requires
@@ -271,17 +271,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj: src/modules/racing/standardgame/racesimusimu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesimusimu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesimusimu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racesimusimu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp" > CMakeFiles/standardgame.dir/racesimusimu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.cpp" > CMakeFiles/standardgame.dir/racesimusimu.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racesimusimu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp" -o CMakeFiles/standardgame.dir/racesimusimu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.cpp" -o CMakeFiles/standardgame.dir/racesimusimu.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj.requires
@@ -295,17 +295,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj: src/modules/racing/standardgame/racestate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racestate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racestate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racestate.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp" > CMakeFiles/standardgame.dir/racestate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.cpp" > CMakeFiles/standardgame.dir/racestate.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racestate.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp" -o CMakeFiles/standardgame.dir/racestate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.cpp" -o CMakeFiles/standardgame.dir/racestate.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj.requires
@@ -319,17 +319,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj.pr
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj: src/modules/racing/standardgame/racesituation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesituation.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racesituation.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racesituation.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp" > CMakeFiles/standardgame.dir/racesituation.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.cpp" > CMakeFiles/standardgame.dir/racesituation.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racesituation.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp" -o CMakeFiles/standardgame.dir/racesituation.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.cpp" -o CMakeFiles/standardgame.dir/racesituation.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj.requires
@@ -343,17 +343,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.ob
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj: src/modules/racing/standardgame/racemessage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemessage.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/racemessage.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/racemessage.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp" > CMakeFiles/standardgame.dir/racemessage.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.cpp" > CMakeFiles/standardgame.dir/racemessage.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/racemessage.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp" -o CMakeFiles/standardgame.dir/racemessage.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.cpp" -o CMakeFiles/standardgame.dir/racemessage.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj.requires
@@ -367,17 +367,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/flags.make
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/includes_CXX.rsp
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj: src/modules/racing/standardgame/raceutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standardgame.dir/raceutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.cpp"
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standardgame.dir/raceutil.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp" > CMakeFiles/standardgame.dir/raceutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.cpp" > CMakeFiles/standardgame.dir/raceutil.cpp.i
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standardgame.dir/raceutil.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp" -o CMakeFiles/standardgame.dir/raceutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.cpp" -o CMakeFiles/standardgame.dir/raceutil.cpp.s
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj.requires:
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj.requires
@@ -458,9 +458,9 @@ lib/modules/racing/standardgame.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 lib/modules/racing/standardgame.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/modules/racing/standardgame.dll: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib/modules/racing/standardgame.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/standardgame.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/ar.exe cr CMakeFiles/standardgame.dir/objects.a @CMakeFiles/standardgame.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/racing/standardgame.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/standardgame.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfdata/libtgfdata.dll.a ../../../libs/robottools/librobottools.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/standardgame.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/ar.exe cr CMakeFiles/standardgame.dir/objects.a @CMakeFiles/standardgame.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/racing/standardgame.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/standardgame.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfdata/libtgfdata.dll.a ../../../libs/robottools/librobottools.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build: lib/modules/racing/standardgame.dll
@@ -483,10 +483,10 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/requires: src/module
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/requires
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" && $(CMAKE_COMMAND) -P CMakeFiles/standardgame.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" && $(CMAKE_COMMAND) -P CMakeFiles/standardgame.dir/cmake_clean.cmake
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/clean
 
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/depend
 

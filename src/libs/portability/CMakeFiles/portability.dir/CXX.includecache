@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.cpp
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.h
 cstdlib
 -
 cstring

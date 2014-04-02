@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/drivers/human/CMakeFiles/human.dir/depend.make
@@ -55,17 +55,17 @@ include src/drivers/human/CMakeFiles/human.dir/flags.make
 src/drivers/human/CMakeFiles/human.dir/human.cpp.obj: src/drivers/human/CMakeFiles/human.dir/flags.make
 src/drivers/human/CMakeFiles/human.dir/human.cpp.obj: src/drivers/human/CMakeFiles/human.dir/includes_CXX.rsp
 src/drivers/human/CMakeFiles/human.dir/human.cpp.obj: src/drivers/human/human.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/human/CMakeFiles/human.dir/human.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/human.dir/human.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human/human.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/human.dir/human.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human/human.cpp"
 
 src/drivers/human/CMakeFiles/human.dir/human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/human.dir/human.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human/human.cpp" > CMakeFiles/human.dir/human.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human/human.cpp" > CMakeFiles/human.dir/human.cpp.i
 
 src/drivers/human/CMakeFiles/human.dir/human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/human.dir/human.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human/human.cpp" -o CMakeFiles/human.dir/human.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human/human.cpp" -o CMakeFiles/human.dir/human.cpp.s
 
 src/drivers/human/CMakeFiles/human.dir/human.cpp.obj.requires:
 .PHONY : src/drivers/human/CMakeFiles/human.dir/human.cpp.obj.requires
@@ -123,9 +123,9 @@ lib/drivers/human/human.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/drivers/human/human.dll: C:/MinGW/msys/1.0/local/lib/libplibul.a
 lib/drivers/human/human.dll: src/drivers/human/CMakeFiles/human.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib/drivers/human/human.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/human.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && /c/MinGW/bin/ar.exe cr CMakeFiles/human.dir/objects.a @CMakeFiles/human.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && /c/MinGW/bin/g++.exe     -shared -o ../../../lib/drivers/human/human.dll -Wl,--major-image-version,1,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/human.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/human.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && /c/MinGW/bin/ar.exe cr CMakeFiles/human.dir/objects.a @CMakeFiles/human.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && /c/MinGW/bin/g++.exe     -shared -o ../../../lib/drivers/human/human.dll -Wl,--major-image-version,1,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/human.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/drivers/human/CMakeFiles/human.dir/build: lib/drivers/human/human.dll
@@ -135,10 +135,10 @@ src/drivers/human/CMakeFiles/human.dir/requires: src/drivers/human/CMakeFiles/hu
 .PHONY : src/drivers/human/CMakeFiles/human.dir/requires
 
 src/drivers/human/CMakeFiles/human.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" && $(CMAKE_COMMAND) -P CMakeFiles/human.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" && $(CMAKE_COMMAND) -P CMakeFiles/human.dir/cmake_clean.cmake
 .PHONY : src/drivers/human/CMakeFiles/human.dir/clean
 
 src/drivers/human/CMakeFiles/human.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/human/CMakeFiles/human.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/human/CMakeFiles/human.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/drivers/human/CMakeFiles/human.dir/depend
 

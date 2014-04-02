@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,12 +28,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/kilo2008" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/kilo2008/kilo2008.dll")
-  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/kilo2008/kilo2008.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/kilo2008/kilo2008.dll")
-    IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "c:/MinGW/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/kilo2008/kilo2008.dll")
-    ENDIF(CMAKE_INSTALL_DO_STRIP)
-  ENDIF()
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/kilo2008" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/kilo2008/kilo2008.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

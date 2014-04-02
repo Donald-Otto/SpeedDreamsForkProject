@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/flags.make
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj: src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/flags.make
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj: src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/includes_CXX.rsp
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj: src/modules/telemetry/telemetryv1/telemetryitf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetryitf.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetryitf.cpp"
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/telemetryv1.dir/telemetryitf.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetryitf.cpp" > CMakeFiles/telemetryv1.dir/telemetryitf.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetryitf.cpp" > CMakeFiles/telemetryv1.dir/telemetryitf.cpp.i
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/telemetryv1.dir/telemetryitf.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetryitf.cpp" -o CMakeFiles/telemetryv1.dir/telemetryitf.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetryitf.cpp" -o CMakeFiles/telemetryv1.dir/telemetryitf.cpp.s
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj.requires:
 .PHONY : src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.ob
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj: src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/flags.make
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj: src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/includes_CXX.rsp
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj: src/modules/telemetry/telemetryv1/telemetry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/telemetryv1.dir/telemetry.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetry.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/telemetryv1.dir/telemetry.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetry.cpp"
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/telemetryv1.dir/telemetry.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetry.cpp" > CMakeFiles/telemetryv1.dir/telemetry.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetry.cpp" > CMakeFiles/telemetryv1.dir/telemetry.cpp.i
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/telemetryv1.dir/telemetry.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetry.cpp" -o CMakeFiles/telemetryv1.dir/telemetry.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetry.cpp" -o CMakeFiles/telemetryv1.dir/telemetry.cpp.s
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj.requires:
 .PHONY : src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.obj.requires
@@ -120,9 +120,9 @@ lib/modules/telemetry/telemetryv1.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/modules/telemetry/telemetryv1.dll: C:/MinGW/msys/1.0/local/lib/libexpat.dll.a
 lib/modules/telemetry/telemetryv1.dll: src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib/modules/telemetry/telemetryv1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/telemetryv1.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/ar.exe cr CMakeFiles/telemetryv1.dir/objects.a @CMakeFiles/telemetryv1.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/telemetry/telemetryv1.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/telemetryv1.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/telemetryv1.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/ar.exe cr CMakeFiles/telemetryv1.dir/objects.a @CMakeFiles/telemetryv1.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/telemetry/telemetryv1.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/telemetryv1.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/build: lib/modules/telemetry/telemetryv1.dll
@@ -133,10 +133,10 @@ src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/requires: src/modul
 .PHONY : src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/requires
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" && $(CMAKE_COMMAND) -P CMakeFiles/telemetryv1.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" && $(CMAKE_COMMAND) -P CMakeFiles/telemetryv1.dir/cmake_clean.cmake
 .PHONY : src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/clean
 
 src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/depend
 

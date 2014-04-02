@@ -4,9 +4,9 @@
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
  src/interfaces/car.h
  src/interfaces/track.h
  src/libs/math/linalg_t.h
@@ -20,10 +20,10 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -41,13 +41,13 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/race.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/race.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/race.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/race.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -64,12 +64,12 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -83,12 +83,12 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.h
  src/interfaces/itrackloader.h
  src/interfaces/track.h
  src/libs/math/linalg_t.h
@@ -100,9 +100,9 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.h
  src/interfaces/itrackloader.h
  src/interfaces/track.h
  src/libs/math/linalg_t.h

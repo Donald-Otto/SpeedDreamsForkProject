@@ -4,8 +4,8 @@
 src/modules/userinterface/textonly/CMakeFiles/textonly.dir/textonly.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/textonly/textonly.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/textonly/textonly.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/textonly/textonly.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/textonly/textonly.h
  config.h
  src/interfaces/car.h
  src/interfaces/iraceengine.h

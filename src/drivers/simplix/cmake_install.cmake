@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,44 +28,38 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll")
-  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix/simplix.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix/simplix.dll")
-    IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "c:/MinGW/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix/simplix.dll")
-    ENDIF(CMAKE_INSTALL_DO_STRIP)
-  ENDIF()
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_36GP" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_36GP/simplix_36GP.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_36GP" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_36GP/simplix_36GP.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_sc" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_sc/simplix_sc.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_sc" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_sc/simplix_sc.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_trb1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_trb1/simplix_trb1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_trb1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_trb1/simplix_trb1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ls1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls1/simplix_ls1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ls1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls1/simplix_ls1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ls2" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls2/simplix_ls2.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ls2" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls2/simplix_ls2.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_mp5" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_mp5/simplix_mp5.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_mp5" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_mp5/simplix_mp5.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_lp1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_lp1/simplix_lp1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_lp1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_lp1/simplix_lp1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ref" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ref/simplix_ref.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/simplix_ref" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ref/simplix_ref.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

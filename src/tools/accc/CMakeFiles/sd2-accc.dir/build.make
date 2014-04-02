@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/tools/accc/CMakeFiles/sd2-accc.dir/depend.make
@@ -55,17 +55,17 @@ include src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/includes_CXX.rsp
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj: src/tools/accc/ac3dgroup.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dgroup.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dgroup.cpp"
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dgroup.cpp" > CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dgroup.cpp" > CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dgroup.cpp" -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dgroup.cpp" -o CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj.requires
@@ -79,17 +79,17 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.obj.provides.build: src/too
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/includes_CXX.rsp
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj: src/tools/accc/ac3dload.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dload.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dload.cpp"
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/ac3dload.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dload.cpp" > CMakeFiles/sd2-accc.dir/ac3dload.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dload.cpp" > CMakeFiles/sd2-accc.dir/ac3dload.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/ac3dload.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dload.cpp" -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dload.cpp" -o CMakeFiles/sd2-accc.dir/ac3dload.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj.requires
@@ -103,17 +103,17 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.obj.provides.build: src/tool
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/flags.make
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj: src/tools/accc/CMakeFiles/sd2-accc.dir/includes_CXX.rsp
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj: src/tools/accc/mainaccc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/mainaccc.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/mainaccc.cpp"
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-accc.dir/mainaccc.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/mainaccc.cpp" > CMakeFiles/sd2-accc.dir/mainaccc.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/mainaccc.cpp" > CMakeFiles/sd2-accc.dir/mainaccc.cpp.i
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-accc.dir/mainaccc.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/mainaccc.cpp" -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/mainaccc.cpp" -o CMakeFiles/sd2-accc.dir/mainaccc.cpp.s
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj.requires:
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.obj.requires
@@ -140,9 +140,9 @@ bin/sd2-accc.exe: src/tools/accc/CMakeFiles/sd2-accc.dir/build.make
 bin/sd2-accc.exe: src/libs/portability/libportability.dll.a
 bin/sd2-accc.exe: src/tools/accc/CMakeFiles/sd2-accc.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/sd2-accc.exe"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-accc.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-accc.dir/objects.a @CMakeFiles/sd2-accc.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-accc.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-accc.exe -Wl,--out-implib,libsd2-accc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-accc.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-accc.dir/objects.a @CMakeFiles/sd2-accc.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-accc.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-accc.exe -Wl,--out-implib,libsd2-accc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/tools/accc/CMakeFiles/sd2-accc.dir/build: bin/sd2-accc.exe
@@ -154,10 +154,10 @@ src/tools/accc/CMakeFiles/sd2-accc.dir/requires: src/tools/accc/CMakeFiles/sd2-a
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/requires
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-accc.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-accc.dir/cmake_clean.cmake
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/clean
 
 src/tools/accc/CMakeFiles/sd2-accc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/CMakeFiles/sd2-accc.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/CMakeFiles/sd2-accc.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/tools/accc/CMakeFiles/sd2-accc.dir/depend
 

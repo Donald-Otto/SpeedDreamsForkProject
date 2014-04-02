@@ -37,10 +37,10 @@ src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/client.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/client.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -90,9 +90,9 @@ src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -112,8 +112,8 @@ src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/SDL_stdinc.h
  C:/MinGW/msys/1.0/local/include/SDL/begin_code.h
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -127,9 +127,9 @@ src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -177,10 +177,10 @@ src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/server.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/server.cpp
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h

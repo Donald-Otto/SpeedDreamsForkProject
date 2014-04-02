@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,14 +29,14 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/simu/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/simu/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

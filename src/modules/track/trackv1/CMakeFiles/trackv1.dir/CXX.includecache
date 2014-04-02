@@ -60,23 +60,7 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track.cpp
-cstdlib
--
-cstdio
--
-cstring
--
-ctime
--
-cmath
--
-portability.h
--
-trackinc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackinc.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track3.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track3.cpp
 cstdlib
 -
 cmath
@@ -94,9 +78,9 @@ robottools.h
 track.h
 -
 trackinc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackinc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackinc.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track4.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track4.cpp
 cstdlib
 -
 cmath
@@ -114,25 +98,13 @@ robottools.h
 track.h
 -
 trackinc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackinc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackinc.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackinc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackinc.h
 track.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.cpp
-trackitf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.h
-trackinc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackinc.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.h
-itrackloader.h
--
-tgf.hpp
--
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackutil.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackutil.cpp
 cstdlib
 -
 cmath
@@ -150,10 +122,6 @@ src/interfaces/car.h
 track.h
 -
 plib/sg.h
--
-
-src/interfaces/itrackloader.h
-track.h
 -
 
 src/interfaces/track.h
@@ -227,18 +195,4 @@ modinfo.h
 src/libs/tgf/modinfo.h
 string
 -
-
-src/libs/tgf/tgf.hpp
-string
--
-list
--
-vector
--
-map
--
-ostream
--
-tgf.h
-src/libs/tgf/tgf.h
 

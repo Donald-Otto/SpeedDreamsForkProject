@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/drivers/simplix/CMakeFiles/simplix.dir/depend.make
@@ -55,17 +55,17 @@ include src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj: src/drivers/simplix/src/unitcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcarparam.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcarparam.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcarparam.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcarparam.cpp" > CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcarparam.cpp" > CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcarparam.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcarparam.cpp" -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcarparam.cpp" -o CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj.requires
@@ -79,17 +79,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj.provides.bui
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj: src/drivers/simplix/src/unitcharacteristic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcharacteristic.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcharacteristic.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcharacteristic.cpp" > CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcharacteristic.cpp" > CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcharacteristic.cpp" -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcharacteristic.cpp" -o CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj.requires
@@ -103,17 +103,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj.provid
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj: src/drivers/simplix/src/unitclothoid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitclothoid.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitclothoid.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitclothoid.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitclothoid.cpp" > CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitclothoid.cpp" > CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitclothoid.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitclothoid.cpp" -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitclothoid.cpp" -o CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj.requires
@@ -127,17 +127,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj.provides.bui
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj: src/drivers/simplix/src/unitcollision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcollision.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcollision.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcollision.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcollision.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcollision.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcollision.cpp" > CMakeFiles/simplix.dir/src/unitcollision.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcollision.cpp" > CMakeFiles/simplix.dir/src/unitcollision.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcollision.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcollision.cpp" -o CMakeFiles/simplix.dir/src/unitcollision.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcollision.cpp" -o CMakeFiles/simplix.dir/src/unitcollision.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj.requires
@@ -151,17 +151,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj.provides.bu
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj: src/drivers/simplix/src/unitcommon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommon.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommon.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommon.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommon.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcommon.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommon.cpp" > CMakeFiles/simplix.dir/src/unitcommon.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommon.cpp" > CMakeFiles/simplix.dir/src/unitcommon.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcommon.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommon.cpp" -o CMakeFiles/simplix.dir/src/unitcommon.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommon.cpp" -o CMakeFiles/simplix.dir/src/unitcommon.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj.requires
@@ -175,17 +175,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj.provides.build
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj: src/drivers/simplix/src/unitcommondata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommondata.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommondata.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcommondata.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommondata.cpp" > CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommondata.cpp" > CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcommondata.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcommondata.cpp" -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcommondata.cpp" -o CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj.requires
@@ -199,17 +199,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj.provides.b
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj: src/drivers/simplix/src/unitcubic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubic.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubic.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubic.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubic.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcubic.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubic.cpp" > CMakeFiles/simplix.dir/src/unitcubic.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubic.cpp" > CMakeFiles/simplix.dir/src/unitcubic.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcubic.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubic.cpp" -o CMakeFiles/simplix.dir/src/unitcubic.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubic.cpp" -o CMakeFiles/simplix.dir/src/unitcubic.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj.requires
@@ -223,17 +223,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj.provides.build:
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj: src/drivers/simplix/src/unitcubicspline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubicspline.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubicspline.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubicspline.cpp" > CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubicspline.cpp" > CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitcubicspline.cpp" -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitcubicspline.cpp" -o CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj.requires
@@ -247,17 +247,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj.provides.
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj: src/drivers/simplix/src/unitdriver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitdriver.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitdriver.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitdriver.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitdriver.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitdriver.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitdriver.cpp" > CMakeFiles/simplix.dir/src/unitdriver.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitdriver.cpp" > CMakeFiles/simplix.dir/src/unitdriver.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitdriver.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitdriver.cpp" -o CMakeFiles/simplix.dir/src/unitdriver.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitdriver.cpp" -o CMakeFiles/simplix.dir/src/unitdriver.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj.requires
@@ -271,17 +271,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj.provides.build
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj: src/drivers/simplix/src/unitfixcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitfixcarparam.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitfixcarparam.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitfixcarparam.cpp" > CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitfixcarparam.cpp" > CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitfixcarparam.cpp" -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitfixcarparam.cpp" -o CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj.requires
@@ -295,17 +295,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj.provides.
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj: src/drivers/simplix/src/unitlane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlane.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlane.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlane.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlane.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlane.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlane.cpp" > CMakeFiles/simplix.dir/src/unitlane.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlane.cpp" > CMakeFiles/simplix.dir/src/unitlane.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlane.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlane.cpp" -o CMakeFiles/simplix.dir/src/unitlane.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlane.cpp" -o CMakeFiles/simplix.dir/src/unitlane.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj.requires
@@ -319,17 +319,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj.provides.build: 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj: src/drivers/simplix/src/unitlanepoint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlanepoint.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlanepoint.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlanepoint.cpp" > CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlanepoint.cpp" > CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlanepoint.cpp" -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlanepoint.cpp" -o CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj.requires
@@ -343,17 +343,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj.provides.bu
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj: src/drivers/simplix/src/unitlinalg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinalg.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinalg.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlinalg.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinalg.cpp" > CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinalg.cpp" > CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlinalg.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinalg.cpp" -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinalg.cpp" -o CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj.requires
@@ -367,17 +367,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj.provides.build
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj: src/drivers/simplix/src/unitlinreg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinreg.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinreg.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitlinreg.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinreg.cpp" > CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinreg.cpp" > CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitlinreg.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitlinreg.cpp" -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitlinreg.cpp" -o CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj.requires
@@ -391,17 +391,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj.provides.build
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj: src/drivers/simplix/src/unitmain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitmain.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitmain.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitmain.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitmain.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitmain.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitmain.cpp" > CMakeFiles/simplix.dir/src/unitmain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitmain.cpp" > CMakeFiles/simplix.dir/src/unitmain.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitmain.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitmain.cpp" -o CMakeFiles/simplix.dir/src/unitmain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitmain.cpp" -o CMakeFiles/simplix.dir/src/unitmain.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj.requires
@@ -415,17 +415,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj.provides.build: 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj: src/drivers/simplix/src/unitopponent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitopponent.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitopponent.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitopponent.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitopponent.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitopponent.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitopponent.cpp" > CMakeFiles/simplix.dir/src/unitopponent.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitopponent.cpp" > CMakeFiles/simplix.dir/src/unitopponent.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitopponent.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitopponent.cpp" -o CMakeFiles/simplix.dir/src/unitopponent.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitopponent.cpp" -o CMakeFiles/simplix.dir/src/unitopponent.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj.requires
@@ -439,17 +439,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj.provides.bui
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj: src/drivers/simplix/src/unitparabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparabel.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparabel.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparabel.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparabel.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitparabel.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparabel.cpp" > CMakeFiles/simplix.dir/src/unitparabel.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparabel.cpp" > CMakeFiles/simplix.dir/src/unitparabel.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitparabel.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparabel.cpp" -o CMakeFiles/simplix.dir/src/unitparabel.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparabel.cpp" -o CMakeFiles/simplix.dir/src/unitparabel.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj.requires
@@ -463,17 +463,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj.provides.buil
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj: src/drivers/simplix/src/unitparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparam.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparam.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitparam.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparam.cpp" > CMakeFiles/simplix.dir/src/unitparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparam.cpp" > CMakeFiles/simplix.dir/src/unitparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitparam.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitparam.cpp" -o CMakeFiles/simplix.dir/src/unitparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitparam.cpp" -o CMakeFiles/simplix.dir/src/unitparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj.requires
@@ -487,17 +487,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj.provides.build:
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj: src/drivers/simplix/src/unitpidctrl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpidctrl.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpidctrl.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpidctrl.cpp" > CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpidctrl.cpp" > CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpidctrl.cpp" -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpidctrl.cpp" -o CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj.requires
@@ -511,17 +511,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj.provides.buil
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj: src/drivers/simplix/src/unitpit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpit.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpit.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpit.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpit.cpp" > CMakeFiles/simplix.dir/src/unitpit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpit.cpp" > CMakeFiles/simplix.dir/src/unitpit.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpit.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpit.cpp" -o CMakeFiles/simplix.dir/src/unitpit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpit.cpp" -o CMakeFiles/simplix.dir/src/unitpit.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj.requires
@@ -535,17 +535,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj.provides.build: s
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj: src/drivers/simplix/src/unitpitparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpitparam.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpitparam.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitpitparam.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpitparam.cpp" > CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpitparam.cpp" > CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitpitparam.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitpitparam.cpp" -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitpitparam.cpp" -o CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj.requires
@@ -559,17 +559,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj.provides.bui
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj: src/drivers/simplix/src/unitsection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsection.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsection.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsection.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsection.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitsection.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsection.cpp" > CMakeFiles/simplix.dir/src/unitsection.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsection.cpp" > CMakeFiles/simplix.dir/src/unitsection.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitsection.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsection.cpp" -o CMakeFiles/simplix.dir/src/unitsection.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsection.cpp" -o CMakeFiles/simplix.dir/src/unitsection.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj.requires
@@ -583,17 +583,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj.provides.buil
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj: src/drivers/simplix/src/unitstrategy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitstrategy.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitstrategy.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitstrategy.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitstrategy.cpp" > CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitstrategy.cpp" > CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitstrategy.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitstrategy.cpp" -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitstrategy.cpp" -o CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj.requires
@@ -607,17 +607,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj.provides.bui
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj: src/drivers/simplix/src/unitsysfoo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsysfoo.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsysfoo.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsysfoo.cpp" > CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsysfoo.cpp" > CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitsysfoo.cpp" -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitsysfoo.cpp" -o CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj.requires
@@ -631,17 +631,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj.provides.build
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj: src/drivers/simplix/src/unittmpcarparam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittmpcarparam.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittmpcarparam.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittmpcarparam.cpp" > CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittmpcarparam.cpp" > CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittmpcarparam.cpp" -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittmpcarparam.cpp" -o CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj.requires
@@ -655,17 +655,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj.provides.
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj: src/drivers/simplix/src/unittrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittrack.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unittrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittrack.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unittrack.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittrack.cpp" > CMakeFiles/simplix.dir/src/unittrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittrack.cpp" > CMakeFiles/simplix.dir/src/unittrack.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unittrack.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unittrack.cpp" -o CMakeFiles/simplix.dir/src/unittrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unittrack.cpp" -o CMakeFiles/simplix.dir/src/unittrack.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj.requires
@@ -679,17 +679,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj.provides.build:
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj: src/drivers/simplix/src/unitvec2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec2d.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec2d.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitvec2d.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec2d.cpp" > CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec2d.cpp" > CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitvec2d.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec2d.cpp" -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec2d.cpp" -o CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj.requires
@@ -703,17 +703,17 @@ src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj.provides.build:
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/flags.make
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj: src/drivers/simplix/CMakeFiles/simplix.dir/includes_CXX.rsp
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj: src/drivers/simplix/src/unitvec3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec3d.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec3d.cpp"
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplix.dir/src/unitvec3d.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec3d.cpp" > CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec3d.cpp" > CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplix.dir/src/unitvec3d.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/src/unitvec3d.cpp" -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/src/unitvec3d.cpp" -o CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
 
 src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj.requires:
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj.requires
@@ -821,41 +821,41 @@ lib/drivers/simplix/simplix.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 lib/drivers/simplix/simplix.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/drivers/simplix/simplix.dll: src/drivers/simplix/CMakeFiles/simplix.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../lib/drivers/simplix/simplix.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/simplix.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/ar.exe cr CMakeFiles/simplix.dir/objects.a @CMakeFiles/simplix.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && /c/MinGW/bin/g++.exe     -shared -o ../../../lib/drivers/simplix/simplix.dll -Wl,--major-image-version,3,--minor-image-version,3 -Wl,--whole-archive CMakeFiles/simplix.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_36GP"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_36GP"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_36GP/simplix_36GP.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_36GP/simplix_36GP.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_sc"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_sc"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_sc/simplix_sc.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_sc/simplix_sc.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_trb1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_trb1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_trb1/simplix_trb1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_trb1/simplix_trb1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls1/simplix_ls1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls1/simplix_ls1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls2"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls2"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls2/simplix_ls2.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ls2/simplix_ls2.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_mp5"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_mp5"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_mp5/simplix_mp5.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_mp5/simplix_mp5.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_lp1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_lp1"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_lp1/simplix_lp1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_lp1/simplix_lp1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ref"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ref"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ref/simplix_ref.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/simplix_ref/simplix_ref.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/simplix.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/ar.exe cr CMakeFiles/simplix.dir/objects.a @CMakeFiles/simplix.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && /c/MinGW/bin/g++.exe     -shared -o ../../../lib/drivers/simplix/simplix.dll -Wl,--major-image-version,3,--minor-image-version,3 -Wl,--whole-archive CMakeFiles/simplix.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_36GP"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_36GP"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_36GP/simplix_36GP.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_36GP/simplix_36GP.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_sc"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_sc"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_sc/simplix_sc.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_sc/simplix_sc.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_trb1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_trb1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_trb1/simplix_trb1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_trb1/simplix_trb1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls1/simplix_ls1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls1/simplix_ls1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls2"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls2"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls2/simplix_ls2.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ls2/simplix_ls2.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_mp5"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_mp5"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_mp5/simplix_mp5.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_mp5/simplix_mp5.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_lp1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_lp1"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_lp1/simplix_lp1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_lp1/simplix_lp1.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Creating directory D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ref"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E make_directory "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ref"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E echo "Cloning simplix.dll=D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll into D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ref/simplix_ref.dll"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E copy_if_different "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix/simplix.dll" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/simplix_ref/simplix_ref.dll"
 
 # Rule to build all files generated by this target.
 src/drivers/simplix/CMakeFiles/simplix.dir/build: lib/drivers/simplix/simplix.dll
@@ -892,10 +892,10 @@ src/drivers/simplix/CMakeFiles/simplix.dir/requires: src/drivers/simplix/CMakeFi
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/requires
 
 src/drivers/simplix/CMakeFiles/simplix.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" && $(CMAKE_COMMAND) -P CMakeFiles/simplix.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" && $(CMAKE_COMMAND) -P CMakeFiles/simplix.dir/cmake_clean.cmake
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/clean
 
 src/drivers/simplix/CMakeFiles/simplix.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/CMakeFiles/simplix.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/CMakeFiles/simplix.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dgroup.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dgroup.cpp
 cstdio
 -
 cstdlib
@@ -20,9 +20,9 @@ cmath
 portability.h
 -
 accc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/accc.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/ac3dload.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/ac3dload.cpp
 stdio.h
 -
 stdlib.h
@@ -38,25 +38,25 @@ math.h
 float.h
 -
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/portability.h
 accc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/accc.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/accc.h
 windows.h
 -
 float.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/mainaccc.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/mainaccc.cpp
 cstdio
 -
 ctype.h
 -
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/portability.h
 accc.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/accc/accc.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/accc/accc.h
 
 config.h
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ tgfclient: src/libs/tgfclient/CMakeFiles/tgfclient.dir/rule
 
 # fast build rule for target.
 tgfclient/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/build
 .PHONY : tgfclient/fast
 
 control.obj: control.cpp.obj
@@ -181,7 +171,7 @@ control.obj: control.cpp.obj
 
 # target to build an object file
 control.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj
 .PHONY : control.cpp.obj
 
 control.i: control.cpp.i
@@ -189,7 +179,7 @@ control.i: control.cpp.i
 
 # target to preprocess a source file
 control.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.i
 .PHONY : control.cpp.i
 
 control.s: control.cpp.s
@@ -197,7 +187,7 @@ control.s: control.cpp.s
 
 # target to generate assembly for a file
 control.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.s
 .PHONY : control.cpp.s
 
 glfeatures.obj: glfeatures.cpp.obj
@@ -205,7 +195,7 @@ glfeatures.obj: glfeatures.cpp.obj
 
 # target to build an object file
 glfeatures.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj
 .PHONY : glfeatures.cpp.obj
 
 glfeatures.i: glfeatures.cpp.i
@@ -213,7 +203,7 @@ glfeatures.i: glfeatures.cpp.i
 
 # target to preprocess a source file
 glfeatures.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.i
 .PHONY : glfeatures.cpp.i
 
 glfeatures.s: glfeatures.cpp.s
@@ -221,7 +211,7 @@ glfeatures.s: glfeatures.cpp.s
 
 # target to generate assembly for a file
 glfeatures.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.s
 .PHONY : glfeatures.cpp.s
 
 gui.obj: gui.cpp.obj
@@ -229,7 +219,7 @@ gui.obj: gui.cpp.obj
 
 # target to build an object file
 gui.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj
 .PHONY : gui.cpp.obj
 
 gui.i: gui.cpp.i
@@ -237,7 +227,7 @@ gui.i: gui.cpp.i
 
 # target to preprocess a source file
 gui.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.i
 .PHONY : gui.cpp.i
 
 gui.s: gui.cpp.s
@@ -245,7 +235,7 @@ gui.s: gui.cpp.s
 
 # target to generate assembly for a file
 gui.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.s
 .PHONY : gui.cpp.s
 
 guiapplication.obj: guiapplication.cpp.obj
@@ -253,7 +243,7 @@ guiapplication.obj: guiapplication.cpp.obj
 
 # target to build an object file
 guiapplication.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj
 .PHONY : guiapplication.cpp.obj
 
 guiapplication.i: guiapplication.cpp.i
@@ -261,7 +251,7 @@ guiapplication.i: guiapplication.cpp.i
 
 # target to preprocess a source file
 guiapplication.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.i
 .PHONY : guiapplication.cpp.i
 
 guiapplication.s: guiapplication.cpp.s
@@ -269,7 +259,7 @@ guiapplication.s: guiapplication.cpp.s
 
 # target to generate assembly for a file
 guiapplication.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.s
 .PHONY : guiapplication.cpp.s
 
 guibutton.obj: guibutton.cpp.obj
@@ -277,7 +267,7 @@ guibutton.obj: guibutton.cpp.obj
 
 # target to build an object file
 guibutton.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj
 .PHONY : guibutton.cpp.obj
 
 guibutton.i: guibutton.cpp.i
@@ -285,7 +275,7 @@ guibutton.i: guibutton.cpp.i
 
 # target to preprocess a source file
 guibutton.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.i
 .PHONY : guibutton.cpp.i
 
 guibutton.s: guibutton.cpp.s
@@ -293,7 +283,7 @@ guibutton.s: guibutton.cpp.s
 
 # target to generate assembly for a file
 guibutton.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.s
 .PHONY : guibutton.cpp.s
 
 guicheckbox.obj: guicheckbox.cpp.obj
@@ -301,7 +291,7 @@ guicheckbox.obj: guicheckbox.cpp.obj
 
 # target to build an object file
 guicheckbox.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj
 .PHONY : guicheckbox.cpp.obj
 
 guicheckbox.i: guicheckbox.cpp.i
@@ -309,7 +299,7 @@ guicheckbox.i: guicheckbox.cpp.i
 
 # target to preprocess a source file
 guicheckbox.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
 .PHONY : guicheckbox.cpp.i
 
 guicheckbox.s: guicheckbox.cpp.s
@@ -317,7 +307,7 @@ guicheckbox.s: guicheckbox.cpp.s
 
 # target to generate assembly for a file
 guicheckbox.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
 .PHONY : guicheckbox.cpp.s
 
 guicombobox.obj: guicombobox.cpp.obj
@@ -325,7 +315,7 @@ guicombobox.obj: guicombobox.cpp.obj
 
 # target to build an object file
 guicombobox.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj
 .PHONY : guicombobox.cpp.obj
 
 guicombobox.i: guicombobox.cpp.i
@@ -333,7 +323,7 @@ guicombobox.i: guicombobox.cpp.i
 
 # target to preprocess a source file
 guicombobox.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.i
 .PHONY : guicombobox.cpp.i
 
 guicombobox.s: guicombobox.cpp.s
@@ -341,7 +331,7 @@ guicombobox.s: guicombobox.cpp.s
 
 # target to generate assembly for a file
 guicombobox.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.s
 .PHONY : guicombobox.cpp.s
 
 guiedit.obj: guiedit.cpp.obj
@@ -349,7 +339,7 @@ guiedit.obj: guiedit.cpp.obj
 
 # target to build an object file
 guiedit.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj
 .PHONY : guiedit.cpp.obj
 
 guiedit.i: guiedit.cpp.i
@@ -357,7 +347,7 @@ guiedit.i: guiedit.cpp.i
 
 # target to preprocess a source file
 guiedit.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.i
 .PHONY : guiedit.cpp.i
 
 guiedit.s: guiedit.cpp.s
@@ -365,7 +355,7 @@ guiedit.s: guiedit.cpp.s
 
 # target to generate assembly for a file
 guiedit.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.s
 .PHONY : guiedit.cpp.s
 
 guieventloop.obj: guieventloop.cpp.obj
@@ -373,7 +363,7 @@ guieventloop.obj: guieventloop.cpp.obj
 
 # target to build an object file
 guieventloop.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj
 .PHONY : guieventloop.cpp.obj
 
 guieventloop.i: guieventloop.cpp.i
@@ -381,7 +371,7 @@ guieventloop.i: guieventloop.cpp.i
 
 # target to preprocess a source file
 guieventloop.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.i
 .PHONY : guieventloop.cpp.i
 
 guieventloop.s: guieventloop.cpp.s
@@ -389,7 +379,7 @@ guieventloop.s: guieventloop.cpp.s
 
 # target to generate assembly for a file
 guieventloop.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.s
 .PHONY : guieventloop.cpp.s
 
 guifont.obj: guifont.cpp.obj
@@ -397,7 +387,7 @@ guifont.obj: guifont.cpp.obj
 
 # target to build an object file
 guifont.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj
 .PHONY : guifont.cpp.obj
 
 guifont.i: guifont.cpp.i
@@ -405,7 +395,7 @@ guifont.i: guifont.cpp.i
 
 # target to preprocess a source file
 guifont.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.i
 .PHONY : guifont.cpp.i
 
 guifont.s: guifont.cpp.s
@@ -413,7 +403,7 @@ guifont.s: guifont.cpp.s
 
 # target to generate assembly for a file
 guifont.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.s
 .PHONY : guifont.cpp.s
 
 guihelp.obj: guihelp.cpp.obj
@@ -421,7 +411,7 @@ guihelp.obj: guihelp.cpp.obj
 
 # target to build an object file
 guihelp.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj
 .PHONY : guihelp.cpp.obj
 
 guihelp.i: guihelp.cpp.i
@@ -429,7 +419,7 @@ guihelp.i: guihelp.cpp.i
 
 # target to preprocess a source file
 guihelp.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.i
 .PHONY : guihelp.cpp.i
 
 guihelp.s: guihelp.cpp.s
@@ -437,7 +427,7 @@ guihelp.s: guihelp.cpp.s
 
 # target to generate assembly for a file
 guihelp.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.s
 .PHONY : guihelp.cpp.s
 
 guiimage.obj: guiimage.cpp.obj
@@ -445,7 +435,7 @@ guiimage.obj: guiimage.cpp.obj
 
 # target to build an object file
 guiimage.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj
 .PHONY : guiimage.cpp.obj
 
 guiimage.i: guiimage.cpp.i
@@ -453,7 +443,7 @@ guiimage.i: guiimage.cpp.i
 
 # target to preprocess a source file
 guiimage.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.i
 .PHONY : guiimage.cpp.i
 
 guiimage.s: guiimage.cpp.s
@@ -461,7 +451,7 @@ guiimage.s: guiimage.cpp.s
 
 # target to generate assembly for a file
 guiimage.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.s
 .PHONY : guiimage.cpp.s
 
 guilabel.obj: guilabel.cpp.obj
@@ -469,7 +459,7 @@ guilabel.obj: guilabel.cpp.obj
 
 # target to build an object file
 guilabel.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj
 .PHONY : guilabel.cpp.obj
 
 guilabel.i: guilabel.cpp.i
@@ -477,7 +467,7 @@ guilabel.i: guilabel.cpp.i
 
 # target to preprocess a source file
 guilabel.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.i
 .PHONY : guilabel.cpp.i
 
 guilabel.s: guilabel.cpp.s
@@ -485,7 +475,7 @@ guilabel.s: guilabel.cpp.s
 
 # target to generate assembly for a file
 guilabel.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.s
 .PHONY : guilabel.cpp.s
 
 guimenu.obj: guimenu.cpp.obj
@@ -493,7 +483,7 @@ guimenu.obj: guimenu.cpp.obj
 
 # target to build an object file
 guimenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj
 .PHONY : guimenu.cpp.obj
 
 guimenu.i: guimenu.cpp.i
@@ -501,7 +491,7 @@ guimenu.i: guimenu.cpp.i
 
 # target to preprocess a source file
 guimenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.i
 .PHONY : guimenu.cpp.i
 
 guimenu.s: guimenu.cpp.s
@@ -509,7 +499,7 @@ guimenu.s: guimenu.cpp.s
 
 # target to generate assembly for a file
 guimenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.s
 .PHONY : guimenu.cpp.s
 
 guiobject.obj: guiobject.cpp.obj
@@ -517,7 +507,7 @@ guiobject.obj: guiobject.cpp.obj
 
 # target to build an object file
 guiobject.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj
 .PHONY : guiobject.cpp.obj
 
 guiobject.i: guiobject.cpp.i
@@ -525,7 +515,7 @@ guiobject.i: guiobject.cpp.i
 
 # target to preprocess a source file
 guiobject.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.i
 .PHONY : guiobject.cpp.i
 
 guiobject.s: guiobject.cpp.s
@@ -533,7 +523,7 @@ guiobject.s: guiobject.cpp.s
 
 # target to generate assembly for a file
 guiobject.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.s
 .PHONY : guiobject.cpp.s
 
 guiprogresbar.obj: guiprogresbar.cpp.obj
@@ -541,7 +531,7 @@ guiprogresbar.obj: guiprogresbar.cpp.obj
 
 # target to build an object file
 guiprogresbar.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj
 .PHONY : guiprogresbar.cpp.obj
 
 guiprogresbar.i: guiprogresbar.cpp.i
@@ -549,7 +539,7 @@ guiprogresbar.i: guiprogresbar.cpp.i
 
 # target to preprocess a source file
 guiprogresbar.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
 .PHONY : guiprogresbar.cpp.i
 
 guiprogresbar.s: guiprogresbar.cpp.s
@@ -557,7 +547,7 @@ guiprogresbar.s: guiprogresbar.cpp.s
 
 # target to generate assembly for a file
 guiprogresbar.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
 .PHONY : guiprogresbar.cpp.s
 
 guiscreen.obj: guiscreen.cpp.obj
@@ -565,7 +555,7 @@ guiscreen.obj: guiscreen.cpp.obj
 
 # target to build an object file
 guiscreen.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj
 .PHONY : guiscreen.cpp.obj
 
 guiscreen.i: guiscreen.cpp.i
@@ -573,7 +563,7 @@ guiscreen.i: guiscreen.cpp.i
 
 # target to preprocess a source file
 guiscreen.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.i
 .PHONY : guiscreen.cpp.i
 
 guiscreen.s: guiscreen.cpp.s
@@ -581,7 +571,7 @@ guiscreen.s: guiscreen.cpp.s
 
 # target to generate assembly for a file
 guiscreen.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.s
 .PHONY : guiscreen.cpp.s
 
 guiscrollbar.obj: guiscrollbar.cpp.obj
@@ -589,7 +579,7 @@ guiscrollbar.obj: guiscrollbar.cpp.obj
 
 # target to build an object file
 guiscrollbar.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj
 .PHONY : guiscrollbar.cpp.obj
 
 guiscrollbar.i: guiscrollbar.cpp.i
@@ -597,7 +587,7 @@ guiscrollbar.i: guiscrollbar.cpp.i
 
 # target to preprocess a source file
 guiscrollbar.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
 .PHONY : guiscrollbar.cpp.i
 
 guiscrollbar.s: guiscrollbar.cpp.s
@@ -605,7 +595,7 @@ guiscrollbar.s: guiscrollbar.cpp.s
 
 # target to generate assembly for a file
 guiscrollbar.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
 .PHONY : guiscrollbar.cpp.s
 
 guiscrollist.obj: guiscrollist.cpp.obj
@@ -613,7 +603,7 @@ guiscrollist.obj: guiscrollist.cpp.obj
 
 # target to build an object file
 guiscrollist.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj
 .PHONY : guiscrollist.cpp.obj
 
 guiscrollist.i: guiscrollist.cpp.i
@@ -621,7 +611,7 @@ guiscrollist.i: guiscrollist.cpp.i
 
 # target to preprocess a source file
 guiscrollist.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
 .PHONY : guiscrollist.cpp.i
 
 guiscrollist.s: guiscrollist.cpp.s
@@ -629,7 +619,7 @@ guiscrollist.s: guiscrollist.cpp.s
 
 # target to generate assembly for a file
 guiscrollist.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
 .PHONY : guiscrollist.cpp.s
 
 guitexture.obj: guitexture.cpp.obj
@@ -637,7 +627,7 @@ guitexture.obj: guitexture.cpp.obj
 
 # target to build an object file
 guitexture.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj
 .PHONY : guitexture.cpp.obj
 
 guitexture.i: guitexture.cpp.i
@@ -645,7 +635,7 @@ guitexture.i: guitexture.cpp.i
 
 # target to preprocess a source file
 guitexture.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.i
 .PHONY : guitexture.cpp.i
 
 guitexture.s: guitexture.cpp.s
@@ -653,7 +643,7 @@ guitexture.s: guitexture.cpp.s
 
 # target to generate assembly for a file
 guitexture.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.s
 .PHONY : guitexture.cpp.s
 
 musicplayer.obj: musicplayer.cpp.obj
@@ -661,7 +651,7 @@ musicplayer.obj: musicplayer.cpp.obj
 
 # target to build an object file
 musicplayer.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj
 .PHONY : musicplayer.cpp.obj
 
 musicplayer.i: musicplayer.cpp.i
@@ -669,7 +659,7 @@ musicplayer.i: musicplayer.cpp.i
 
 # target to preprocess a source file
 musicplayer.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.i
 .PHONY : musicplayer.cpp.i
 
 musicplayer.s: musicplayer.cpp.s
@@ -677,7 +667,7 @@ musicplayer.s: musicplayer.cpp.s
 
 # target to generate assembly for a file
 musicplayer.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.s
 .PHONY : musicplayer.cpp.s
 
 oggsoundstream.obj: oggsoundstream.cpp.obj
@@ -685,7 +675,7 @@ oggsoundstream.obj: oggsoundstream.cpp.obj
 
 # target to build an object file
 oggsoundstream.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj
 .PHONY : oggsoundstream.cpp.obj
 
 oggsoundstream.i: oggsoundstream.cpp.i
@@ -693,7 +683,7 @@ oggsoundstream.i: oggsoundstream.cpp.i
 
 # target to preprocess a source file
 oggsoundstream.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
 .PHONY : oggsoundstream.cpp.i
 
 oggsoundstream.s: oggsoundstream.cpp.s
@@ -701,7 +691,7 @@ oggsoundstream.s: oggsoundstream.cpp.s
 
 # target to generate assembly for a file
 oggsoundstream.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
 .PHONY : oggsoundstream.cpp.s
 
 openalmusicplayer.obj: openalmusicplayer.cpp.obj
@@ -709,7 +699,7 @@ openalmusicplayer.obj: openalmusicplayer.cpp.obj
 
 # target to build an object file
 openalmusicplayer.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj
 .PHONY : openalmusicplayer.cpp.obj
 
 openalmusicplayer.i: openalmusicplayer.cpp.i
@@ -717,7 +707,7 @@ openalmusicplayer.i: openalmusicplayer.cpp.i
 
 # target to preprocess a source file
 openalmusicplayer.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
 .PHONY : openalmusicplayer.cpp.i
 
 openalmusicplayer.s: openalmusicplayer.cpp.s
@@ -725,7 +715,7 @@ openalmusicplayer.s: openalmusicplayer.cpp.s
 
 # target to generate assembly for a file
 openalmusicplayer.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
 .PHONY : openalmusicplayer.cpp.s
 
 soundstream.obj: soundstream.cpp.obj
@@ -733,7 +723,7 @@ soundstream.obj: soundstream.cpp.obj
 
 # target to build an object file
 soundstream.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj
 .PHONY : soundstream.cpp.obj
 
 soundstream.i: soundstream.cpp.i
@@ -741,7 +731,7 @@ soundstream.i: soundstream.cpp.i
 
 # target to preprocess a source file
 soundstream.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.i
 .PHONY : soundstream.cpp.i
 
 soundstream.s: soundstream.cpp.s
@@ -749,7 +739,7 @@ soundstream.s: soundstream.cpp.s
 
 # target to generate assembly for a file
 soundstream.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.s
 .PHONY : soundstream.cpp.s
 
 tgfclient.obj: tgfclient.cpp.obj
@@ -757,7 +747,7 @@ tgfclient.obj: tgfclient.cpp.obj
 
 # target to build an object file
 tgfclient.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj
 .PHONY : tgfclient.cpp.obj
 
 tgfclient.i: tgfclient.cpp.i
@@ -765,7 +755,7 @@ tgfclient.i: tgfclient.cpp.i
 
 # target to preprocess a source file
 tgfclient.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.i
 .PHONY : tgfclient.cpp.i
 
 tgfclient.s: tgfclient.cpp.s
@@ -773,7 +763,7 @@ tgfclient.s: tgfclient.cpp.s
 
 # target to generate assembly for a file
 tgfclient.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfclient/CMakeFiles/tgfclient.dir/build.make src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.s
 .PHONY : tgfclient.cpp.s
 
 # Help Target
@@ -785,7 +775,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -877,6 +866,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

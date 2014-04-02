@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/CMakeFiles/tgfdata.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/tgfdata/CMakeFiles/tgfdata.dir/rule
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ tgfdata: src/libs/tgfdata/CMakeFiles/tgfdata.dir/rule
 
 # fast build rule for target.
 tgfdata/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/build
 .PHONY : tgfdata/fast
 
 cars.obj: cars.cpp.obj
@@ -181,7 +171,7 @@ cars.obj: cars.cpp.obj
 
 # target to build an object file
 cars.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj
 .PHONY : cars.cpp.obj
 
 cars.i: cars.cpp.i
@@ -189,7 +179,7 @@ cars.i: cars.cpp.i
 
 # target to preprocess a source file
 cars.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.i
 .PHONY : cars.cpp.i
 
 cars.s: cars.cpp.s
@@ -197,7 +187,7 @@ cars.s: cars.cpp.s
 
 # target to generate assembly for a file
 cars.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.s
 .PHONY : cars.cpp.s
 
 drivers.obj: drivers.cpp.obj
@@ -205,7 +195,7 @@ drivers.obj: drivers.cpp.obj
 
 # target to build an object file
 drivers.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj
 .PHONY : drivers.cpp.obj
 
 drivers.i: drivers.cpp.i
@@ -213,7 +203,7 @@ drivers.i: drivers.cpp.i
 
 # target to preprocess a source file
 drivers.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.i
 .PHONY : drivers.cpp.i
 
 drivers.s: drivers.cpp.s
@@ -221,7 +211,7 @@ drivers.s: drivers.cpp.s
 
 # target to generate assembly for a file
 drivers.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.s
 .PHONY : drivers.cpp.s
 
 race.obj: race.cpp.obj
@@ -229,7 +219,7 @@ race.obj: race.cpp.obj
 
 # target to build an object file
 race.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj
 .PHONY : race.cpp.obj
 
 race.i: race.cpp.i
@@ -237,7 +227,7 @@ race.i: race.cpp.i
 
 # target to preprocess a source file
 race.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.i
 .PHONY : race.cpp.i
 
 race.s: race.cpp.s
@@ -245,7 +235,7 @@ race.s: race.cpp.s
 
 # target to generate assembly for a file
 race.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.s
 .PHONY : race.cpp.s
 
 racemanagers.obj: racemanagers.cpp.obj
@@ -253,7 +243,7 @@ racemanagers.obj: racemanagers.cpp.obj
 
 # target to build an object file
 racemanagers.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj
 .PHONY : racemanagers.cpp.obj
 
 racemanagers.i: racemanagers.cpp.i
@@ -261,7 +251,7 @@ racemanagers.i: racemanagers.cpp.i
 
 # target to preprocess a source file
 racemanagers.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.i
 .PHONY : racemanagers.cpp.i
 
 racemanagers.s: racemanagers.cpp.s
@@ -269,7 +259,7 @@ racemanagers.s: racemanagers.cpp.s
 
 # target to generate assembly for a file
 racemanagers.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.s
 .PHONY : racemanagers.cpp.s
 
 tgfdata.obj: tgfdata.cpp.obj
@@ -277,7 +267,7 @@ tgfdata.obj: tgfdata.cpp.obj
 
 # target to build an object file
 tgfdata.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj
 .PHONY : tgfdata.cpp.obj
 
 tgfdata.i: tgfdata.cpp.i
@@ -285,7 +275,7 @@ tgfdata.i: tgfdata.cpp.i
 
 # target to preprocess a source file
 tgfdata.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.i
 .PHONY : tgfdata.cpp.i
 
 tgfdata.s: tgfdata.cpp.s
@@ -293,7 +283,7 @@ tgfdata.s: tgfdata.cpp.s
 
 # target to generate assembly for a file
 tgfdata.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.s
 .PHONY : tgfdata.cpp.s
 
 tracks.obj: tracks.cpp.obj
@@ -301,7 +291,7 @@ tracks.obj: tracks.cpp.obj
 
 # target to build an object file
 tracks.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj
 .PHONY : tracks.cpp.obj
 
 tracks.i: tracks.cpp.i
@@ -309,7 +299,7 @@ tracks.i: tracks.cpp.i
 
 # target to preprocess a source file
 tracks.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.i
 .PHONY : tracks.cpp.i
 
 tracks.s: tracks.cpp.s
@@ -317,7 +307,7 @@ tracks.s: tracks.cpp.s
 
 # target to generate assembly for a file
 tracks.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/tgfdata/CMakeFiles/tgfdata.dir/build.make src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.s
 .PHONY : tracks.cpp.s
 
 # Help Target
@@ -329,7 +319,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -364,6 +353,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

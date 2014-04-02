@@ -60,7 +60,7 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/textonly/textonly.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/textonly/textonly.cpp
 string
 -
 vector
@@ -78,9 +78,9 @@ racemanagers.h
 race.h
 -
 textonly.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/textonly/textonly.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/textonly/textonly.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/textonly/textonly.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/textonly/textonly.h
 iuserinterface.h
 -
 tgf.hpp

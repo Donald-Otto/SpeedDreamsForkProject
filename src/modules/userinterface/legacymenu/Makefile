@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ legacymenu: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/rule
 
 # fast build rule for target.
 legacymenu/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build
 .PHONY : legacymenu/fast
 
 confscreens/advancedgraphconfig.obj: confscreens/advancedgraphconfig.cpp.obj
@@ -181,7 +171,7 @@ confscreens/advancedgraphconfig.obj: confscreens/advancedgraphconfig.cpp.obj
 
 # target to build an object file
 confscreens/advancedgraphconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj
 .PHONY : confscreens/advancedgraphconfig.cpp.obj
 
 confscreens/advancedgraphconfig.i: confscreens/advancedgraphconfig.cpp.i
@@ -189,7 +179,7 @@ confscreens/advancedgraphconfig.i: confscreens/advancedgraphconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/advancedgraphconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
 .PHONY : confscreens/advancedgraphconfig.cpp.i
 
 confscreens/advancedgraphconfig.s: confscreens/advancedgraphconfig.cpp.s
@@ -197,7 +187,7 @@ confscreens/advancedgraphconfig.s: confscreens/advancedgraphconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/advancedgraphconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
 .PHONY : confscreens/advancedgraphconfig.cpp.s
 
 confscreens/aiconfig.obj: confscreens/aiconfig.cpp.obj
@@ -205,7 +195,7 @@ confscreens/aiconfig.obj: confscreens/aiconfig.cpp.obj
 
 # target to build an object file
 confscreens/aiconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj
 .PHONY : confscreens/aiconfig.cpp.obj
 
 confscreens/aiconfig.i: confscreens/aiconfig.cpp.i
@@ -213,7 +203,7 @@ confscreens/aiconfig.i: confscreens/aiconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/aiconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
 .PHONY : confscreens/aiconfig.cpp.i
 
 confscreens/aiconfig.s: confscreens/aiconfig.cpp.s
@@ -221,7 +211,7 @@ confscreens/aiconfig.s: confscreens/aiconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/aiconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
 .PHONY : confscreens/aiconfig.cpp.s
 
 confscreens/carsettingsmenu.obj: confscreens/carsettingsmenu.cpp.obj
@@ -229,7 +219,7 @@ confscreens/carsettingsmenu.obj: confscreens/carsettingsmenu.cpp.obj
 
 # target to build an object file
 confscreens/carsettingsmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj
 .PHONY : confscreens/carsettingsmenu.cpp.obj
 
 confscreens/carsettingsmenu.i: confscreens/carsettingsmenu.cpp.i
@@ -237,7 +227,7 @@ confscreens/carsettingsmenu.i: confscreens/carsettingsmenu.cpp.i
 
 # target to preprocess a source file
 confscreens/carsettingsmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
 .PHONY : confscreens/carsettingsmenu.cpp.i
 
 confscreens/carsettingsmenu.s: confscreens/carsettingsmenu.cpp.s
@@ -245,7 +235,7 @@ confscreens/carsettingsmenu.s: confscreens/carsettingsmenu.cpp.s
 
 # target to generate assembly for a file
 confscreens/carsettingsmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
 .PHONY : confscreens/carsettingsmenu.cpp.s
 
 confscreens/controlconfig.obj: confscreens/controlconfig.cpp.obj
@@ -253,7 +243,7 @@ confscreens/controlconfig.obj: confscreens/controlconfig.cpp.obj
 
 # target to build an object file
 confscreens/controlconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj
 .PHONY : confscreens/controlconfig.cpp.obj
 
 confscreens/controlconfig.i: confscreens/controlconfig.cpp.i
@@ -261,7 +251,7 @@ confscreens/controlconfig.i: confscreens/controlconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/controlconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
 .PHONY : confscreens/controlconfig.cpp.i
 
 confscreens/controlconfig.s: confscreens/controlconfig.cpp.s
@@ -269,7 +259,7 @@ confscreens/controlconfig.s: confscreens/controlconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/controlconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
 .PHONY : confscreens/controlconfig.cpp.s
 
 confscreens/displayconfig.obj: confscreens/displayconfig.cpp.obj
@@ -277,7 +267,7 @@ confscreens/displayconfig.obj: confscreens/displayconfig.cpp.obj
 
 # target to build an object file
 confscreens/displayconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj
 .PHONY : confscreens/displayconfig.cpp.obj
 
 confscreens/displayconfig.i: confscreens/displayconfig.cpp.i
@@ -285,7 +275,7 @@ confscreens/displayconfig.i: confscreens/displayconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/displayconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
 .PHONY : confscreens/displayconfig.cpp.i
 
 confscreens/displayconfig.s: confscreens/displayconfig.cpp.s
@@ -293,7 +283,7 @@ confscreens/displayconfig.s: confscreens/displayconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/displayconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
 .PHONY : confscreens/displayconfig.cpp.s
 
 confscreens/graphconfig.obj: confscreens/graphconfig.cpp.obj
@@ -301,7 +291,7 @@ confscreens/graphconfig.obj: confscreens/graphconfig.cpp.obj
 
 # target to build an object file
 confscreens/graphconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj
 .PHONY : confscreens/graphconfig.cpp.obj
 
 confscreens/graphconfig.i: confscreens/graphconfig.cpp.i
@@ -309,7 +299,7 @@ confscreens/graphconfig.i: confscreens/graphconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/graphconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
 .PHONY : confscreens/graphconfig.cpp.i
 
 confscreens/graphconfig.s: confscreens/graphconfig.cpp.s
@@ -317,7 +307,7 @@ confscreens/graphconfig.s: confscreens/graphconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/graphconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
 .PHONY : confscreens/graphconfig.cpp.s
 
 confscreens/hostsettingsmenu.obj: confscreens/hostsettingsmenu.cpp.obj
@@ -325,7 +315,7 @@ confscreens/hostsettingsmenu.obj: confscreens/hostsettingsmenu.cpp.obj
 
 # target to build an object file
 confscreens/hostsettingsmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj
 .PHONY : confscreens/hostsettingsmenu.cpp.obj
 
 confscreens/hostsettingsmenu.i: confscreens/hostsettingsmenu.cpp.i
@@ -333,7 +323,7 @@ confscreens/hostsettingsmenu.i: confscreens/hostsettingsmenu.cpp.i
 
 # target to preprocess a source file
 confscreens/hostsettingsmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
 .PHONY : confscreens/hostsettingsmenu.cpp.i
 
 confscreens/hostsettingsmenu.s: confscreens/hostsettingsmenu.cpp.s
@@ -341,7 +331,7 @@ confscreens/hostsettingsmenu.s: confscreens/hostsettingsmenu.cpp.s
 
 # target to generate assembly for a file
 confscreens/hostsettingsmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
 .PHONY : confscreens/hostsettingsmenu.cpp.s
 
 confscreens/joy2butconfig.obj: confscreens/joy2butconfig.cpp.obj
@@ -349,7 +339,7 @@ confscreens/joy2butconfig.obj: confscreens/joy2butconfig.cpp.obj
 
 # target to build an object file
 confscreens/joy2butconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj
 .PHONY : confscreens/joy2butconfig.cpp.obj
 
 confscreens/joy2butconfig.i: confscreens/joy2butconfig.cpp.i
@@ -357,7 +347,7 @@ confscreens/joy2butconfig.i: confscreens/joy2butconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/joy2butconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
 .PHONY : confscreens/joy2butconfig.cpp.i
 
 confscreens/joy2butconfig.s: confscreens/joy2butconfig.cpp.s
@@ -365,7 +355,7 @@ confscreens/joy2butconfig.s: confscreens/joy2butconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/joy2butconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
 .PHONY : confscreens/joy2butconfig.cpp.s
 
 confscreens/joystickconfig.obj: confscreens/joystickconfig.cpp.obj
@@ -373,7 +363,7 @@ confscreens/joystickconfig.obj: confscreens/joystickconfig.cpp.obj
 
 # target to build an object file
 confscreens/joystickconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj
 .PHONY : confscreens/joystickconfig.cpp.obj
 
 confscreens/joystickconfig.i: confscreens/joystickconfig.cpp.i
@@ -381,7 +371,7 @@ confscreens/joystickconfig.i: confscreens/joystickconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/joystickconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
 .PHONY : confscreens/joystickconfig.cpp.i
 
 confscreens/joystickconfig.s: confscreens/joystickconfig.cpp.s
@@ -389,7 +379,7 @@ confscreens/joystickconfig.s: confscreens/joystickconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/joystickconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
 .PHONY : confscreens/joystickconfig.cpp.s
 
 confscreens/monitorconfig.obj: confscreens/monitorconfig.cpp.obj
@@ -397,7 +387,7 @@ confscreens/monitorconfig.obj: confscreens/monitorconfig.cpp.obj
 
 # target to build an object file
 confscreens/monitorconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj
 .PHONY : confscreens/monitorconfig.cpp.obj
 
 confscreens/monitorconfig.i: confscreens/monitorconfig.cpp.i
@@ -405,7 +395,7 @@ confscreens/monitorconfig.i: confscreens/monitorconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/monitorconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
 .PHONY : confscreens/monitorconfig.cpp.i
 
 confscreens/monitorconfig.s: confscreens/monitorconfig.cpp.s
@@ -413,7 +403,7 @@ confscreens/monitorconfig.s: confscreens/monitorconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/monitorconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
 .PHONY : confscreens/monitorconfig.cpp.s
 
 confscreens/mouseconfig.obj: confscreens/mouseconfig.cpp.obj
@@ -421,7 +411,7 @@ confscreens/mouseconfig.obj: confscreens/mouseconfig.cpp.obj
 
 # target to build an object file
 confscreens/mouseconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj
 .PHONY : confscreens/mouseconfig.cpp.obj
 
 confscreens/mouseconfig.i: confscreens/mouseconfig.cpp.i
@@ -429,7 +419,7 @@ confscreens/mouseconfig.i: confscreens/mouseconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/mouseconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
 .PHONY : confscreens/mouseconfig.cpp.i
 
 confscreens/mouseconfig.s: confscreens/mouseconfig.cpp.s
@@ -437,7 +427,7 @@ confscreens/mouseconfig.s: confscreens/mouseconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/mouseconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
 .PHONY : confscreens/mouseconfig.cpp.s
 
 confscreens/openglconfig.obj: confscreens/openglconfig.cpp.obj
@@ -445,7 +435,7 @@ confscreens/openglconfig.obj: confscreens/openglconfig.cpp.obj
 
 # target to build an object file
 confscreens/openglconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj
 .PHONY : confscreens/openglconfig.cpp.obj
 
 confscreens/openglconfig.i: confscreens/openglconfig.cpp.i
@@ -453,7 +443,7 @@ confscreens/openglconfig.i: confscreens/openglconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/openglconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
 .PHONY : confscreens/openglconfig.cpp.i
 
 confscreens/openglconfig.s: confscreens/openglconfig.cpp.s
@@ -461,7 +451,7 @@ confscreens/openglconfig.s: confscreens/openglconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/openglconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
 .PHONY : confscreens/openglconfig.cpp.s
 
 confscreens/playerconfig.obj: confscreens/playerconfig.cpp.obj
@@ -469,7 +459,7 @@ confscreens/playerconfig.obj: confscreens/playerconfig.cpp.obj
 
 # target to build an object file
 confscreens/playerconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj
 .PHONY : confscreens/playerconfig.cpp.obj
 
 confscreens/playerconfig.i: confscreens/playerconfig.cpp.i
@@ -477,7 +467,7 @@ confscreens/playerconfig.i: confscreens/playerconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/playerconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
 .PHONY : confscreens/playerconfig.cpp.i
 
 confscreens/playerconfig.s: confscreens/playerconfig.cpp.s
@@ -485,7 +475,7 @@ confscreens/playerconfig.s: confscreens/playerconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/playerconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
 .PHONY : confscreens/playerconfig.cpp.s
 
 confscreens/simuconfig.obj: confscreens/simuconfig.cpp.obj
@@ -493,7 +483,7 @@ confscreens/simuconfig.obj: confscreens/simuconfig.cpp.obj
 
 # target to build an object file
 confscreens/simuconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj
 .PHONY : confscreens/simuconfig.cpp.obj
 
 confscreens/simuconfig.i: confscreens/simuconfig.cpp.i
@@ -501,7 +491,7 @@ confscreens/simuconfig.i: confscreens/simuconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/simuconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
 .PHONY : confscreens/simuconfig.cpp.i
 
 confscreens/simuconfig.s: confscreens/simuconfig.cpp.s
@@ -509,7 +499,7 @@ confscreens/simuconfig.s: confscreens/simuconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/simuconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
 .PHONY : confscreens/simuconfig.cpp.s
 
 confscreens/soundconfig.obj: confscreens/soundconfig.cpp.obj
@@ -517,7 +507,7 @@ confscreens/soundconfig.obj: confscreens/soundconfig.cpp.obj
 
 # target to build an object file
 confscreens/soundconfig.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj
 .PHONY : confscreens/soundconfig.cpp.obj
 
 confscreens/soundconfig.i: confscreens/soundconfig.cpp.i
@@ -525,7 +515,7 @@ confscreens/soundconfig.i: confscreens/soundconfig.cpp.i
 
 # target to preprocess a source file
 confscreens/soundconfig.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
 .PHONY : confscreens/soundconfig.cpp.i
 
 confscreens/soundconfig.s: confscreens/soundconfig.cpp.s
@@ -533,7 +523,7 @@ confscreens/soundconfig.s: confscreens/soundconfig.cpp.s
 
 # target to generate assembly for a file
 confscreens/soundconfig.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
 .PHONY : confscreens/soundconfig.cpp.s
 
 legacymenu.obj: legacymenu.cpp.obj
@@ -541,7 +531,7 @@ legacymenu.obj: legacymenu.cpp.obj
 
 # target to build an object file
 legacymenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj
 .PHONY : legacymenu.cpp.obj
 
 legacymenu.i: legacymenu.cpp.i
@@ -549,7 +539,7 @@ legacymenu.i: legacymenu.cpp.i
 
 # target to preprocess a source file
 legacymenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i
 .PHONY : legacymenu.cpp.i
 
 legacymenu.s: legacymenu.cpp.s
@@ -557,7 +547,7 @@ legacymenu.s: legacymenu.cpp.s
 
 # target to generate assembly for a file
 legacymenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s
 .PHONY : legacymenu.cpp.s
 
 mainscreens/creditsmenu.obj: mainscreens/creditsmenu.cpp.obj
@@ -565,7 +555,7 @@ mainscreens/creditsmenu.obj: mainscreens/creditsmenu.cpp.obj
 
 # target to build an object file
 mainscreens/creditsmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj
 .PHONY : mainscreens/creditsmenu.cpp.obj
 
 mainscreens/creditsmenu.i: mainscreens/creditsmenu.cpp.i
@@ -573,7 +563,7 @@ mainscreens/creditsmenu.i: mainscreens/creditsmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/creditsmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
 .PHONY : mainscreens/creditsmenu.cpp.i
 
 mainscreens/creditsmenu.s: mainscreens/creditsmenu.cpp.s
@@ -581,7 +571,7 @@ mainscreens/creditsmenu.s: mainscreens/creditsmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/creditsmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
 .PHONY : mainscreens/creditsmenu.cpp.s
 
 mainscreens/exitmenu.obj: mainscreens/exitmenu.cpp.obj
@@ -589,7 +579,7 @@ mainscreens/exitmenu.obj: mainscreens/exitmenu.cpp.obj
 
 # target to build an object file
 mainscreens/exitmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj
 .PHONY : mainscreens/exitmenu.cpp.obj
 
 mainscreens/exitmenu.i: mainscreens/exitmenu.cpp.i
@@ -597,7 +587,7 @@ mainscreens/exitmenu.i: mainscreens/exitmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/exitmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
 .PHONY : mainscreens/exitmenu.cpp.i
 
 mainscreens/exitmenu.s: mainscreens/exitmenu.cpp.s
@@ -605,7 +595,7 @@ mainscreens/exitmenu.s: mainscreens/exitmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/exitmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
 .PHONY : mainscreens/exitmenu.cpp.s
 
 mainscreens/mainmenu.obj: mainscreens/mainmenu.cpp.obj
@@ -613,7 +603,7 @@ mainscreens/mainmenu.obj: mainscreens/mainmenu.cpp.obj
 
 # target to build an object file
 mainscreens/mainmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj
 .PHONY : mainscreens/mainmenu.cpp.obj
 
 mainscreens/mainmenu.i: mainscreens/mainmenu.cpp.i
@@ -621,7 +611,7 @@ mainscreens/mainmenu.i: mainscreens/mainmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/mainmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
 .PHONY : mainscreens/mainmenu.cpp.i
 
 mainscreens/mainmenu.s: mainscreens/mainmenu.cpp.s
@@ -629,7 +619,7 @@ mainscreens/mainmenu.s: mainscreens/mainmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/mainmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
 .PHONY : mainscreens/mainmenu.cpp.s
 
 mainscreens/optionsmenu.obj: mainscreens/optionsmenu.cpp.obj
@@ -637,7 +627,7 @@ mainscreens/optionsmenu.obj: mainscreens/optionsmenu.cpp.obj
 
 # target to build an object file
 mainscreens/optionsmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj
 .PHONY : mainscreens/optionsmenu.cpp.obj
 
 mainscreens/optionsmenu.i: mainscreens/optionsmenu.cpp.i
@@ -645,7 +635,7 @@ mainscreens/optionsmenu.i: mainscreens/optionsmenu.cpp.i
 
 # target to preprocess a source file
 mainscreens/optionsmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
 .PHONY : mainscreens/optionsmenu.cpp.i
 
 mainscreens/optionsmenu.s: mainscreens/optionsmenu.cpp.s
@@ -653,7 +643,7 @@ mainscreens/optionsmenu.s: mainscreens/optionsmenu.cpp.s
 
 # target to generate assembly for a file
 mainscreens/optionsmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
 .PHONY : mainscreens/optionsmenu.cpp.s
 
 mainscreens/splash.obj: mainscreens/splash.cpp.obj
@@ -661,7 +651,7 @@ mainscreens/splash.obj: mainscreens/splash.cpp.obj
 
 # target to build an object file
 mainscreens/splash.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj
 .PHONY : mainscreens/splash.cpp.obj
 
 mainscreens/splash.i: mainscreens/splash.cpp.i
@@ -669,7 +659,7 @@ mainscreens/splash.i: mainscreens/splash.cpp.i
 
 # target to preprocess a source file
 mainscreens/splash.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
 .PHONY : mainscreens/splash.cpp.i
 
 mainscreens/splash.s: mainscreens/splash.cpp.s
@@ -677,7 +667,7 @@ mainscreens/splash.s: mainscreens/splash.cpp.s
 
 # target to generate assembly for a file
 mainscreens/splash.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
 .PHONY : mainscreens/splash.cpp.s
 
 racescreens/driverselect.obj: racescreens/driverselect.cpp.obj
@@ -685,7 +675,7 @@ racescreens/driverselect.obj: racescreens/driverselect.cpp.obj
 
 # target to build an object file
 racescreens/driverselect.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj
 .PHONY : racescreens/driverselect.cpp.obj
 
 racescreens/driverselect.i: racescreens/driverselect.cpp.i
@@ -693,7 +683,7 @@ racescreens/driverselect.i: racescreens/driverselect.cpp.i
 
 # target to preprocess a source file
 racescreens/driverselect.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
 .PHONY : racescreens/driverselect.cpp.i
 
 racescreens/driverselect.s: racescreens/driverselect.cpp.s
@@ -701,7 +691,7 @@ racescreens/driverselect.s: racescreens/driverselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/driverselect.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
 .PHONY : racescreens/driverselect.cpp.s
 
 racescreens/fileselect.obj: racescreens/fileselect.cpp.obj
@@ -709,7 +699,7 @@ racescreens/fileselect.obj: racescreens/fileselect.cpp.obj
 
 # target to build an object file
 racescreens/fileselect.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj
 .PHONY : racescreens/fileselect.cpp.obj
 
 racescreens/fileselect.i: racescreens/fileselect.cpp.i
@@ -717,7 +707,7 @@ racescreens/fileselect.i: racescreens/fileselect.cpp.i
 
 # target to preprocess a source file
 racescreens/fileselect.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
 .PHONY : racescreens/fileselect.cpp.i
 
 racescreens/fileselect.s: racescreens/fileselect.cpp.s
@@ -725,7 +715,7 @@ racescreens/fileselect.s: racescreens/fileselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/fileselect.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
 .PHONY : racescreens/fileselect.cpp.s
 
 racescreens/garagemenu.obj: racescreens/garagemenu.cpp.obj
@@ -733,7 +723,7 @@ racescreens/garagemenu.obj: racescreens/garagemenu.cpp.obj
 
 # target to build an object file
 racescreens/garagemenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj
 .PHONY : racescreens/garagemenu.cpp.obj
 
 racescreens/garagemenu.i: racescreens/garagemenu.cpp.i
@@ -741,7 +731,7 @@ racescreens/garagemenu.i: racescreens/garagemenu.cpp.i
 
 # target to preprocess a source file
 racescreens/garagemenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
 .PHONY : racescreens/garagemenu.cpp.i
 
 racescreens/garagemenu.s: racescreens/garagemenu.cpp.s
@@ -749,7 +739,7 @@ racescreens/garagemenu.s: racescreens/garagemenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/garagemenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
 .PHONY : racescreens/garagemenu.cpp.s
 
 racescreens/networkingmenu.obj: racescreens/networkingmenu.cpp.obj
@@ -757,7 +747,7 @@ racescreens/networkingmenu.obj: racescreens/networkingmenu.cpp.obj
 
 # target to build an object file
 racescreens/networkingmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj
 .PHONY : racescreens/networkingmenu.cpp.obj
 
 racescreens/networkingmenu.i: racescreens/networkingmenu.cpp.i
@@ -765,7 +755,7 @@ racescreens/networkingmenu.i: racescreens/networkingmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/networkingmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
 .PHONY : racescreens/networkingmenu.cpp.i
 
 racescreens/networkingmenu.s: racescreens/networkingmenu.cpp.s
@@ -773,7 +763,7 @@ racescreens/networkingmenu.s: racescreens/networkingmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/networkingmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
 .PHONY : racescreens/networkingmenu.cpp.s
 
 racescreens/raceconfigstate.obj: racescreens/raceconfigstate.cpp.obj
@@ -781,7 +771,7 @@ racescreens/raceconfigstate.obj: racescreens/raceconfigstate.cpp.obj
 
 # target to build an object file
 racescreens/raceconfigstate.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj
 .PHONY : racescreens/raceconfigstate.cpp.obj
 
 racescreens/raceconfigstate.i: racescreens/raceconfigstate.cpp.i
@@ -789,7 +779,7 @@ racescreens/raceconfigstate.i: racescreens/raceconfigstate.cpp.i
 
 # target to preprocess a source file
 racescreens/raceconfigstate.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
 .PHONY : racescreens/raceconfigstate.cpp.i
 
 racescreens/raceconfigstate.s: racescreens/raceconfigstate.cpp.s
@@ -797,7 +787,7 @@ racescreens/raceconfigstate.s: racescreens/raceconfigstate.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceconfigstate.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
 .PHONY : racescreens/raceconfigstate.cpp.s
 
 racescreens/raceloadingmenu.obj: racescreens/raceloadingmenu.cpp.obj
@@ -805,7 +795,7 @@ racescreens/raceloadingmenu.obj: racescreens/raceloadingmenu.cpp.obj
 
 # target to build an object file
 racescreens/raceloadingmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj
 .PHONY : racescreens/raceloadingmenu.cpp.obj
 
 racescreens/raceloadingmenu.i: racescreens/raceloadingmenu.cpp.i
@@ -813,7 +803,7 @@ racescreens/raceloadingmenu.i: racescreens/raceloadingmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceloadingmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
 .PHONY : racescreens/raceloadingmenu.cpp.i
 
 racescreens/raceloadingmenu.s: racescreens/raceloadingmenu.cpp.s
@@ -821,7 +811,7 @@ racescreens/raceloadingmenu.s: racescreens/raceloadingmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceloadingmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
 .PHONY : racescreens/raceloadingmenu.cpp.s
 
 racescreens/racemanmenu.obj: racescreens/racemanmenu.cpp.obj
@@ -829,7 +819,7 @@ racescreens/racemanmenu.obj: racescreens/racemanmenu.cpp.obj
 
 # target to build an object file
 racescreens/racemanmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj
 .PHONY : racescreens/racemanmenu.cpp.obj
 
 racescreens/racemanmenu.i: racescreens/racemanmenu.cpp.i
@@ -837,7 +827,7 @@ racescreens/racemanmenu.i: racescreens/racemanmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racemanmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
 .PHONY : racescreens/racemanmenu.cpp.i
 
 racescreens/racemanmenu.s: racescreens/racemanmenu.cpp.s
@@ -845,7 +835,7 @@ racescreens/racemanmenu.s: racescreens/racemanmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racemanmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
 .PHONY : racescreens/racemanmenu.cpp.s
 
 racescreens/racenexteventmenu.obj: racescreens/racenexteventmenu.cpp.obj
@@ -853,7 +843,7 @@ racescreens/racenexteventmenu.obj: racescreens/racenexteventmenu.cpp.obj
 
 # target to build an object file
 racescreens/racenexteventmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj
 .PHONY : racescreens/racenexteventmenu.cpp.obj
 
 racescreens/racenexteventmenu.i: racescreens/racenexteventmenu.cpp.i
@@ -861,7 +851,7 @@ racescreens/racenexteventmenu.i: racescreens/racenexteventmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racenexteventmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
 .PHONY : racescreens/racenexteventmenu.cpp.i
 
 racescreens/racenexteventmenu.s: racescreens/racenexteventmenu.cpp.s
@@ -869,7 +859,7 @@ racescreens/racenexteventmenu.s: racescreens/racenexteventmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racenexteventmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
 .PHONY : racescreens/racenexteventmenu.cpp.s
 
 racescreens/raceparamsmenu.obj: racescreens/raceparamsmenu.cpp.obj
@@ -877,7 +867,7 @@ racescreens/raceparamsmenu.obj: racescreens/raceparamsmenu.cpp.obj
 
 # target to build an object file
 racescreens/raceparamsmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj
 .PHONY : racescreens/raceparamsmenu.cpp.obj
 
 racescreens/raceparamsmenu.i: racescreens/raceparamsmenu.cpp.i
@@ -885,7 +875,7 @@ racescreens/raceparamsmenu.i: racescreens/raceparamsmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceparamsmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
 .PHONY : racescreens/raceparamsmenu.cpp.i
 
 racescreens/raceparamsmenu.s: racescreens/raceparamsmenu.cpp.s
@@ -893,7 +883,7 @@ racescreens/raceparamsmenu.s: racescreens/raceparamsmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceparamsmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
 .PHONY : racescreens/raceparamsmenu.cpp.s
 
 racescreens/racepitmenu.obj: racescreens/racepitmenu.cpp.obj
@@ -901,7 +891,7 @@ racescreens/racepitmenu.obj: racescreens/racepitmenu.cpp.obj
 
 # target to build an object file
 racescreens/racepitmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj
 .PHONY : racescreens/racepitmenu.cpp.obj
 
 racescreens/racepitmenu.i: racescreens/racepitmenu.cpp.i
@@ -909,7 +899,7 @@ racescreens/racepitmenu.i: racescreens/racepitmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racepitmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
 .PHONY : racescreens/racepitmenu.cpp.i
 
 racescreens/racepitmenu.s: racescreens/racepitmenu.cpp.s
@@ -917,7 +907,7 @@ racescreens/racepitmenu.s: racescreens/racepitmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racepitmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
 .PHONY : racescreens/racepitmenu.cpp.s
 
 racescreens/raceresultsmenus.obj: racescreens/raceresultsmenus.cpp.obj
@@ -925,7 +915,7 @@ racescreens/raceresultsmenus.obj: racescreens/raceresultsmenus.cpp.obj
 
 # target to build an object file
 racescreens/raceresultsmenus.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj
 .PHONY : racescreens/raceresultsmenus.cpp.obj
 
 racescreens/raceresultsmenus.i: racescreens/raceresultsmenus.cpp.i
@@ -933,7 +923,7 @@ racescreens/raceresultsmenus.i: racescreens/raceresultsmenus.cpp.i
 
 # target to preprocess a source file
 racescreens/raceresultsmenus.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
 .PHONY : racescreens/raceresultsmenus.cpp.i
 
 racescreens/raceresultsmenus.s: racescreens/raceresultsmenus.cpp.s
@@ -941,7 +931,7 @@ racescreens/raceresultsmenus.s: racescreens/raceresultsmenus.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceresultsmenus.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
 .PHONY : racescreens/raceresultsmenus.cpp.s
 
 racescreens/racerunningmenus.obj: racescreens/racerunningmenus.cpp.obj
@@ -949,7 +939,7 @@ racescreens/racerunningmenus.obj: racescreens/racerunningmenus.cpp.obj
 
 # target to build an object file
 racescreens/racerunningmenus.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj
 .PHONY : racescreens/racerunningmenus.cpp.obj
 
 racescreens/racerunningmenus.i: racescreens/racerunningmenus.cpp.i
@@ -957,7 +947,7 @@ racescreens/racerunningmenus.i: racescreens/racerunningmenus.cpp.i
 
 # target to preprocess a source file
 racescreens/racerunningmenus.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
 .PHONY : racescreens/racerunningmenus.cpp.i
 
 racescreens/racerunningmenus.s: racescreens/racerunningmenus.cpp.s
@@ -965,7 +955,7 @@ racescreens/racerunningmenus.s: racescreens/racerunningmenus.cpp.s
 
 # target to generate assembly for a file
 racescreens/racerunningmenus.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
 .PHONY : racescreens/racerunningmenus.cpp.s
 
 racescreens/raceselectmenu.obj: racescreens/raceselectmenu.cpp.obj
@@ -973,7 +963,7 @@ racescreens/raceselectmenu.obj: racescreens/raceselectmenu.cpp.obj
 
 # target to build an object file
 racescreens/raceselectmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj
 .PHONY : racescreens/raceselectmenu.cpp.obj
 
 racescreens/raceselectmenu.i: racescreens/raceselectmenu.cpp.i
@@ -981,7 +971,7 @@ racescreens/raceselectmenu.i: racescreens/raceselectmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/raceselectmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
 .PHONY : racescreens/raceselectmenu.cpp.i
 
 racescreens/raceselectmenu.s: racescreens/raceselectmenu.cpp.s
@@ -989,7 +979,7 @@ racescreens/raceselectmenu.s: racescreens/raceselectmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/raceselectmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
 .PHONY : racescreens/raceselectmenu.cpp.s
 
 racescreens/racestartmenu.obj: racescreens/racestartmenu.cpp.obj
@@ -997,7 +987,7 @@ racescreens/racestartmenu.obj: racescreens/racestartmenu.cpp.obj
 
 # target to build an object file
 racescreens/racestartmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj
 .PHONY : racescreens/racestartmenu.cpp.obj
 
 racescreens/racestartmenu.i: racescreens/racestartmenu.cpp.i
@@ -1005,7 +995,7 @@ racescreens/racestartmenu.i: racescreens/racestartmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racestartmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
 .PHONY : racescreens/racestartmenu.cpp.i
 
 racescreens/racestartmenu.s: racescreens/racestartmenu.cpp.s
@@ -1013,7 +1003,7 @@ racescreens/racestartmenu.s: racescreens/racestartmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racestartmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
 .PHONY : racescreens/racestartmenu.cpp.s
 
 racescreens/racestopmenu.obj: racescreens/racestopmenu.cpp.obj
@@ -1021,7 +1011,7 @@ racescreens/racestopmenu.obj: racescreens/racestopmenu.cpp.obj
 
 # target to build an object file
 racescreens/racestopmenu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj
 .PHONY : racescreens/racestopmenu.cpp.obj
 
 racescreens/racestopmenu.i: racescreens/racestopmenu.cpp.i
@@ -1029,7 +1019,7 @@ racescreens/racestopmenu.i: racescreens/racestopmenu.cpp.i
 
 # target to preprocess a source file
 racescreens/racestopmenu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
 .PHONY : racescreens/racestopmenu.cpp.i
 
 racescreens/racestopmenu.s: racescreens/racestopmenu.cpp.s
@@ -1037,7 +1027,7 @@ racescreens/racestopmenu.s: racescreens/racestopmenu.cpp.s
 
 # target to generate assembly for a file
 racescreens/racestopmenu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
 .PHONY : racescreens/racestopmenu.cpp.s
 
 racescreens/trackselect.obj: racescreens/trackselect.cpp.obj
@@ -1045,7 +1035,7 @@ racescreens/trackselect.obj: racescreens/trackselect.cpp.obj
 
 # target to build an object file
 racescreens/trackselect.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj
 .PHONY : racescreens/trackselect.cpp.obj
 
 racescreens/trackselect.i: racescreens/trackselect.cpp.i
@@ -1053,7 +1043,7 @@ racescreens/trackselect.i: racescreens/trackselect.cpp.i
 
 # target to preprocess a source file
 racescreens/trackselect.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
 .PHONY : racescreens/trackselect.cpp.i
 
 racescreens/trackselect.s: racescreens/trackselect.cpp.s
@@ -1061,7 +1051,7 @@ racescreens/trackselect.s: racescreens/trackselect.cpp.s
 
 # target to generate assembly for a file
 racescreens/trackselect.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build.make src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
 .PHONY : racescreens/trackselect.cpp.s
 
 # Help Target
@@ -1073,7 +1063,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... legacymenu"
 	@echo "... list_install_components"
 	@echo "... package"
@@ -1201,6 +1190,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

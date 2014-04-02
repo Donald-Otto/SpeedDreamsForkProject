@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/sound/snddefault/CMakeFiles/snddefault.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj: src/modules/sound/snddefault/snddefault.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/snddefault.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/snddefault.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/snddefault.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/snddefault.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/snddefault.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/snddefault.cpp" > CMakeFiles/snddefault.dir/snddefault.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/snddefault.cpp" > CMakeFiles/snddefault.dir/snddefault.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/snddefault.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/snddefault.cpp" -o CMakeFiles/snddefault.dir/snddefault.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/snddefault.cpp" -o CMakeFiles/snddefault.dir/snddefault.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.obj.provid
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj: src/modules/sound/snddefault/CarSoundData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/CarSoundData.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/CarSoundData.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/CarSoundData.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/CarSoundData.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/CarSoundData.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/CarSoundData.cpp" > CMakeFiles/snddefault.dir/CarSoundData.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/CarSoundData.cpp" > CMakeFiles/snddefault.dir/CarSoundData.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/CarSoundData.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/CarSoundData.cpp" -o CMakeFiles/snddefault.dir/CarSoundData.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/CarSoundData.cpp" -o CMakeFiles/snddefault.dir/CarSoundData.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj.requires
@@ -103,17 +103,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.obj.prov
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj: src/modules/sound/snddefault/Sound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/Sound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/Sound.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/Sound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/Sound.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/Sound.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/Sound.cpp" > CMakeFiles/snddefault.dir/Sound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/Sound.cpp" > CMakeFiles/snddefault.dir/Sound.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/Sound.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/Sound.cpp" -o CMakeFiles/snddefault.dir/Sound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/Sound.cpp" -o CMakeFiles/snddefault.dir/Sound.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj.requires
@@ -127,17 +127,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.obj.provides.bu
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj: src/modules/sound/snddefault/PlibSound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/PlibSound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSound.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/PlibSound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSound.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/PlibSound.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSound.cpp" > CMakeFiles/snddefault.dir/PlibSound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSound.cpp" > CMakeFiles/snddefault.dir/PlibSound.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/PlibSound.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSound.cpp" -o CMakeFiles/snddefault.dir/PlibSound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSound.cpp" -o CMakeFiles/snddefault.dir/PlibSound.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj.requires
@@ -151,17 +151,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.obj.provide
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj: src/modules/sound/snddefault/OpenalSound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/OpenalSound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSound.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/OpenalSound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSound.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/OpenalSound.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSound.cpp" > CMakeFiles/snddefault.dir/OpenalSound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSound.cpp" > CMakeFiles/snddefault.dir/OpenalSound.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/OpenalSound.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSound.cpp" -o CMakeFiles/snddefault.dir/OpenalSound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSound.cpp" -o CMakeFiles/snddefault.dir/OpenalSound.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj.requires
@@ -175,17 +175,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.obj.provi
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj: src/modules/sound/snddefault/SoundInterface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/SoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/SoundInterface.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/SoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/SoundInterface.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/SoundInterface.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/SoundInterface.cpp" > CMakeFiles/snddefault.dir/SoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/SoundInterface.cpp" > CMakeFiles/snddefault.dir/SoundInterface.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/SoundInterface.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/SoundInterface.cpp" -o CMakeFiles/snddefault.dir/SoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/SoundInterface.cpp" -o CMakeFiles/snddefault.dir/SoundInterface.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj.requires
@@ -199,17 +199,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.obj.pr
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj: src/modules/sound/snddefault/PlibSoundInterface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSoundInterface.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSoundInterface.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSoundInterface.cpp" > CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSoundInterface.cpp" > CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/PlibSoundInterface.cpp" -o CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/PlibSoundInterface.cpp" -o CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.obj.requires
@@ -223,17 +223,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.ob
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj: src/modules/sound/snddefault/OpenalSoundInterface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSoundInterface.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSoundInterface.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSoundInterface.cpp" > CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSoundInterface.cpp" > CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/OpenalSoundInterface.cpp" -o CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/OpenalSoundInterface.cpp" -o CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.obj.requires
@@ -247,17 +247,17 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/flags.make
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/includes_CXX.rsp
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj: src/modules/sound/snddefault/grsound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/grsound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/grsound.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snddefault.dir/grsound.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/grsound.cpp"
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snddefault.dir/grsound.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/grsound.cpp" > CMakeFiles/snddefault.dir/grsound.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/grsound.cpp" > CMakeFiles/snddefault.dir/grsound.cpp.i
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snddefault.dir/grsound.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/grsound.cpp" -o CMakeFiles/snddefault.dir/grsound.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/grsound.cpp" -o CMakeFiles/snddefault.dir/grsound.cpp.s
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj.requires:
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.obj.requires
@@ -328,9 +328,9 @@ lib/modules/sound/snddefault.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 lib/modules/sound/snddefault.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/modules/sound/snddefault.dll: src/modules/sound/snddefault/CMakeFiles/snddefault.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib/modules/sound/snddefault.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/snddefault.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/ar.exe cr CMakeFiles/snddefault.dir/objects.a @CMakeFiles/snddefault.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/sound/snddefault.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/snddefault.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libplibssg.a /C/MinGW/msys/1.0/local/lib/libplibssgaux.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../../libs/robottools/librobottools.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a -lglu32 -lopengl32 ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/snddefault.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/ar.exe cr CMakeFiles/snddefault.dir/objects.a @CMakeFiles/snddefault.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/sound/snddefault.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/snddefault.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libplibssg.a /C/MinGW/msys/1.0/local/lib/libplibssgaux.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../../libs/robottools/librobottools.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a -lglu32 -lopengl32 ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/build: lib/modules/sound/snddefault.dll
@@ -348,10 +348,10 @@ src/modules/sound/snddefault/CMakeFiles/snddefault.dir/requires: src/modules/sou
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/requires
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" && $(CMAKE_COMMAND) -P CMakeFiles/snddefault.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" && $(CMAKE_COMMAND) -P CMakeFiles/snddefault.dir/cmake_clean.cmake
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/clean
 
 src/modules/sound/snddefault/CMakeFiles/snddefault.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/sound/snddefault/CMakeFiles/snddefault.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/sound/snddefault/CMakeFiles/snddefault.dir/depend
 

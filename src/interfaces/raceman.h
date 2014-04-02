@@ -426,6 +426,8 @@ typedef struct RmInfo
 #define RM_ATTR_MULTI_THREADING		"multi-threading"
 #define RM_ATTR_THREAD_AFFINITY		"thread affinity"
 
+#define RM_ATTR_SPEEDO_TYPE		"Speed Readout"
+
 #define RM_VAL_AUTO		"auto"
 #define RM_VAL_ON		"on"
 #define RM_VAL_OFF		"off"

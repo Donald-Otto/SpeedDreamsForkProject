@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/depend.make
@@ -55,17 +55,17 @@ include src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/flags.make
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj: src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/flags.make
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj: src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/includes_CXX.rsp
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj: src/tools/nfsperf/mainnfsperf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/mainnfsperf.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/mainnfsperf.cpp"
 
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/mainnfsperf.cpp" > CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/mainnfsperf.cpp" > CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.i
 
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/mainnfsperf.cpp" -o CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/mainnfsperf.cpp" -o CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.s
 
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj.requires:
 .PHONY : src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj.requires
@@ -94,9 +94,9 @@ bin/sd2-nfsperf.exe: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 bin/sd2-nfsperf.exe: C:/MinGW/msys/1.0/local/lib/libexpat.dll.a
 bin/sd2-nfsperf.exe: src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/sd2-nfsperf.exe"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-nfsperf.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-nfsperf.dir/objects.a @CMakeFiles/sd2-nfsperf.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-nfsperf.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-nfsperf.exe -Wl,--out-implib,libsd2-nfsperf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-nfsperf.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-nfsperf.dir/objects.a @CMakeFiles/sd2-nfsperf.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-nfsperf.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-nfsperf.exe -Wl,--out-implib,libsd2-nfsperf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/build: bin/sd2-nfsperf.exe
@@ -106,10 +106,10 @@ src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/requires: src/tools/nfsperf/CMakeFi
 .PHONY : src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/requires
 
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-nfsperf.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-nfsperf.dir/cmake_clean.cmake
 .PHONY : src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/clean
 
 src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/depend
 

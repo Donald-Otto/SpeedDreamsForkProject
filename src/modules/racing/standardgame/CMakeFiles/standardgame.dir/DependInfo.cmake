@@ -4,20 +4,20 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,12 +37,12 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

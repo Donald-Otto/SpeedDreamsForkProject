@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/tracks
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/tracks
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

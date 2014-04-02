@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/mainnfsperf.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/mainnfsperf.cpp" "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,8 +23,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
-  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake"
+  "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/CMakeFiles/tgf.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

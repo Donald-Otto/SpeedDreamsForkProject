@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,11 +29,11 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers/human/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers/networkhuman/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers/simplix/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers/simplix_sc/cmake_install.cmake")
-  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/drivers/usr_sc/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers/human/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers/networkhuman/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers/simplix/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers/simplix_sc/cmake_install.cmake")
+  INCLUDE("D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/drivers/usr_sc/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

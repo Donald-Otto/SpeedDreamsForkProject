@@ -6,55 +6,55 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grCloudLayer.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grCloudLayer.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grMoon.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSphere.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grMoon.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSphere.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grMoonpos.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grMoonpos.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grMoonpos.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grMoonpos.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSkyDome.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSkyDome.cpp
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSphere.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSphere.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSphere.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSphere.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grStars.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grStars.cpp
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSphere.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSun.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSphere.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSun.cpp
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/SDL.h
  C:/MinGW/msys/1.0/local/include/SDL/SDL_active.h
@@ -94,19 +94,19 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssgaWaveSystem.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grMoonpos.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grSky.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grbackground.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grbackground.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grMoonpos.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grSky.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grbackground.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grbackground.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -158,19 +158,19 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grboard.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grboard.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtrackmap.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grboard.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grboard.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtrackmap.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -221,16 +221,16 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -282,22 +282,22 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grboard.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcarlight.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grshadow.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grskidmarks.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsmoke.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grboard.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcarlight.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grshadow.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grskidmarks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsmoke.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -349,17 +349,17 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcarlight.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcarlight.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcarlight.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcarlight.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -409,17 +409,17 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ul.h
  C:/MinGW/msys/1.0/local/include/zconf.h
  C:/MinGW/msys/1.0/local/include/zlib.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grssgext.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grvtxtable.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grssgext.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grvtxtable.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -467,25 +467,25 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grbackground.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grboard.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcarlight.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grshadow.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grskidmarks.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsmoke.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtracklight.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grbackground.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grboard.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcarlight.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grshadow.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grskidmarks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsmoke.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtracklight.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -508,9 +508,9 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -554,10 +554,10 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssgaWaveSystem.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grrain.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grrain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grrain.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grrain.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -606,18 +606,18 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grbackground.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grloadac.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grrain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grbackground.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grloadac.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grrain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -669,21 +669,21 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grbackground.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grboard.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grrain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscreen.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtrackmap.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grbackground.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grboard.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grrain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscreen.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtrackmap.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -704,8 +704,8 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grshadow.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grshadow.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grshadow.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grshadow.h
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/SDL.h
  C:/MinGW/msys/1.0/local/include/SDL/SDL_active.h
@@ -738,11 +738,11 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -754,15 +754,15 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grshadow.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grskidmarks.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grskidmarks.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grshadow.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grskidmarks.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grskidmarks.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -807,17 +807,17 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsmoke.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsmoke.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsmoke.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsmoke.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -866,12 +866,12 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -884,10 +884,10 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtracklight.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtracklight.cpp
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -931,10 +931,10 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtrackmap.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtrackmap.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtrackmap.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtrackmap.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -983,13 +983,13 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -1036,17 +1036,17 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcar.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grscene.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grvtxtable.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grvtxtable.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcar.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grscene.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grvtxtable.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grvtxtable.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
  src/interfaces/car.h
  src/interfaces/graphic.h
  src/interfaces/raceman.h
@@ -1095,14 +1095,14 @@ src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ssg.h
  C:/MinGW/msys/1.0/local/include/plib/ssgconf.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grcam.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grmultitexstate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grsimplestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/grtexture.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/loadsgi.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/ssggraph.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/ssggraph.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grcam.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grmultitexstate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grsimplestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/grtexture.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/loadsgi.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/ssggraph.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/ssggraph.h
  src/interfaces/camera.h
  src/interfaces/car.h
  src/interfaces/graphic.h

@@ -324,7 +324,7 @@ C:/MinGW/msys/1.0/local/include/expat_external.h
 
 C:/MinGW/msys/1.0/local/include/expat_external.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/application.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/application.cpp
 cerrno
 -
 ctime
@@ -338,9 +338,9 @@ config.h
 portability.h
 -
 tgf.hpp
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/directory.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/directory.cpp
 cstdlib
 -
 cerrno
@@ -350,19 +350,19 @@ sys/stat.h
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 os.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/eventloop.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/eventloop.cpp
 map
 -
 SDL.h
 -
 tgf.hpp
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/file.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/file.cpp
 cstdio
 -
 cerrno
@@ -374,9 +374,9 @@ io.h
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/filesetup.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/filesetup.cpp
 cstdio
 -
 cerrno
@@ -384,33 +384,33 @@ cerrno
 sys/stat.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/portability.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/formula.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/formula.cpp
 cmath
 -
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/hash.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/hash.cpp
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/portability.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/legacymodule.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/legacymodule.cpp
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 os.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/linuxspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/linuxspec.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/modinfo.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/modinfo.cpp
 cstring
 -
 climits
@@ -424,37 +424,37 @@ dlfcn.h
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/modinfo.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/modinfo.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/module.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/module.cpp
 sstream
 -
 tgf.hpp
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 windows.h
 -
 dlfcn.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.cpp
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 windowsspec.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/windowsspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/windowsspec.h
 linuxspec.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/linuxspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/linuxspec.h
 os.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.h
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/osspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/osspec.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/params.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/params.cpp
 cstdlib
 -
 cstdio
@@ -486,9 +486,9 @@ xmlparse.h
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/profiler.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/profiler.cpp
 cstring
 -
 vector
@@ -502,9 +502,9 @@ iostream
 iomanip
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/schedulespy.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/schedulespy.cpp
 vector
 -
 map
@@ -520,9 +520,9 @@ locale
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.cpp
 windows.h
 -
 direct.h
@@ -548,25 +548,25 @@ SDL.h
 portability.h
 -
 tgf.hpp
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 crtdbg.h
 -
 assert.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 cstdio
 -
 climits
 -
 osspec.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/osspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/osspec.h
 modinfo.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/modinfo.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/modinfo.h
 string
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 string
 -
 list
@@ -578,9 +578,9 @@ map
 ostream
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/trace.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/trace.cpp
 cerrno
 -
 cstdio
@@ -608,11 +608,11 @@ windowsx.h
 sys/param.h
 -
 portability.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/portability.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/portability.h
 tgf.hpp
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.hpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.hpp
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/windowsspec.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/windowsspec.cpp
 cstddef
 -
 sys/types.h
@@ -628,11 +628,11 @@ windows.h
 portability.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/tgf.h
 os.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/os.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/os.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgf/windowsspec.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgf/windowsspec.h
 
 config.h
 

@@ -4,7 +4,7 @@
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/cardata.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/cardata.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/linalg.h
  src/interfaces/car.h
@@ -22,7 +22,7 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.obj
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/kdriver.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/kdriver.cpp
  config.h
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
@@ -50,7 +50,7 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.obj
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/kilo2008.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/kilo2008.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
  src/drivers/kilo2008/linalg.h
@@ -69,7 +69,7 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.obj
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/opponent.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/opponent.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
  src/drivers/kilo2008/linalg.h
@@ -89,7 +89,7 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.obj
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/pit.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/pit.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
  src/drivers/kilo2008/linalg.h
@@ -109,7 +109,7 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.obj
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/raceline.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/raceline.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
  src/drivers/kilo2008/linalg.h
@@ -128,12 +128,12 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.obj
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/spline.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/spline.cpp
  src/drivers/kilo2008/spline.h
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/strategy.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/strategy.cpp
  src/drivers/kilo2008/cardata.h
  src/drivers/kilo2008/kdriver.h
  src/drivers/kilo2008/linalg.h
@@ -150,5 +150,5 @@ src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.obj
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/util.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/util.cpp
  src/drivers/kilo2008/util.h

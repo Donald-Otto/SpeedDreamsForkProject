@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 .PHONY : src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ kilo2008: src/drivers/kilo2008/CMakeFiles/kilo2008.dir/rule
 
 # fast build rule for target.
 kilo2008/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build
 .PHONY : kilo2008/fast
 
 cardata.obj: cardata.cpp.obj
@@ -181,7 +171,7 @@ cardata.obj: cardata.cpp.obj
 
 # target to build an object file
 cardata.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.obj
 .PHONY : cardata.cpp.obj
 
 cardata.i: cardata.cpp.i
@@ -189,7 +179,7 @@ cardata.i: cardata.cpp.i
 
 # target to preprocess a source file
 cardata.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.i
 .PHONY : cardata.cpp.i
 
 cardata.s: cardata.cpp.s
@@ -197,7 +187,7 @@ cardata.s: cardata.cpp.s
 
 # target to generate assembly for a file
 cardata.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.s
 .PHONY : cardata.cpp.s
 
 kdriver.obj: kdriver.cpp.obj
@@ -205,7 +195,7 @@ kdriver.obj: kdriver.cpp.obj
 
 # target to build an object file
 kdriver.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.obj
 .PHONY : kdriver.cpp.obj
 
 kdriver.i: kdriver.cpp.i
@@ -213,7 +203,7 @@ kdriver.i: kdriver.cpp.i
 
 # target to preprocess a source file
 kdriver.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.i
 .PHONY : kdriver.cpp.i
 
 kdriver.s: kdriver.cpp.s
@@ -221,7 +211,7 @@ kdriver.s: kdriver.cpp.s
 
 # target to generate assembly for a file
 kdriver.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.s
 .PHONY : kdriver.cpp.s
 
 kilo2008.obj: kilo2008.cpp.obj
@@ -229,7 +219,7 @@ kilo2008.obj: kilo2008.cpp.obj
 
 # target to build an object file
 kilo2008.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.obj
 .PHONY : kilo2008.cpp.obj
 
 kilo2008.i: kilo2008.cpp.i
@@ -237,7 +227,7 @@ kilo2008.i: kilo2008.cpp.i
 
 # target to preprocess a source file
 kilo2008.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.i
 .PHONY : kilo2008.cpp.i
 
 kilo2008.s: kilo2008.cpp.s
@@ -245,7 +235,7 @@ kilo2008.s: kilo2008.cpp.s
 
 # target to generate assembly for a file
 kilo2008.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.s
 .PHONY : kilo2008.cpp.s
 
 opponent.obj: opponent.cpp.obj
@@ -253,7 +243,7 @@ opponent.obj: opponent.cpp.obj
 
 # target to build an object file
 opponent.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.obj
 .PHONY : opponent.cpp.obj
 
 opponent.i: opponent.cpp.i
@@ -261,7 +251,7 @@ opponent.i: opponent.cpp.i
 
 # target to preprocess a source file
 opponent.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.i
 .PHONY : opponent.cpp.i
 
 opponent.s: opponent.cpp.s
@@ -269,7 +259,7 @@ opponent.s: opponent.cpp.s
 
 # target to generate assembly for a file
 opponent.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.s
 .PHONY : opponent.cpp.s
 
 pit.obj: pit.cpp.obj
@@ -277,7 +267,7 @@ pit.obj: pit.cpp.obj
 
 # target to build an object file
 pit.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.obj
 .PHONY : pit.cpp.obj
 
 pit.i: pit.cpp.i
@@ -285,7 +275,7 @@ pit.i: pit.cpp.i
 
 # target to preprocess a source file
 pit.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.i
 .PHONY : pit.cpp.i
 
 pit.s: pit.cpp.s
@@ -293,7 +283,7 @@ pit.s: pit.cpp.s
 
 # target to generate assembly for a file
 pit.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.s
 .PHONY : pit.cpp.s
 
 raceline.obj: raceline.cpp.obj
@@ -301,7 +291,7 @@ raceline.obj: raceline.cpp.obj
 
 # target to build an object file
 raceline.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.obj
 .PHONY : raceline.cpp.obj
 
 raceline.i: raceline.cpp.i
@@ -309,7 +299,7 @@ raceline.i: raceline.cpp.i
 
 # target to preprocess a source file
 raceline.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.i
 .PHONY : raceline.cpp.i
 
 raceline.s: raceline.cpp.s
@@ -317,7 +307,7 @@ raceline.s: raceline.cpp.s
 
 # target to generate assembly for a file
 raceline.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.s
 .PHONY : raceline.cpp.s
 
 spline.obj: spline.cpp.obj
@@ -325,7 +315,7 @@ spline.obj: spline.cpp.obj
 
 # target to build an object file
 spline.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.obj
 .PHONY : spline.cpp.obj
 
 spline.i: spline.cpp.i
@@ -333,7 +323,7 @@ spline.i: spline.cpp.i
 
 # target to preprocess a source file
 spline.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.i
 .PHONY : spline.cpp.i
 
 spline.s: spline.cpp.s
@@ -341,7 +331,7 @@ spline.s: spline.cpp.s
 
 # target to generate assembly for a file
 spline.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.s
 .PHONY : spline.cpp.s
 
 strategy.obj: strategy.cpp.obj
@@ -349,7 +339,7 @@ strategy.obj: strategy.cpp.obj
 
 # target to build an object file
 strategy.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.obj
 .PHONY : strategy.cpp.obj
 
 strategy.i: strategy.cpp.i
@@ -357,7 +347,7 @@ strategy.i: strategy.cpp.i
 
 # target to preprocess a source file
 strategy.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.i
 .PHONY : strategy.cpp.i
 
 strategy.s: strategy.cpp.s
@@ -365,7 +355,7 @@ strategy.s: strategy.cpp.s
 
 # target to generate assembly for a file
 strategy.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.s
 .PHONY : strategy.cpp.s
 
 util.obj: util.cpp.obj
@@ -373,7 +363,7 @@ util.obj: util.cpp.obj
 
 # target to build an object file
 util.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.obj
 .PHONY : util.cpp.obj
 
 util.i: util.cpp.i
@@ -381,7 +371,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -389,7 +379,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/kilo2008/CMakeFiles/kilo2008.dir/build.make src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -401,7 +391,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... kilo2008"
 	@echo "... list_install_components"
 	@echo "... package"
@@ -445,6 +434,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

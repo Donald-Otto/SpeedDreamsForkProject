@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/simplix/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/simplix/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/drivers/simplix/CMakeFiles/simplix.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/CMakeFiles/simplix.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/drivers/simplix/CMakeFiles/simplix.dir/rule
 .PHONY : src/drivers/simplix/CMakeFiles/simplix.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ simplix: src/drivers/simplix/CMakeFiles/simplix.dir/rule
 
 # fast build rule for target.
 simplix/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/build
 .PHONY : simplix/fast
 
 src/unitcarparam.obj: src/unitcarparam.cpp.obj
@@ -181,7 +171,7 @@ src/unitcarparam.obj: src/unitcarparam.cpp.obj
 
 # target to build an object file
 src/unitcarparam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.obj
 .PHONY : src/unitcarparam.cpp.obj
 
 src/unitcarparam.i: src/unitcarparam.cpp.i
@@ -189,7 +179,7 @@ src/unitcarparam.i: src/unitcarparam.cpp.i
 
 # target to preprocess a source file
 src/unitcarparam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.i
 .PHONY : src/unitcarparam.cpp.i
 
 src/unitcarparam.s: src/unitcarparam.cpp.s
@@ -197,7 +187,7 @@ src/unitcarparam.s: src/unitcarparam.cpp.s
 
 # target to generate assembly for a file
 src/unitcarparam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.s
 .PHONY : src/unitcarparam.cpp.s
 
 src/unitcharacteristic.obj: src/unitcharacteristic.cpp.obj
@@ -205,7 +195,7 @@ src/unitcharacteristic.obj: src/unitcharacteristic.cpp.obj
 
 # target to build an object file
 src/unitcharacteristic.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.obj
 .PHONY : src/unitcharacteristic.cpp.obj
 
 src/unitcharacteristic.i: src/unitcharacteristic.cpp.i
@@ -213,7 +203,7 @@ src/unitcharacteristic.i: src/unitcharacteristic.cpp.i
 
 # target to preprocess a source file
 src/unitcharacteristic.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.i
 .PHONY : src/unitcharacteristic.cpp.i
 
 src/unitcharacteristic.s: src/unitcharacteristic.cpp.s
@@ -221,7 +211,7 @@ src/unitcharacteristic.s: src/unitcharacteristic.cpp.s
 
 # target to generate assembly for a file
 src/unitcharacteristic.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.s
 .PHONY : src/unitcharacteristic.cpp.s
 
 src/unitclothoid.obj: src/unitclothoid.cpp.obj
@@ -229,7 +219,7 @@ src/unitclothoid.obj: src/unitclothoid.cpp.obj
 
 # target to build an object file
 src/unitclothoid.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.obj
 .PHONY : src/unitclothoid.cpp.obj
 
 src/unitclothoid.i: src/unitclothoid.cpp.i
@@ -237,7 +227,7 @@ src/unitclothoid.i: src/unitclothoid.cpp.i
 
 # target to preprocess a source file
 src/unitclothoid.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.i
 .PHONY : src/unitclothoid.cpp.i
 
 src/unitclothoid.s: src/unitclothoid.cpp.s
@@ -245,7 +235,7 @@ src/unitclothoid.s: src/unitclothoid.cpp.s
 
 # target to generate assembly for a file
 src/unitclothoid.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.s
 .PHONY : src/unitclothoid.cpp.s
 
 src/unitcollision.obj: src/unitcollision.cpp.obj
@@ -253,7 +243,7 @@ src/unitcollision.obj: src/unitcollision.cpp.obj
 
 # target to build an object file
 src/unitcollision.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.obj
 .PHONY : src/unitcollision.cpp.obj
 
 src/unitcollision.i: src/unitcollision.cpp.i
@@ -261,7 +251,7 @@ src/unitcollision.i: src/unitcollision.cpp.i
 
 # target to preprocess a source file
 src/unitcollision.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.i
 .PHONY : src/unitcollision.cpp.i
 
 src/unitcollision.s: src/unitcollision.cpp.s
@@ -269,7 +259,7 @@ src/unitcollision.s: src/unitcollision.cpp.s
 
 # target to generate assembly for a file
 src/unitcollision.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.s
 .PHONY : src/unitcollision.cpp.s
 
 src/unitcommon.obj: src/unitcommon.cpp.obj
@@ -277,7 +267,7 @@ src/unitcommon.obj: src/unitcommon.cpp.obj
 
 # target to build an object file
 src/unitcommon.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.obj
 .PHONY : src/unitcommon.cpp.obj
 
 src/unitcommon.i: src/unitcommon.cpp.i
@@ -285,7 +275,7 @@ src/unitcommon.i: src/unitcommon.cpp.i
 
 # target to preprocess a source file
 src/unitcommon.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.i
 .PHONY : src/unitcommon.cpp.i
 
 src/unitcommon.s: src/unitcommon.cpp.s
@@ -293,7 +283,7 @@ src/unitcommon.s: src/unitcommon.cpp.s
 
 # target to generate assembly for a file
 src/unitcommon.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.s
 .PHONY : src/unitcommon.cpp.s
 
 src/unitcommondata.obj: src/unitcommondata.cpp.obj
@@ -301,7 +291,7 @@ src/unitcommondata.obj: src/unitcommondata.cpp.obj
 
 # target to build an object file
 src/unitcommondata.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.obj
 .PHONY : src/unitcommondata.cpp.obj
 
 src/unitcommondata.i: src/unitcommondata.cpp.i
@@ -309,7 +299,7 @@ src/unitcommondata.i: src/unitcommondata.cpp.i
 
 # target to preprocess a source file
 src/unitcommondata.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.i
 .PHONY : src/unitcommondata.cpp.i
 
 src/unitcommondata.s: src/unitcommondata.cpp.s
@@ -317,7 +307,7 @@ src/unitcommondata.s: src/unitcommondata.cpp.s
 
 # target to generate assembly for a file
 src/unitcommondata.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.s
 .PHONY : src/unitcommondata.cpp.s
 
 src/unitcubic.obj: src/unitcubic.cpp.obj
@@ -325,7 +315,7 @@ src/unitcubic.obj: src/unitcubic.cpp.obj
 
 # target to build an object file
 src/unitcubic.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.obj
 .PHONY : src/unitcubic.cpp.obj
 
 src/unitcubic.i: src/unitcubic.cpp.i
@@ -333,7 +323,7 @@ src/unitcubic.i: src/unitcubic.cpp.i
 
 # target to preprocess a source file
 src/unitcubic.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.i
 .PHONY : src/unitcubic.cpp.i
 
 src/unitcubic.s: src/unitcubic.cpp.s
@@ -341,7 +331,7 @@ src/unitcubic.s: src/unitcubic.cpp.s
 
 # target to generate assembly for a file
 src/unitcubic.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.s
 .PHONY : src/unitcubic.cpp.s
 
 src/unitcubicspline.obj: src/unitcubicspline.cpp.obj
@@ -349,7 +339,7 @@ src/unitcubicspline.obj: src/unitcubicspline.cpp.obj
 
 # target to build an object file
 src/unitcubicspline.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.obj
 .PHONY : src/unitcubicspline.cpp.obj
 
 src/unitcubicspline.i: src/unitcubicspline.cpp.i
@@ -357,7 +347,7 @@ src/unitcubicspline.i: src/unitcubicspline.cpp.i
 
 # target to preprocess a source file
 src/unitcubicspline.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.i
 .PHONY : src/unitcubicspline.cpp.i
 
 src/unitcubicspline.s: src/unitcubicspline.cpp.s
@@ -365,7 +355,7 @@ src/unitcubicspline.s: src/unitcubicspline.cpp.s
 
 # target to generate assembly for a file
 src/unitcubicspline.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.s
 .PHONY : src/unitcubicspline.cpp.s
 
 src/unitdriver.obj: src/unitdriver.cpp.obj
@@ -373,7 +363,7 @@ src/unitdriver.obj: src/unitdriver.cpp.obj
 
 # target to build an object file
 src/unitdriver.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.obj
 .PHONY : src/unitdriver.cpp.obj
 
 src/unitdriver.i: src/unitdriver.cpp.i
@@ -381,7 +371,7 @@ src/unitdriver.i: src/unitdriver.cpp.i
 
 # target to preprocess a source file
 src/unitdriver.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.i
 .PHONY : src/unitdriver.cpp.i
 
 src/unitdriver.s: src/unitdriver.cpp.s
@@ -389,7 +379,7 @@ src/unitdriver.s: src/unitdriver.cpp.s
 
 # target to generate assembly for a file
 src/unitdriver.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.s
 .PHONY : src/unitdriver.cpp.s
 
 src/unitfixcarparam.obj: src/unitfixcarparam.cpp.obj
@@ -397,7 +387,7 @@ src/unitfixcarparam.obj: src/unitfixcarparam.cpp.obj
 
 # target to build an object file
 src/unitfixcarparam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.obj
 .PHONY : src/unitfixcarparam.cpp.obj
 
 src/unitfixcarparam.i: src/unitfixcarparam.cpp.i
@@ -405,7 +395,7 @@ src/unitfixcarparam.i: src/unitfixcarparam.cpp.i
 
 # target to preprocess a source file
 src/unitfixcarparam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.i
 .PHONY : src/unitfixcarparam.cpp.i
 
 src/unitfixcarparam.s: src/unitfixcarparam.cpp.s
@@ -413,7 +403,7 @@ src/unitfixcarparam.s: src/unitfixcarparam.cpp.s
 
 # target to generate assembly for a file
 src/unitfixcarparam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.s
 .PHONY : src/unitfixcarparam.cpp.s
 
 src/unitlane.obj: src/unitlane.cpp.obj
@@ -421,7 +411,7 @@ src/unitlane.obj: src/unitlane.cpp.obj
 
 # target to build an object file
 src/unitlane.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.obj
 .PHONY : src/unitlane.cpp.obj
 
 src/unitlane.i: src/unitlane.cpp.i
@@ -429,7 +419,7 @@ src/unitlane.i: src/unitlane.cpp.i
 
 # target to preprocess a source file
 src/unitlane.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.i
 .PHONY : src/unitlane.cpp.i
 
 src/unitlane.s: src/unitlane.cpp.s
@@ -437,7 +427,7 @@ src/unitlane.s: src/unitlane.cpp.s
 
 # target to generate assembly for a file
 src/unitlane.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.s
 .PHONY : src/unitlane.cpp.s
 
 src/unitlanepoint.obj: src/unitlanepoint.cpp.obj
@@ -445,7 +435,7 @@ src/unitlanepoint.obj: src/unitlanepoint.cpp.obj
 
 # target to build an object file
 src/unitlanepoint.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.obj
 .PHONY : src/unitlanepoint.cpp.obj
 
 src/unitlanepoint.i: src/unitlanepoint.cpp.i
@@ -453,7 +443,7 @@ src/unitlanepoint.i: src/unitlanepoint.cpp.i
 
 # target to preprocess a source file
 src/unitlanepoint.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.i
 .PHONY : src/unitlanepoint.cpp.i
 
 src/unitlanepoint.s: src/unitlanepoint.cpp.s
@@ -461,7 +451,7 @@ src/unitlanepoint.s: src/unitlanepoint.cpp.s
 
 # target to generate assembly for a file
 src/unitlanepoint.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.s
 .PHONY : src/unitlanepoint.cpp.s
 
 src/unitlinalg.obj: src/unitlinalg.cpp.obj
@@ -469,7 +459,7 @@ src/unitlinalg.obj: src/unitlinalg.cpp.obj
 
 # target to build an object file
 src/unitlinalg.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.obj
 .PHONY : src/unitlinalg.cpp.obj
 
 src/unitlinalg.i: src/unitlinalg.cpp.i
@@ -477,7 +467,7 @@ src/unitlinalg.i: src/unitlinalg.cpp.i
 
 # target to preprocess a source file
 src/unitlinalg.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.i
 .PHONY : src/unitlinalg.cpp.i
 
 src/unitlinalg.s: src/unitlinalg.cpp.s
@@ -485,7 +475,7 @@ src/unitlinalg.s: src/unitlinalg.cpp.s
 
 # target to generate assembly for a file
 src/unitlinalg.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.s
 .PHONY : src/unitlinalg.cpp.s
 
 src/unitlinreg.obj: src/unitlinreg.cpp.obj
@@ -493,7 +483,7 @@ src/unitlinreg.obj: src/unitlinreg.cpp.obj
 
 # target to build an object file
 src/unitlinreg.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.obj
 .PHONY : src/unitlinreg.cpp.obj
 
 src/unitlinreg.i: src/unitlinreg.cpp.i
@@ -501,7 +491,7 @@ src/unitlinreg.i: src/unitlinreg.cpp.i
 
 # target to preprocess a source file
 src/unitlinreg.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.i
 .PHONY : src/unitlinreg.cpp.i
 
 src/unitlinreg.s: src/unitlinreg.cpp.s
@@ -509,7 +499,7 @@ src/unitlinreg.s: src/unitlinreg.cpp.s
 
 # target to generate assembly for a file
 src/unitlinreg.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.s
 .PHONY : src/unitlinreg.cpp.s
 
 src/unitmain.obj: src/unitmain.cpp.obj
@@ -517,7 +507,7 @@ src/unitmain.obj: src/unitmain.cpp.obj
 
 # target to build an object file
 src/unitmain.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.obj
 .PHONY : src/unitmain.cpp.obj
 
 src/unitmain.i: src/unitmain.cpp.i
@@ -525,7 +515,7 @@ src/unitmain.i: src/unitmain.cpp.i
 
 # target to preprocess a source file
 src/unitmain.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.i
 .PHONY : src/unitmain.cpp.i
 
 src/unitmain.s: src/unitmain.cpp.s
@@ -533,7 +523,7 @@ src/unitmain.s: src/unitmain.cpp.s
 
 # target to generate assembly for a file
 src/unitmain.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.s
 .PHONY : src/unitmain.cpp.s
 
 src/unitopponent.obj: src/unitopponent.cpp.obj
@@ -541,7 +531,7 @@ src/unitopponent.obj: src/unitopponent.cpp.obj
 
 # target to build an object file
 src/unitopponent.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.obj
 .PHONY : src/unitopponent.cpp.obj
 
 src/unitopponent.i: src/unitopponent.cpp.i
@@ -549,7 +539,7 @@ src/unitopponent.i: src/unitopponent.cpp.i
 
 # target to preprocess a source file
 src/unitopponent.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.i
 .PHONY : src/unitopponent.cpp.i
 
 src/unitopponent.s: src/unitopponent.cpp.s
@@ -557,7 +547,7 @@ src/unitopponent.s: src/unitopponent.cpp.s
 
 # target to generate assembly for a file
 src/unitopponent.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.s
 .PHONY : src/unitopponent.cpp.s
 
 src/unitparabel.obj: src/unitparabel.cpp.obj
@@ -565,7 +555,7 @@ src/unitparabel.obj: src/unitparabel.cpp.obj
 
 # target to build an object file
 src/unitparabel.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.obj
 .PHONY : src/unitparabel.cpp.obj
 
 src/unitparabel.i: src/unitparabel.cpp.i
@@ -573,7 +563,7 @@ src/unitparabel.i: src/unitparabel.cpp.i
 
 # target to preprocess a source file
 src/unitparabel.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.i
 .PHONY : src/unitparabel.cpp.i
 
 src/unitparabel.s: src/unitparabel.cpp.s
@@ -581,7 +571,7 @@ src/unitparabel.s: src/unitparabel.cpp.s
 
 # target to generate assembly for a file
 src/unitparabel.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.s
 .PHONY : src/unitparabel.cpp.s
 
 src/unitparam.obj: src/unitparam.cpp.obj
@@ -589,7 +579,7 @@ src/unitparam.obj: src/unitparam.cpp.obj
 
 # target to build an object file
 src/unitparam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.obj
 .PHONY : src/unitparam.cpp.obj
 
 src/unitparam.i: src/unitparam.cpp.i
@@ -597,7 +587,7 @@ src/unitparam.i: src/unitparam.cpp.i
 
 # target to preprocess a source file
 src/unitparam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.i
 .PHONY : src/unitparam.cpp.i
 
 src/unitparam.s: src/unitparam.cpp.s
@@ -605,7 +595,7 @@ src/unitparam.s: src/unitparam.cpp.s
 
 # target to generate assembly for a file
 src/unitparam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.s
 .PHONY : src/unitparam.cpp.s
 
 src/unitpidctrl.obj: src/unitpidctrl.cpp.obj
@@ -613,7 +603,7 @@ src/unitpidctrl.obj: src/unitpidctrl.cpp.obj
 
 # target to build an object file
 src/unitpidctrl.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.obj
 .PHONY : src/unitpidctrl.cpp.obj
 
 src/unitpidctrl.i: src/unitpidctrl.cpp.i
@@ -621,7 +611,7 @@ src/unitpidctrl.i: src/unitpidctrl.cpp.i
 
 # target to preprocess a source file
 src/unitpidctrl.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.i
 .PHONY : src/unitpidctrl.cpp.i
 
 src/unitpidctrl.s: src/unitpidctrl.cpp.s
@@ -629,7 +619,7 @@ src/unitpidctrl.s: src/unitpidctrl.cpp.s
 
 # target to generate assembly for a file
 src/unitpidctrl.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.s
 .PHONY : src/unitpidctrl.cpp.s
 
 src/unitpit.obj: src/unitpit.cpp.obj
@@ -637,7 +627,7 @@ src/unitpit.obj: src/unitpit.cpp.obj
 
 # target to build an object file
 src/unitpit.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.obj
 .PHONY : src/unitpit.cpp.obj
 
 src/unitpit.i: src/unitpit.cpp.i
@@ -645,7 +635,7 @@ src/unitpit.i: src/unitpit.cpp.i
 
 # target to preprocess a source file
 src/unitpit.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.i
 .PHONY : src/unitpit.cpp.i
 
 src/unitpit.s: src/unitpit.cpp.s
@@ -653,7 +643,7 @@ src/unitpit.s: src/unitpit.cpp.s
 
 # target to generate assembly for a file
 src/unitpit.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.s
 .PHONY : src/unitpit.cpp.s
 
 src/unitpitparam.obj: src/unitpitparam.cpp.obj
@@ -661,7 +651,7 @@ src/unitpitparam.obj: src/unitpitparam.cpp.obj
 
 # target to build an object file
 src/unitpitparam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.obj
 .PHONY : src/unitpitparam.cpp.obj
 
 src/unitpitparam.i: src/unitpitparam.cpp.i
@@ -669,7 +659,7 @@ src/unitpitparam.i: src/unitpitparam.cpp.i
 
 # target to preprocess a source file
 src/unitpitparam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.i
 .PHONY : src/unitpitparam.cpp.i
 
 src/unitpitparam.s: src/unitpitparam.cpp.s
@@ -677,7 +667,7 @@ src/unitpitparam.s: src/unitpitparam.cpp.s
 
 # target to generate assembly for a file
 src/unitpitparam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.s
 .PHONY : src/unitpitparam.cpp.s
 
 src/unitsection.obj: src/unitsection.cpp.obj
@@ -685,7 +675,7 @@ src/unitsection.obj: src/unitsection.cpp.obj
 
 # target to build an object file
 src/unitsection.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.obj
 .PHONY : src/unitsection.cpp.obj
 
 src/unitsection.i: src/unitsection.cpp.i
@@ -693,7 +683,7 @@ src/unitsection.i: src/unitsection.cpp.i
 
 # target to preprocess a source file
 src/unitsection.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.i
 .PHONY : src/unitsection.cpp.i
 
 src/unitsection.s: src/unitsection.cpp.s
@@ -701,7 +691,7 @@ src/unitsection.s: src/unitsection.cpp.s
 
 # target to generate assembly for a file
 src/unitsection.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.s
 .PHONY : src/unitsection.cpp.s
 
 src/unitstrategy.obj: src/unitstrategy.cpp.obj
@@ -709,7 +699,7 @@ src/unitstrategy.obj: src/unitstrategy.cpp.obj
 
 # target to build an object file
 src/unitstrategy.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.obj
 .PHONY : src/unitstrategy.cpp.obj
 
 src/unitstrategy.i: src/unitstrategy.cpp.i
@@ -717,7 +707,7 @@ src/unitstrategy.i: src/unitstrategy.cpp.i
 
 # target to preprocess a source file
 src/unitstrategy.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.i
 .PHONY : src/unitstrategy.cpp.i
 
 src/unitstrategy.s: src/unitstrategy.cpp.s
@@ -725,7 +715,7 @@ src/unitstrategy.s: src/unitstrategy.cpp.s
 
 # target to generate assembly for a file
 src/unitstrategy.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.s
 .PHONY : src/unitstrategy.cpp.s
 
 src/unitsysfoo.obj: src/unitsysfoo.cpp.obj
@@ -733,7 +723,7 @@ src/unitsysfoo.obj: src/unitsysfoo.cpp.obj
 
 # target to build an object file
 src/unitsysfoo.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.obj
 .PHONY : src/unitsysfoo.cpp.obj
 
 src/unitsysfoo.i: src/unitsysfoo.cpp.i
@@ -741,7 +731,7 @@ src/unitsysfoo.i: src/unitsysfoo.cpp.i
 
 # target to preprocess a source file
 src/unitsysfoo.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.i
 .PHONY : src/unitsysfoo.cpp.i
 
 src/unitsysfoo.s: src/unitsysfoo.cpp.s
@@ -749,7 +739,7 @@ src/unitsysfoo.s: src/unitsysfoo.cpp.s
 
 # target to generate assembly for a file
 src/unitsysfoo.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.s
 .PHONY : src/unitsysfoo.cpp.s
 
 src/unittmpcarparam.obj: src/unittmpcarparam.cpp.obj
@@ -757,7 +747,7 @@ src/unittmpcarparam.obj: src/unittmpcarparam.cpp.obj
 
 # target to build an object file
 src/unittmpcarparam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.obj
 .PHONY : src/unittmpcarparam.cpp.obj
 
 src/unittmpcarparam.i: src/unittmpcarparam.cpp.i
@@ -765,7 +755,7 @@ src/unittmpcarparam.i: src/unittmpcarparam.cpp.i
 
 # target to preprocess a source file
 src/unittmpcarparam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.i
 .PHONY : src/unittmpcarparam.cpp.i
 
 src/unittmpcarparam.s: src/unittmpcarparam.cpp.s
@@ -773,7 +763,7 @@ src/unittmpcarparam.s: src/unittmpcarparam.cpp.s
 
 # target to generate assembly for a file
 src/unittmpcarparam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.s
 .PHONY : src/unittmpcarparam.cpp.s
 
 src/unittrack.obj: src/unittrack.cpp.obj
@@ -781,7 +771,7 @@ src/unittrack.obj: src/unittrack.cpp.obj
 
 # target to build an object file
 src/unittrack.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.obj
 .PHONY : src/unittrack.cpp.obj
 
 src/unittrack.i: src/unittrack.cpp.i
@@ -789,7 +779,7 @@ src/unittrack.i: src/unittrack.cpp.i
 
 # target to preprocess a source file
 src/unittrack.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.i
 .PHONY : src/unittrack.cpp.i
 
 src/unittrack.s: src/unittrack.cpp.s
@@ -797,7 +787,7 @@ src/unittrack.s: src/unittrack.cpp.s
 
 # target to generate assembly for a file
 src/unittrack.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.s
 .PHONY : src/unittrack.cpp.s
 
 src/unitvec2d.obj: src/unitvec2d.cpp.obj
@@ -805,7 +795,7 @@ src/unitvec2d.obj: src/unitvec2d.cpp.obj
 
 # target to build an object file
 src/unitvec2d.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.obj
 .PHONY : src/unitvec2d.cpp.obj
 
 src/unitvec2d.i: src/unitvec2d.cpp.i
@@ -813,7 +803,7 @@ src/unitvec2d.i: src/unitvec2d.cpp.i
 
 # target to preprocess a source file
 src/unitvec2d.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.i
 .PHONY : src/unitvec2d.cpp.i
 
 src/unitvec2d.s: src/unitvec2d.cpp.s
@@ -821,7 +811,7 @@ src/unitvec2d.s: src/unitvec2d.cpp.s
 
 # target to generate assembly for a file
 src/unitvec2d.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.s
 .PHONY : src/unitvec2d.cpp.s
 
 src/unitvec3d.obj: src/unitvec3d.cpp.obj
@@ -829,7 +819,7 @@ src/unitvec3d.obj: src/unitvec3d.cpp.obj
 
 # target to build an object file
 src/unitvec3d.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.obj
 .PHONY : src/unitvec3d.cpp.obj
 
 src/unitvec3d.i: src/unitvec3d.cpp.i
@@ -837,7 +827,7 @@ src/unitvec3d.i: src/unitvec3d.cpp.i
 
 # target to preprocess a source file
 src/unitvec3d.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.i
 .PHONY : src/unitvec3d.cpp.i
 
 src/unitvec3d.s: src/unitvec3d.cpp.s
@@ -845,7 +835,7 @@ src/unitvec3d.s: src/unitvec3d.cpp.s
 
 # target to generate assembly for a file
 src/unitvec3d.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/drivers/simplix/CMakeFiles/simplix.dir/build.make src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.s
 .PHONY : src/unitvec3d.cpp.s
 
 # Help Target
@@ -857,7 +847,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -958,6 +947,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -32,9 +32,12 @@
 		<attnum name="tachometer min value" unit="rpm" val="0"/>
 		<attnum name="tachometer max value" unit="rpm" val="10000"/>
 		<attstr name="speedometer texture" val="sc-kanagawa-z35gts-speed.png"/>
+		<attstr name="speedometer mph texture" val="sc-kanagawa-z35gts-speedmph.png"/>
 		<attnum name="speedometer min value" unit="km/h" val="0"/>
 		<attnum name="speedometer max value" unit="km/h" val="300"/>
-
+		<attstr name="speedometer mph min value" unit="mph" val="0"/>
+		<attstr name="speedometer mph max value" unit="mph" val="240"/>
+		
 		<attnum name="tachometer needle width" val="54"/>
 		<attnum name="speedometer needle width" val="54"/>
 

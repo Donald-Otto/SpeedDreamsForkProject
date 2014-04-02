@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/graphic/ssggraph/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/graphic/ssggraph/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 .PHONY : src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ ssggraph: src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/rule
 
 # fast build rule for target.
 ssggraph/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build
 .PHONY : ssggraph/fast
 
 grCloudLayer.obj: grCloudLayer.cpp.obj
@@ -181,7 +171,7 @@ grCloudLayer.obj: grCloudLayer.cpp.obj
 
 # target to build an object file
 grCloudLayer.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.obj
 .PHONY : grCloudLayer.cpp.obj
 
 grCloudLayer.i: grCloudLayer.cpp.i
@@ -189,7 +179,7 @@ grCloudLayer.i: grCloudLayer.cpp.i
 
 # target to preprocess a source file
 grCloudLayer.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.i
 .PHONY : grCloudLayer.cpp.i
 
 grCloudLayer.s: grCloudLayer.cpp.s
@@ -197,7 +187,7 @@ grCloudLayer.s: grCloudLayer.cpp.s
 
 # target to generate assembly for a file
 grCloudLayer.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.s
 .PHONY : grCloudLayer.cpp.s
 
 grMoon.obj: grMoon.cpp.obj
@@ -205,7 +195,7 @@ grMoon.obj: grMoon.cpp.obj
 
 # target to build an object file
 grMoon.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.obj
 .PHONY : grMoon.cpp.obj
 
 grMoon.i: grMoon.cpp.i
@@ -213,7 +203,7 @@ grMoon.i: grMoon.cpp.i
 
 # target to preprocess a source file
 grMoon.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.i
 .PHONY : grMoon.cpp.i
 
 grMoon.s: grMoon.cpp.s
@@ -221,7 +211,7 @@ grMoon.s: grMoon.cpp.s
 
 # target to generate assembly for a file
 grMoon.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.s
 .PHONY : grMoon.cpp.s
 
 grMoonpos.obj: grMoonpos.cpp.obj
@@ -229,7 +219,7 @@ grMoonpos.obj: grMoonpos.cpp.obj
 
 # target to build an object file
 grMoonpos.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.obj
 .PHONY : grMoonpos.cpp.obj
 
 grMoonpos.i: grMoonpos.cpp.i
@@ -237,7 +227,7 @@ grMoonpos.i: grMoonpos.cpp.i
 
 # target to preprocess a source file
 grMoonpos.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.i
 .PHONY : grMoonpos.cpp.i
 
 grMoonpos.s: grMoonpos.cpp.s
@@ -245,7 +235,7 @@ grMoonpos.s: grMoonpos.cpp.s
 
 # target to generate assembly for a file
 grMoonpos.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.s
 .PHONY : grMoonpos.cpp.s
 
 grSky.obj: grSky.cpp.obj
@@ -253,7 +243,7 @@ grSky.obj: grSky.cpp.obj
 
 # target to build an object file
 grSky.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.obj
 .PHONY : grSky.cpp.obj
 
 grSky.i: grSky.cpp.i
@@ -261,7 +251,7 @@ grSky.i: grSky.cpp.i
 
 # target to preprocess a source file
 grSky.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.i
 .PHONY : grSky.cpp.i
 
 grSky.s: grSky.cpp.s
@@ -269,7 +259,7 @@ grSky.s: grSky.cpp.s
 
 # target to generate assembly for a file
 grSky.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.s
 .PHONY : grSky.cpp.s
 
 grSkyDome.obj: grSkyDome.cpp.obj
@@ -277,7 +267,7 @@ grSkyDome.obj: grSkyDome.cpp.obj
 
 # target to build an object file
 grSkyDome.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.obj
 .PHONY : grSkyDome.cpp.obj
 
 grSkyDome.i: grSkyDome.cpp.i
@@ -285,7 +275,7 @@ grSkyDome.i: grSkyDome.cpp.i
 
 # target to preprocess a source file
 grSkyDome.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.i
 .PHONY : grSkyDome.cpp.i
 
 grSkyDome.s: grSkyDome.cpp.s
@@ -293,7 +283,7 @@ grSkyDome.s: grSkyDome.cpp.s
 
 # target to generate assembly for a file
 grSkyDome.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.s
 .PHONY : grSkyDome.cpp.s
 
 grSphere.obj: grSphere.cpp.obj
@@ -301,7 +291,7 @@ grSphere.obj: grSphere.cpp.obj
 
 # target to build an object file
 grSphere.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.obj
 .PHONY : grSphere.cpp.obj
 
 grSphere.i: grSphere.cpp.i
@@ -309,7 +299,7 @@ grSphere.i: grSphere.cpp.i
 
 # target to preprocess a source file
 grSphere.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.i
 .PHONY : grSphere.cpp.i
 
 grSphere.s: grSphere.cpp.s
@@ -317,7 +307,7 @@ grSphere.s: grSphere.cpp.s
 
 # target to generate assembly for a file
 grSphere.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.s
 .PHONY : grSphere.cpp.s
 
 grStars.obj: grStars.cpp.obj
@@ -325,7 +315,7 @@ grStars.obj: grStars.cpp.obj
 
 # target to build an object file
 grStars.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.obj
 .PHONY : grStars.cpp.obj
 
 grStars.i: grStars.cpp.i
@@ -333,7 +323,7 @@ grStars.i: grStars.cpp.i
 
 # target to preprocess a source file
 grStars.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.i
 .PHONY : grStars.cpp.i
 
 grStars.s: grStars.cpp.s
@@ -341,7 +331,7 @@ grStars.s: grStars.cpp.s
 
 # target to generate assembly for a file
 grStars.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.s
 .PHONY : grStars.cpp.s
 
 grSun.obj: grSun.cpp.obj
@@ -349,7 +339,7 @@ grSun.obj: grSun.cpp.obj
 
 # target to build an object file
 grSun.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.obj
 .PHONY : grSun.cpp.obj
 
 grSun.i: grSun.cpp.i
@@ -357,7 +347,7 @@ grSun.i: grSun.cpp.i
 
 # target to preprocess a source file
 grSun.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.i
 .PHONY : grSun.cpp.i
 
 grSun.s: grSun.cpp.s
@@ -365,7 +355,7 @@ grSun.s: grSun.cpp.s
 
 # target to generate assembly for a file
 grSun.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.s
 .PHONY : grSun.cpp.s
 
 grbackground.obj: grbackground.cpp.obj
@@ -373,7 +363,7 @@ grbackground.obj: grbackground.cpp.obj
 
 # target to build an object file
 grbackground.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.obj
 .PHONY : grbackground.cpp.obj
 
 grbackground.i: grbackground.cpp.i
@@ -381,7 +371,7 @@ grbackground.i: grbackground.cpp.i
 
 # target to preprocess a source file
 grbackground.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.i
 .PHONY : grbackground.cpp.i
 
 grbackground.s: grbackground.cpp.s
@@ -389,7 +379,7 @@ grbackground.s: grbackground.cpp.s
 
 # target to generate assembly for a file
 grbackground.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.s
 .PHONY : grbackground.cpp.s
 
 grboard.obj: grboard.cpp.obj
@@ -397,7 +387,7 @@ grboard.obj: grboard.cpp.obj
 
 # target to build an object file
 grboard.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.obj
 .PHONY : grboard.cpp.obj
 
 grboard.i: grboard.cpp.i
@@ -405,7 +395,7 @@ grboard.i: grboard.cpp.i
 
 # target to preprocess a source file
 grboard.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.i
 .PHONY : grboard.cpp.i
 
 grboard.s: grboard.cpp.s
@@ -413,7 +403,7 @@ grboard.s: grboard.cpp.s
 
 # target to generate assembly for a file
 grboard.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.s
 .PHONY : grboard.cpp.s
 
 grcam.obj: grcam.cpp.obj
@@ -421,7 +411,7 @@ grcam.obj: grcam.cpp.obj
 
 # target to build an object file
 grcam.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.obj
 .PHONY : grcam.cpp.obj
 
 grcam.i: grcam.cpp.i
@@ -429,7 +419,7 @@ grcam.i: grcam.cpp.i
 
 # target to preprocess a source file
 grcam.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.i
 .PHONY : grcam.cpp.i
 
 grcam.s: grcam.cpp.s
@@ -437,7 +427,7 @@ grcam.s: grcam.cpp.s
 
 # target to generate assembly for a file
 grcam.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.s
 .PHONY : grcam.cpp.s
 
 grcar.obj: grcar.cpp.obj
@@ -445,7 +435,7 @@ grcar.obj: grcar.cpp.obj
 
 # target to build an object file
 grcar.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.obj
 .PHONY : grcar.cpp.obj
 
 grcar.i: grcar.cpp.i
@@ -453,7 +443,7 @@ grcar.i: grcar.cpp.i
 
 # target to preprocess a source file
 grcar.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.i
 .PHONY : grcar.cpp.i
 
 grcar.s: grcar.cpp.s
@@ -461,7 +451,7 @@ grcar.s: grcar.cpp.s
 
 # target to generate assembly for a file
 grcar.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.s
 .PHONY : grcar.cpp.s
 
 grcarlight.obj: grcarlight.cpp.obj
@@ -469,7 +459,7 @@ grcarlight.obj: grcarlight.cpp.obj
 
 # target to build an object file
 grcarlight.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.obj
 .PHONY : grcarlight.cpp.obj
 
 grcarlight.i: grcarlight.cpp.i
@@ -477,7 +467,7 @@ grcarlight.i: grcarlight.cpp.i
 
 # target to preprocess a source file
 grcarlight.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.i
 .PHONY : grcarlight.cpp.i
 
 grcarlight.s: grcarlight.cpp.s
@@ -485,7 +475,7 @@ grcarlight.s: grcarlight.cpp.s
 
 # target to generate assembly for a file
 grcarlight.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.s
 .PHONY : grcarlight.cpp.s
 
 grloadac.obj: grloadac.cpp.obj
@@ -493,7 +483,7 @@ grloadac.obj: grloadac.cpp.obj
 
 # target to build an object file
 grloadac.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.obj
 .PHONY : grloadac.cpp.obj
 
 grloadac.i: grloadac.cpp.i
@@ -501,7 +491,7 @@ grloadac.i: grloadac.cpp.i
 
 # target to preprocess a source file
 grloadac.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.i
 .PHONY : grloadac.cpp.i
 
 grloadac.s: grloadac.cpp.s
@@ -509,7 +499,7 @@ grloadac.s: grloadac.cpp.s
 
 # target to generate assembly for a file
 grloadac.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.s
 .PHONY : grloadac.cpp.s
 
 grmain.obj: grmain.cpp.obj
@@ -517,7 +507,7 @@ grmain.obj: grmain.cpp.obj
 
 # target to build an object file
 grmain.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.obj
 .PHONY : grmain.cpp.obj
 
 grmain.i: grmain.cpp.i
@@ -525,7 +515,7 @@ grmain.i: grmain.cpp.i
 
 # target to preprocess a source file
 grmain.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.i
 .PHONY : grmain.cpp.i
 
 grmain.s: grmain.cpp.s
@@ -533,7 +523,7 @@ grmain.s: grmain.cpp.s
 
 # target to generate assembly for a file
 grmain.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.s
 .PHONY : grmain.cpp.s
 
 grmultitexstate.obj: grmultitexstate.cpp.obj
@@ -541,7 +531,7 @@ grmultitexstate.obj: grmultitexstate.cpp.obj
 
 # target to build an object file
 grmultitexstate.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.obj
 .PHONY : grmultitexstate.cpp.obj
 
 grmultitexstate.i: grmultitexstate.cpp.i
@@ -549,7 +539,7 @@ grmultitexstate.i: grmultitexstate.cpp.i
 
 # target to preprocess a source file
 grmultitexstate.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.i
 .PHONY : grmultitexstate.cpp.i
 
 grmultitexstate.s: grmultitexstate.cpp.s
@@ -557,7 +547,7 @@ grmultitexstate.s: grmultitexstate.cpp.s
 
 # target to generate assembly for a file
 grmultitexstate.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.s
 .PHONY : grmultitexstate.cpp.s
 
 grrain.obj: grrain.cpp.obj
@@ -565,7 +555,7 @@ grrain.obj: grrain.cpp.obj
 
 # target to build an object file
 grrain.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.obj
 .PHONY : grrain.cpp.obj
 
 grrain.i: grrain.cpp.i
@@ -573,7 +563,7 @@ grrain.i: grrain.cpp.i
 
 # target to preprocess a source file
 grrain.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.i
 .PHONY : grrain.cpp.i
 
 grrain.s: grrain.cpp.s
@@ -581,7 +571,7 @@ grrain.s: grrain.cpp.s
 
 # target to generate assembly for a file
 grrain.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.s
 .PHONY : grrain.cpp.s
 
 grscene.obj: grscene.cpp.obj
@@ -589,7 +579,7 @@ grscene.obj: grscene.cpp.obj
 
 # target to build an object file
 grscene.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.obj
 .PHONY : grscene.cpp.obj
 
 grscene.i: grscene.cpp.i
@@ -597,7 +587,7 @@ grscene.i: grscene.cpp.i
 
 # target to preprocess a source file
 grscene.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.i
 .PHONY : grscene.cpp.i
 
 grscene.s: grscene.cpp.s
@@ -605,7 +595,7 @@ grscene.s: grscene.cpp.s
 
 # target to generate assembly for a file
 grscene.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.s
 .PHONY : grscene.cpp.s
 
 grscreen.obj: grscreen.cpp.obj
@@ -613,7 +603,7 @@ grscreen.obj: grscreen.cpp.obj
 
 # target to build an object file
 grscreen.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.obj
 .PHONY : grscreen.cpp.obj
 
 grscreen.i: grscreen.cpp.i
@@ -621,7 +611,7 @@ grscreen.i: grscreen.cpp.i
 
 # target to preprocess a source file
 grscreen.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.i
 .PHONY : grscreen.cpp.i
 
 grscreen.s: grscreen.cpp.s
@@ -629,7 +619,7 @@ grscreen.s: grscreen.cpp.s
 
 # target to generate assembly for a file
 grscreen.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.s
 .PHONY : grscreen.cpp.s
 
 grshadow.obj: grshadow.cpp.obj
@@ -637,7 +627,7 @@ grshadow.obj: grshadow.cpp.obj
 
 # target to build an object file
 grshadow.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.obj
 .PHONY : grshadow.cpp.obj
 
 grshadow.i: grshadow.cpp.i
@@ -645,7 +635,7 @@ grshadow.i: grshadow.cpp.i
 
 # target to preprocess a source file
 grshadow.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.i
 .PHONY : grshadow.cpp.i
 
 grshadow.s: grshadow.cpp.s
@@ -653,7 +643,7 @@ grshadow.s: grshadow.cpp.s
 
 # target to generate assembly for a file
 grshadow.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.s
 .PHONY : grshadow.cpp.s
 
 grsimplestate.obj: grsimplestate.cpp.obj
@@ -661,7 +651,7 @@ grsimplestate.obj: grsimplestate.cpp.obj
 
 # target to build an object file
 grsimplestate.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.obj
 .PHONY : grsimplestate.cpp.obj
 
 grsimplestate.i: grsimplestate.cpp.i
@@ -669,7 +659,7 @@ grsimplestate.i: grsimplestate.cpp.i
 
 # target to preprocess a source file
 grsimplestate.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.i
 .PHONY : grsimplestate.cpp.i
 
 grsimplestate.s: grsimplestate.cpp.s
@@ -677,7 +667,7 @@ grsimplestate.s: grsimplestate.cpp.s
 
 # target to generate assembly for a file
 grsimplestate.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.s
 .PHONY : grsimplestate.cpp.s
 
 grskidmarks.obj: grskidmarks.cpp.obj
@@ -685,7 +675,7 @@ grskidmarks.obj: grskidmarks.cpp.obj
 
 # target to build an object file
 grskidmarks.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.obj
 .PHONY : grskidmarks.cpp.obj
 
 grskidmarks.i: grskidmarks.cpp.i
@@ -693,7 +683,7 @@ grskidmarks.i: grskidmarks.cpp.i
 
 # target to preprocess a source file
 grskidmarks.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.i
 .PHONY : grskidmarks.cpp.i
 
 grskidmarks.s: grskidmarks.cpp.s
@@ -701,7 +691,7 @@ grskidmarks.s: grskidmarks.cpp.s
 
 # target to generate assembly for a file
 grskidmarks.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.s
 .PHONY : grskidmarks.cpp.s
 
 grsmoke.obj: grsmoke.cpp.obj
@@ -709,7 +699,7 @@ grsmoke.obj: grsmoke.cpp.obj
 
 # target to build an object file
 grsmoke.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.obj
 .PHONY : grsmoke.cpp.obj
 
 grsmoke.i: grsmoke.cpp.i
@@ -717,7 +707,7 @@ grsmoke.i: grsmoke.cpp.i
 
 # target to preprocess a source file
 grsmoke.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.i
 .PHONY : grsmoke.cpp.i
 
 grsmoke.s: grsmoke.cpp.s
@@ -725,7 +715,7 @@ grsmoke.s: grsmoke.cpp.s
 
 # target to generate assembly for a file
 grsmoke.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.s
 .PHONY : grsmoke.cpp.s
 
 grtexture.obj: grtexture.cpp.obj
@@ -733,7 +723,7 @@ grtexture.obj: grtexture.cpp.obj
 
 # target to build an object file
 grtexture.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.obj
 .PHONY : grtexture.cpp.obj
 
 grtexture.i: grtexture.cpp.i
@@ -741,7 +731,7 @@ grtexture.i: grtexture.cpp.i
 
 # target to preprocess a source file
 grtexture.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.i
 .PHONY : grtexture.cpp.i
 
 grtexture.s: grtexture.cpp.s
@@ -749,7 +739,7 @@ grtexture.s: grtexture.cpp.s
 
 # target to generate assembly for a file
 grtexture.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.s
 .PHONY : grtexture.cpp.s
 
 grtracklight.obj: grtracklight.cpp.obj
@@ -757,7 +747,7 @@ grtracklight.obj: grtracklight.cpp.obj
 
 # target to build an object file
 grtracklight.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.obj
 .PHONY : grtracklight.cpp.obj
 
 grtracklight.i: grtracklight.cpp.i
@@ -765,7 +755,7 @@ grtracklight.i: grtracklight.cpp.i
 
 # target to preprocess a source file
 grtracklight.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.i
 .PHONY : grtracklight.cpp.i
 
 grtracklight.s: grtracklight.cpp.s
@@ -773,7 +763,7 @@ grtracklight.s: grtracklight.cpp.s
 
 # target to generate assembly for a file
 grtracklight.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.s
 .PHONY : grtracklight.cpp.s
 
 grtrackmap.obj: grtrackmap.cpp.obj
@@ -781,7 +771,7 @@ grtrackmap.obj: grtrackmap.cpp.obj
 
 # target to build an object file
 grtrackmap.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.obj
 .PHONY : grtrackmap.cpp.obj
 
 grtrackmap.i: grtrackmap.cpp.i
@@ -789,7 +779,7 @@ grtrackmap.i: grtrackmap.cpp.i
 
 # target to preprocess a source file
 grtrackmap.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.i
 .PHONY : grtrackmap.cpp.i
 
 grtrackmap.s: grtrackmap.cpp.s
@@ -797,7 +787,7 @@ grtrackmap.s: grtrackmap.cpp.s
 
 # target to generate assembly for a file
 grtrackmap.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.s
 .PHONY : grtrackmap.cpp.s
 
 grutil.obj: grutil.cpp.obj
@@ -805,7 +795,7 @@ grutil.obj: grutil.cpp.obj
 
 # target to build an object file
 grutil.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.obj
 .PHONY : grutil.cpp.obj
 
 grutil.i: grutil.cpp.i
@@ -813,7 +803,7 @@ grutil.i: grutil.cpp.i
 
 # target to preprocess a source file
 grutil.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.i
 .PHONY : grutil.cpp.i
 
 grutil.s: grutil.cpp.s
@@ -821,7 +811,7 @@ grutil.s: grutil.cpp.s
 
 # target to generate assembly for a file
 grutil.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.s
 .PHONY : grutil.cpp.s
 
 grvtxtable.obj: grvtxtable.cpp.obj
@@ -829,7 +819,7 @@ grvtxtable.obj: grvtxtable.cpp.obj
 
 # target to build an object file
 grvtxtable.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.obj
 .PHONY : grvtxtable.cpp.obj
 
 grvtxtable.i: grvtxtable.cpp.i
@@ -837,7 +827,7 @@ grvtxtable.i: grvtxtable.cpp.i
 
 # target to preprocess a source file
 grvtxtable.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.i
 .PHONY : grvtxtable.cpp.i
 
 grvtxtable.s: grvtxtable.cpp.s
@@ -845,7 +835,7 @@ grvtxtable.s: grvtxtable.cpp.s
 
 # target to generate assembly for a file
 grvtxtable.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.s
 .PHONY : grvtxtable.cpp.s
 
 ssggraph.obj: ssggraph.cpp.obj
@@ -853,7 +843,7 @@ ssggraph.obj: ssggraph.cpp.obj
 
 # target to build an object file
 ssggraph.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.obj
 .PHONY : ssggraph.cpp.obj
 
 ssggraph.i: ssggraph.cpp.i
@@ -861,7 +851,7 @@ ssggraph.i: ssggraph.cpp.i
 
 # target to preprocess a source file
 ssggraph.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.i
 .PHONY : ssggraph.cpp.i
 
 ssggraph.s: ssggraph.cpp.s
@@ -869,7 +859,7 @@ ssggraph.s: ssggraph.cpp.s
 
 # target to generate assembly for a file
 ssggraph.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/build.make src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.s
 .PHONY : ssggraph.cpp.s
 
 # Help Target
@@ -881,7 +871,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -985,6 +974,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

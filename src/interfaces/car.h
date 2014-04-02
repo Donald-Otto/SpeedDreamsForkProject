@@ -761,6 +761,7 @@ typedef struct CarElt
 #define PRM_TACHO_MAXANG	"tachometer max angle"
 
 #define PRM_SPEEDO_TEX		"speedometer texture"
+#define PRM_SPEEDO_TEX_MPH	"speedometer mph texture"
 #define PRM_SPEEDO_XSZ		"speedometer width"
 #define PRM_SPEEDO_YSZ		"speedometer height"
 #define PRM_SPEEDO_XPOS		"speedometer x pos"
@@ -773,6 +774,8 @@ typedef struct CarElt
 #define PRM_SPEEDO_YDIGITCENTER	"speedometer digit y center"
 #define PRM_SPEEDO_MINVAL	"speedometer min value"
 #define PRM_SPEEDO_MAXVAL	"speedometer max value"
+#define PRM_SPEEDO_MINVAL_MPH	"speedometer mph min value"
+#define PRM_SPEEDO_MAXVAL_MPH	"speedometer mph max value"
 #define PRM_SPEEDO_MINANG	"speedometer min angle"
 #define PRM_SPEEDO_MAXANG	"speedometer max angle"
 #define PRM_SPEEDO_DIGITAL      "speedometer digital"

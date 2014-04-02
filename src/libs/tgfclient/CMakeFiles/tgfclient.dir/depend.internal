@@ -30,9 +30,9 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/control.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/control.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -66,10 +66,10 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -105,14 +105,14 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -156,9 +156,9 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiapplication.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiapplication.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -192,12 +192,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guibutton.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guibutton.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -231,12 +231,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicheckbox.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicheckbox.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -270,12 +270,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicombobox.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicombobox.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -309,12 +309,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiedit.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiedit.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -348,9 +348,9 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guieventloop.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guieventloop.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -384,11 +384,11 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -424,12 +424,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guihelp.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guihelp.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -463,12 +463,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiimage.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiimage.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -502,13 +502,13 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guilabel.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guilabel.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -544,13 +544,13 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -586,12 +586,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiobject.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiobject.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -627,12 +627,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiprogresbar.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiprogresbar.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -666,12 +666,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -707,12 +707,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollbar.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollbar.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -746,12 +746,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollist.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollist.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -792,10 +792,10 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj
  C:/MinGW/msys/1.0/local/include/png.h
  C:/MinGW/msys/1.0/local/include/pngconf.h
  C:/MinGW/msys/1.0/local/include/pnglibconf.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guitexture.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guitexture.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -838,13 +838,13 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/ul.h
  C:/MinGW/msys/1.0/local/include/vorbis/codec.h
  C:/MinGW/msys/1.0/local/include/vorbis/vorbisfile.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  config.h
  src/interfaces/sound.h
  src/libs/portability/portability.h
@@ -858,24 +858,24 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj
  C:/MinGW/msys/1.0/local/include/ogg/os_types.h
  C:/MinGW/msys/1.0/local/include/vorbis/codec.h
  C:/MinGW/msys/1.0/local/include/vorbis/vorbisfile.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj
  C:/MinGW/msys/1.0/local/include/AL/al.h
  C:/MinGW/msys/1.0/local/include/AL/alc.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.h
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/SDL.h
  C:/MinGW/msys/1.0/local/include/SDL/SDL_active.h
@@ -905,12 +905,12 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h

@@ -1302,7 +1302,7 @@ void grInitBoardCar(tCarElt *car)
   int index = car->index; /* current car's index */
   tgrCarInfo *carInfo = &grCarInfo[index];
   void *handle = car->_carHandle;
-
+  
   /* Set tachometer/speedometer textures search path :
    1) driver level specified, in the user settings,
    2) driver level specified,
@@ -1431,11 +1431,23 @@ void grInitBoardCar(tCarElt *car)
   curInst = &(carInfo->instrument[1]);
 
   /* Load the Speedometer texture */
-  param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
-
+  char buf[1024];
+  snprintf(buf, sizeof(buf), "%s%s", GfLocalDir(), RACE_ENG_CFG);
+  void *paramHandle = GfParmReadFile(buf, GFPARM_RMODE_REREAD | GFPARM_RMODE_CREAT);
+  const char* speedType=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_TYPE,"KPH");
+  if (strcmp(speedType,"MPH")==0){
+	printf("%s",PRM_SPEEDO_TEX_MPH);
+	param=GfParmGetStr(handle,SECT_GROBJECTS, PRM_SPEEDO_TEX_MPH, "speed360mph.png");
+  }else
+	param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
+	
+  
   curInst->texture = (ssgSimpleState*)grSsgLoadTexState(param);
   if (curInst->texture == 0)
+	//if MPH==false
     curInst->texture = (ssgSimpleState*)grSsgLoadTexState("speed360.rgb");
+    //if MPH==true
+		//curInst->texture = (ssgSimpleState*)grSsgLoadTexState("speed360_mph.rgb");
 
   free(grFilePath);
 

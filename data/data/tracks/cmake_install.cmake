@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,16 +29,16 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/data/tracks" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/circuit.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/development.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/dirt.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/gprix.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/karting.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/objects.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/physics.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/road.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/speedway.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/surfaces.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/circuit.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/development.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/dirt.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/gprix.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/karting.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/objects.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/physics.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/road.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/speedway.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/surfaces.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

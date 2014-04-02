@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/libs/portability/CMakeFiles/portability.dir/depend.make
@@ -55,17 +55,17 @@ include src/libs/portability/CMakeFiles/portability.dir/flags.make
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj: src/libs/portability/CMakeFiles/portability.dir/flags.make
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj: src/libs/portability/CMakeFiles/portability.dir/includes_CXX.rsp
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj: src/libs/portability/portability.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/portability.dir/portability.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/portability.dir/portability.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.cpp"
 
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/portability.dir/portability.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.cpp" > CMakeFiles/portability.dir/portability.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.cpp" > CMakeFiles/portability.dir/portability.cpp.i
 
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/portability.dir/portability.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/portability.cpp" -o CMakeFiles/portability.dir/portability.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/portability.cpp" -o CMakeFiles/portability.dir/portability.cpp.s
 
 src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj.requires:
 .PHONY : src/libs/portability/CMakeFiles/portability.dir/portability.cpp.obj.requires
@@ -87,9 +87,9 @@ bin/libportability.dll: src/libs/portability/CMakeFiles/portability.dir/portabil
 bin/libportability.dll: src/libs/portability/CMakeFiles/portability.dir/build.make
 bin/libportability.dll: src/libs/portability/CMakeFiles/portability.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../bin/libportability.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/portability.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && /c/MinGW/bin/ar.exe cr CMakeFiles/portability.dir/objects.a @CMakeFiles/portability.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libportability.dll -Wl,--out-implib,libportability.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/portability.dir/objects.a -Wl,--no-whole-archive -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/portability.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && /c/MinGW/bin/ar.exe cr CMakeFiles/portability.dir/objects.a @CMakeFiles/portability.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libportability.dll -Wl,--out-implib,libportability.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/portability.dir/objects.a -Wl,--no-whole-archive -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/libs/portability/CMakeFiles/portability.dir/build: bin/libportability.dll
@@ -99,10 +99,10 @@ src/libs/portability/CMakeFiles/portability.dir/requires: src/libs/portability/C
 .PHONY : src/libs/portability/CMakeFiles/portability.dir/requires
 
 src/libs/portability/CMakeFiles/portability.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" && $(CMAKE_COMMAND) -P CMakeFiles/portability.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" && $(CMAKE_COMMAND) -P CMakeFiles/portability.dir/cmake_clean.cmake
 .PHONY : src/libs/portability/CMakeFiles/portability.dir/clean
 
 src/libs/portability/CMakeFiles/portability.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/portability/CMakeFiles/portability.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/libs/portability/CMakeFiles/portability.dir/depend
 

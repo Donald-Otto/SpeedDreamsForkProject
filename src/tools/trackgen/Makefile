@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/trackgen/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/trackgen/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/rule
 .PHONY : src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ sd2-trackgen: src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/rule
 
 # fast build rule for target.
 sd2-trackgen/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build
 .PHONY : sd2-trackgen/fast
 
 ac3d.obj: ac3d.cpp.obj
@@ -181,7 +171,7 @@ ac3d.obj: ac3d.cpp.obj
 
 # target to build an object file
 ac3d.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.obj
 .PHONY : ac3d.cpp.obj
 
 ac3d.i: ac3d.cpp.i
@@ -189,7 +179,7 @@ ac3d.i: ac3d.cpp.i
 
 # target to preprocess a source file
 ac3d.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.i
 .PHONY : ac3d.cpp.i
 
 ac3d.s: ac3d.cpp.s
@@ -197,7 +187,7 @@ ac3d.s: ac3d.cpp.s
 
 # target to generate assembly for a file
 ac3d.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.s
 .PHONY : ac3d.cpp.s
 
 easymesh.obj: easymesh.cpp.obj
@@ -205,7 +195,7 @@ easymesh.obj: easymesh.cpp.obj
 
 # target to build an object file
 easymesh.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.obj
 .PHONY : easymesh.cpp.obj
 
 easymesh.i: easymesh.cpp.i
@@ -213,7 +203,7 @@ easymesh.i: easymesh.cpp.i
 
 # target to preprocess a source file
 easymesh.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.i
 .PHONY : easymesh.cpp.i
 
 easymesh.s: easymesh.cpp.s
@@ -221,7 +211,7 @@ easymesh.s: easymesh.cpp.s
 
 # target to generate assembly for a file
 easymesh.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.s
 .PHONY : easymesh.cpp.s
 
 elevation.obj: elevation.cpp.obj
@@ -229,7 +219,7 @@ elevation.obj: elevation.cpp.obj
 
 # target to build an object file
 elevation.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.obj
 .PHONY : elevation.cpp.obj
 
 elevation.i: elevation.cpp.i
@@ -237,7 +227,7 @@ elevation.i: elevation.cpp.i
 
 # target to preprocess a source file
 elevation.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.i
 .PHONY : elevation.cpp.i
 
 elevation.s: elevation.cpp.s
@@ -245,7 +235,7 @@ elevation.s: elevation.cpp.s
 
 # target to generate assembly for a file
 elevation.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.s
 .PHONY : elevation.cpp.s
 
 main.obj: main.cpp.obj
@@ -253,7 +243,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -261,7 +251,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -269,7 +259,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 objects.obj: objects.cpp.obj
@@ -277,7 +267,7 @@ objects.obj: objects.cpp.obj
 
 # target to build an object file
 objects.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.obj
 .PHONY : objects.cpp.obj
 
 objects.i: objects.cpp.i
@@ -285,7 +275,7 @@ objects.i: objects.cpp.i
 
 # target to preprocess a source file
 objects.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.i
 .PHONY : objects.cpp.i
 
 objects.s: objects.cpp.s
@@ -293,7 +283,7 @@ objects.s: objects.cpp.s
 
 # target to generate assembly for a file
 objects.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.s
 .PHONY : objects.cpp.s
 
 relief.obj: relief.cpp.obj
@@ -301,7 +291,7 @@ relief.obj: relief.cpp.obj
 
 # target to build an object file
 relief.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.obj
 .PHONY : relief.cpp.obj
 
 relief.i: relief.cpp.i
@@ -309,7 +299,7 @@ relief.i: relief.cpp.i
 
 # target to preprocess a source file
 relief.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.i
 .PHONY : relief.cpp.i
 
 relief.s: relief.cpp.s
@@ -317,7 +307,7 @@ relief.s: relief.cpp.s
 
 # target to generate assembly for a file
 relief.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.s
 .PHONY : relief.cpp.s
 
 track.obj: track.cpp.obj
@@ -325,7 +315,7 @@ track.obj: track.cpp.obj
 
 # target to build an object file
 track.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.obj
 .PHONY : track.cpp.obj
 
 track.i: track.cpp.i
@@ -333,7 +323,7 @@ track.i: track.cpp.i
 
 # target to preprocess a source file
 track.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.i
 .PHONY : track.cpp.i
 
 track.s: track.cpp.s
@@ -341,7 +331,7 @@ track.s: track.cpp.s
 
 # target to generate assembly for a file
 track.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.s
 .PHONY : track.cpp.s
 
 util.obj: util.cpp.obj
@@ -349,7 +339,7 @@ util.obj: util.cpp.obj
 
 # target to build an object file
 util.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.obj
 .PHONY : util.cpp.obj
 
 util.i: util.cpp.i
@@ -357,7 +347,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -365,7 +355,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/build.make src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -377,7 +367,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -418,6 +407,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

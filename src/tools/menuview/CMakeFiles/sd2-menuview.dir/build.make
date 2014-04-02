@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend.make
@@ -55,17 +55,17 @@ include src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj: src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj: src/tools/menuview/CMakeFiles/sd2-menuview.dir/includes_CXX.rsp
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj: src/tools/menuview/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/main.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/main.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/main.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/main.cpp"
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-menuview.dir/main.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/main.cpp" > CMakeFiles/sd2-menuview.dir/main.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/main.cpp" > CMakeFiles/sd2-menuview.dir/main.cpp.i
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-menuview.dir/main.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/main.cpp" -o CMakeFiles/sd2-menuview.dir/main.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/main.cpp" -o CMakeFiles/sd2-menuview.dir/main.cpp.s
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj.requires:
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj.requires
@@ -79,17 +79,17 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj.provides.build: src/
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj: src/tools/menuview/CMakeFiles/sd2-menuview.dir/flags.make
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj: src/tools/menuview/CMakeFiles/sd2-menuview.dir/includes_CXX.rsp
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj: src/tools/menuview/previewmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.cpp"
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.cpp" > CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.cpp" > CMakeFiles/sd2-menuview.dir/previewmenu.cpp.i
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.cpp" -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.cpp" -o CMakeFiles/sd2-menuview.dir/previewmenu.cpp.s
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj.requires:
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj.requires
@@ -150,9 +150,9 @@ bin/sd2-menuview.exe: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 bin/sd2-menuview.exe: C:/MinGW/msys/1.0/local/lib/libplibul.a
 bin/sd2-menuview.exe: src/tools/menuview/CMakeFiles/sd2-menuview.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/sd2-menuview.exe"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-menuview.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-menuview.dir/objects.a @CMakeFiles/sd2-menuview.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-menuview.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-menuview.exe -Wl,--out-implib,libsd2-menuview.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/tgfclient/libtgfclient.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibssg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lmingw32 ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-menuview.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-menuview.dir/objects.a @CMakeFiles/sd2-menuview.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-menuview.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-menuview.exe -Wl,--out-implib,libsd2-menuview.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../libs/portability/libportability.dll.a ../../libs/robottools/librobottools.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/tgfclient/libtgfclient.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibssg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lmingw32 ../../modules/networking/libnetworking.dll.a ../../libs/tgf/libtgf.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/build: bin/sd2-menuview.exe
@@ -163,10 +163,10 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/requires: src/tools/menuview/CMak
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/requires
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-menuview.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-menuview.dir/cmake_clean.cmake
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/clean
 
 src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/CMakeFiles/sd2-menuview.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/CMakeFiles/sd2-menuview.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/tools/menuview/CMakeFiles/sd2-menuview.dir/depend
 

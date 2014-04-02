@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend.make
@@ -55,17 +55,17 @@ include src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj: src/libs/tgfdata/tgfdata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tgfdata.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tgfdata.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/tgfdata.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.cpp" > CMakeFiles/tgfdata.dir/tgfdata.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.cpp" > CMakeFiles/tgfdata.dir/tgfdata.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/tgfdata.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tgfdata.cpp" -o CMakeFiles/tgfdata.dir/tgfdata.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tgfdata.cpp" -o CMakeFiles/tgfdata.dir/tgfdata.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj.requires
@@ -79,17 +79,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.obj.provides.build: src/libs
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj: src/libs/tgfdata/cars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/cars.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/cars.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/cars.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.cpp" > CMakeFiles/tgfdata.dir/cars.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.cpp" > CMakeFiles/tgfdata.dir/cars.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/cars.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/cars.cpp" -o CMakeFiles/tgfdata.dir/cars.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/cars.cpp" -o CMakeFiles/tgfdata.dir/cars.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj.requires
@@ -103,17 +103,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.obj.provides.build: src/libs/tg
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj: src/libs/tgfdata/tracks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tracks.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/tracks.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/tracks.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.cpp" > CMakeFiles/tgfdata.dir/tracks.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.cpp" > CMakeFiles/tgfdata.dir/tracks.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/tracks.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/tracks.cpp" -o CMakeFiles/tgfdata.dir/tracks.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/tracks.cpp" -o CMakeFiles/tgfdata.dir/tracks.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj.requires
@@ -127,17 +127,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.obj.provides.build: src/libs/
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj: src/libs/tgfdata/racemanagers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/racemanagers.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/racemanagers.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/racemanagers.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.cpp" > CMakeFiles/tgfdata.dir/racemanagers.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.cpp" > CMakeFiles/tgfdata.dir/racemanagers.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/racemanagers.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/racemanagers.cpp" -o CMakeFiles/tgfdata.dir/racemanagers.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/racemanagers.cpp" -o CMakeFiles/tgfdata.dir/racemanagers.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj.requires
@@ -151,17 +151,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.obj.provides.build: src
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj: src/libs/tgfdata/race.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/race.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/race.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/race.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/race.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/race.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/race.cpp" > CMakeFiles/tgfdata.dir/race.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/race.cpp" > CMakeFiles/tgfdata.dir/race.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/race.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/race.cpp" -o CMakeFiles/tgfdata.dir/race.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/race.cpp" -o CMakeFiles/tgfdata.dir/race.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj.requires
@@ -175,17 +175,17 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.obj.provides.build: src/libs/tg
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/flags.make
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj: src/libs/tgfdata/CMakeFiles/tgfdata.dir/includes_CXX.rsp
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj: src/libs/tgfdata/drivers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/drivers.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfdata.dir/drivers.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.cpp"
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfdata.dir/drivers.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.cpp" > CMakeFiles/tgfdata.dir/drivers.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.cpp" > CMakeFiles/tgfdata.dir/drivers.cpp.i
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfdata.dir/drivers.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/drivers.cpp" -o CMakeFiles/tgfdata.dir/drivers.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/drivers.cpp" -o CMakeFiles/tgfdata.dir/drivers.cpp.s
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj.requires:
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.obj.requires
@@ -226,9 +226,9 @@ bin/libtgfdata.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 bin/libtgfdata.dll: C:/MinGW/msys/1.0/local/lib/libexpat.dll.a
 bin/libtgfdata.dll: src/libs/tgfdata/CMakeFiles/tgfdata.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../bin/libtgfdata.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/tgfdata.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/ar.exe cr CMakeFiles/tgfdata.dir/objects.a @CMakeFiles/tgfdata.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libtgfdata.dll -Wl,--out-implib,libtgfdata.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/tgfdata.dir/objects.a -Wl,--no-whole-archive ../portability/libportability.dll.a ../tgf/libtgf.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/tgfdata.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/ar.exe cr CMakeFiles/tgfdata.dir/objects.a @CMakeFiles/tgfdata.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libtgfdata.dll -Wl,--out-implib,libtgfdata.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/tgfdata.dir/objects.a -Wl,--no-whole-archive ../portability/libportability.dll.a ../tgf/libtgf.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/build: bin/libtgfdata.dll
@@ -243,10 +243,10 @@ src/libs/tgfdata/CMakeFiles/tgfdata.dir/requires: src/libs/tgfdata/CMakeFiles/tg
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/requires
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" && $(CMAKE_COMMAND) -P CMakeFiles/tgfdata.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" && $(CMAKE_COMMAND) -P CMakeFiles/tgfdata.dir/cmake_clean.cmake
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/clean
 
 src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfdata/CMakeFiles/tgfdata.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/libs/tgfdata/CMakeFiles/tgfdata.dir/depend
 

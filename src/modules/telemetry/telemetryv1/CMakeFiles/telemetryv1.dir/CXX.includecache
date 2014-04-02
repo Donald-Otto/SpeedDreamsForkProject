@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetry.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetry.cpp
 memory.h
 -
 sys/types.h
@@ -22,9 +22,9 @@ portability.h
 telemetry.h
 -
 tlm.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/tlm.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/tlm.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/telemetryitf.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/telemetryitf.cpp
 cstdlib
 -
 windows.h
@@ -34,9 +34,9 @@ tgf.h
 telemetry.h
 -
 tlm.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/tlm.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/tlm.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/telemetry/telemetryv1/tlm.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/telemetry/telemetryv1/tlm.h
 
 config.h
 

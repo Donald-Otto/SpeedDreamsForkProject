@@ -60,11 +60,11 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/cardata.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/cardata.cpp
 cardata.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/cardata.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/cardata.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/cardata.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/cardata.h
 stdio.h
 -
 math.h
@@ -78,13 +78,13 @@ robottools.h
 raceman.h
 -
 linalg.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/linalg.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/linalg.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.cpp
 driver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 stdio.h
 -
 stdlib.h
@@ -108,33 +108,29 @@ robot.h
 portability.h
 -
 opponent.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/opponent.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/opponent.h
 pit.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/pit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/pit.h
 strategy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/strategy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/strategy.h
 cardata.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/cardata.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/cardata.h
 raceline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/raceline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/raceline.h
 mod.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/mod.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/mod.h
 xmldefs.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/xmldefs.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/xmldefs.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/linalg.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/linalg.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/mod.cpp
-mod.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/mod.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/mod.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/mod.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/opponent.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/opponent.cpp
 opponent.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/opponent.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/opponent.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/opponent.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/opponent.h
 stdio.h
 -
 stdlib.h
@@ -156,23 +152,23 @@ robottools.h
 robot.h
 -
 driver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 cardata.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/cardata.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/cardata.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/pit.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/pit.cpp
 pit.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/pit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/pit.h
 xmldefs.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/xmldefs.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/xmldefs.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/pit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/pit.h
 driver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 spline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/spline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/spline.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/raceline.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/raceline.cpp
 math.h
 -
 stdio.h
@@ -182,43 +178,39 @@ stdlib.h
 string.h
 -
 tgf.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/tgf.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/tgf.h
 track.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/track.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/track.h
 car.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/car.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/car.h
 raceman.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/raceman.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/raceman.h
 robot.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/robot.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/robot.h
 robottools.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/robottools.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/robottools.h
 raceline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/raceline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/raceline.h
 spline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/spline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/spline.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/raceline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/raceline.h
 linalg.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/linalg.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/linalg.h
 mod.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/mod.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/mod.h
 xmldefs.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/xmldefs.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/xmldefs.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/spline.cpp
-spline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/spline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/spline.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/spline.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/strategy.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/strategy.cpp
 strategy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/strategy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/strategy.h
 xmldefs.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/xmldefs.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/xmldefs.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/strategy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/strategy.h
 stdio.h
 -
 stdlib.h
@@ -242,9 +234,9 @@ robot.h
 teammanager.h
 -
 driver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/usr.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/usr.cpp
 windows.h
 -
 stdio.h
@@ -268,9 +260,9 @@ robottools.h
 robot.h
 -
 driver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/driver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/driver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr/src/xmldefs.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr/src/xmldefs.h
 
 config.h
 

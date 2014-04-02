@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Utility rule file for tracks_xml.
 
@@ -59,10 +59,10 @@ data/data/tracks/CMakeFiles/tracks_xml.dir/build: tracks_xml
 .PHONY : data/data/tracks/CMakeFiles/tracks_xml.dir/build
 
 data/data/tracks/CMakeFiles/tracks_xml.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks" && $(CMAKE_COMMAND) -P CMakeFiles/tracks_xml.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks" && $(CMAKE_COMMAND) -P CMakeFiles/tracks_xml.dir/cmake_clean.cmake
 .PHONY : data/data/tracks/CMakeFiles/tracks_xml.dir/clean
 
 data/data/tracks/CMakeFiles/tracks_xml.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/tracks/CMakeFiles/tracks_xml.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/tracks/CMakeFiles/tracks_xml.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : data/data/tracks/CMakeFiles/tracks_xml.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,21 +29,21 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/car.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/graphic.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/playerpref.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/raceman.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/replay.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/robot.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/telemetry.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/track.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/iraceengine.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/iuserinterface.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/igraphicsengine.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/iphysicsengine.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/itrackloader.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/isoundengine.h"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/interfaces/camera.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/car.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/graphic.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/playerpref.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/raceman.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/replay.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/robot.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/telemetry.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/track.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/iraceengine.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/iuserinterface.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/igraphicsengine.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/iphysicsengine.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/itrackloader.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/isoundengine.h"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/interfaces/camera.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

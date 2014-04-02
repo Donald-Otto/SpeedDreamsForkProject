@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 .PHONY : src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ standardgame: src/modules/racing/standardgame/CMakeFiles/standardgame.dir/rule
 
 # fast build rule for target.
 standardgame/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build
 .PHONY : standardgame/fast
 
 racecareer.obj: racecareer.cpp.obj
@@ -181,7 +171,7 @@ racecareer.obj: racecareer.cpp.obj
 
 # target to build an object file
 racecareer.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj
 .PHONY : racecareer.cpp.obj
 
 racecareer.i: racecareer.cpp.i
@@ -189,7 +179,7 @@ racecareer.i: racecareer.cpp.i
 
 # target to preprocess a source file
 racecareer.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.i
 .PHONY : racecareer.cpp.i
 
 racecareer.s: racecareer.cpp.s
@@ -197,7 +187,7 @@ racecareer.s: racecareer.cpp.s
 
 # target to generate assembly for a file
 racecareer.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.s
 .PHONY : racecareer.cpp.s
 
 racecars.obj: racecars.cpp.obj
@@ -205,7 +195,7 @@ racecars.obj: racecars.cpp.obj
 
 # target to build an object file
 racecars.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj
 .PHONY : racecars.cpp.obj
 
 racecars.i: racecars.cpp.i
@@ -213,7 +203,7 @@ racecars.i: racecars.cpp.i
 
 # target to preprocess a source file
 racecars.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.i
 .PHONY : racecars.cpp.i
 
 racecars.s: racecars.cpp.s
@@ -221,7 +211,7 @@ racecars.s: racecars.cpp.s
 
 # target to generate assembly for a file
 racecars.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.s
 .PHONY : racecars.cpp.s
 
 raceinit.obj: raceinit.cpp.obj
@@ -229,7 +219,7 @@ raceinit.obj: raceinit.cpp.obj
 
 # target to build an object file
 raceinit.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj
 .PHONY : raceinit.cpp.obj
 
 raceinit.i: raceinit.cpp.i
@@ -237,7 +227,7 @@ raceinit.i: raceinit.cpp.i
 
 # target to preprocess a source file
 raceinit.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.i
 .PHONY : raceinit.cpp.i
 
 raceinit.s: raceinit.cpp.s
@@ -245,7 +235,7 @@ raceinit.s: raceinit.cpp.s
 
 # target to generate assembly for a file
 raceinit.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.s
 .PHONY : raceinit.cpp.s
 
 racemain.obj: racemain.cpp.obj
@@ -253,7 +243,7 @@ racemain.obj: racemain.cpp.obj
 
 # target to build an object file
 racemain.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj
 .PHONY : racemain.cpp.obj
 
 racemain.i: racemain.cpp.i
@@ -261,7 +251,7 @@ racemain.i: racemain.cpp.i
 
 # target to preprocess a source file
 racemain.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.i
 .PHONY : racemain.cpp.i
 
 racemain.s: racemain.cpp.s
@@ -269,7 +259,7 @@ racemain.s: racemain.cpp.s
 
 # target to generate assembly for a file
 racemain.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.s
 .PHONY : racemain.cpp.s
 
 racemessage.obj: racemessage.cpp.obj
@@ -277,7 +267,7 @@ racemessage.obj: racemessage.cpp.obj
 
 # target to build an object file
 racemessage.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj
 .PHONY : racemessage.cpp.obj
 
 racemessage.i: racemessage.cpp.i
@@ -285,7 +275,7 @@ racemessage.i: racemessage.cpp.i
 
 # target to preprocess a source file
 racemessage.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.i
 .PHONY : racemessage.cpp.i
 
 racemessage.s: racemessage.cpp.s
@@ -293,7 +283,7 @@ racemessage.s: racemessage.cpp.s
 
 # target to generate assembly for a file
 racemessage.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.s
 .PHONY : racemessage.cpp.s
 
 racenetwork.obj: racenetwork.cpp.obj
@@ -301,7 +291,7 @@ racenetwork.obj: racenetwork.cpp.obj
 
 # target to build an object file
 racenetwork.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj
 .PHONY : racenetwork.cpp.obj
 
 racenetwork.i: racenetwork.cpp.i
@@ -309,7 +299,7 @@ racenetwork.i: racenetwork.cpp.i
 
 # target to preprocess a source file
 racenetwork.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.i
 .PHONY : racenetwork.cpp.i
 
 racenetwork.s: racenetwork.cpp.s
@@ -317,7 +307,7 @@ racenetwork.s: racenetwork.cpp.s
 
 # target to generate assembly for a file
 racenetwork.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.s
 .PHONY : racenetwork.cpp.s
 
 raceresults.obj: raceresults.cpp.obj
@@ -325,7 +315,7 @@ raceresults.obj: raceresults.cpp.obj
 
 # target to build an object file
 raceresults.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj
 .PHONY : raceresults.cpp.obj
 
 raceresults.i: raceresults.cpp.i
@@ -333,7 +323,7 @@ raceresults.i: raceresults.cpp.i
 
 # target to preprocess a source file
 raceresults.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.i
 .PHONY : raceresults.cpp.i
 
 raceresults.s: raceresults.cpp.s
@@ -341,7 +331,7 @@ raceresults.s: raceresults.cpp.s
 
 # target to generate assembly for a file
 raceresults.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.s
 .PHONY : raceresults.cpp.s
 
 racesimusimu.obj: racesimusimu.cpp.obj
@@ -349,7 +339,7 @@ racesimusimu.obj: racesimusimu.cpp.obj
 
 # target to build an object file
 racesimusimu.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj
 .PHONY : racesimusimu.cpp.obj
 
 racesimusimu.i: racesimusimu.cpp.i
@@ -357,7 +347,7 @@ racesimusimu.i: racesimusimu.cpp.i
 
 # target to preprocess a source file
 racesimusimu.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.i
 .PHONY : racesimusimu.cpp.i
 
 racesimusimu.s: racesimusimu.cpp.s
@@ -365,7 +355,7 @@ racesimusimu.s: racesimusimu.cpp.s
 
 # target to generate assembly for a file
 racesimusimu.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.s
 .PHONY : racesimusimu.cpp.s
 
 racesituation.obj: racesituation.cpp.obj
@@ -373,7 +363,7 @@ racesituation.obj: racesituation.cpp.obj
 
 # target to build an object file
 racesituation.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.obj
 .PHONY : racesituation.cpp.obj
 
 racesituation.i: racesituation.cpp.i
@@ -381,7 +371,7 @@ racesituation.i: racesituation.cpp.i
 
 # target to preprocess a source file
 racesituation.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.i
 .PHONY : racesituation.cpp.i
 
 racesituation.s: racesituation.cpp.s
@@ -389,7 +379,7 @@ racesituation.s: racesituation.cpp.s
 
 # target to generate assembly for a file
 racesituation.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.s
 .PHONY : racesituation.cpp.s
 
 racestate.obj: racestate.cpp.obj
@@ -397,7 +387,7 @@ racestate.obj: racestate.cpp.obj
 
 # target to build an object file
 racestate.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj
 .PHONY : racestate.cpp.obj
 
 racestate.i: racestate.cpp.i
@@ -405,7 +395,7 @@ racestate.i: racestate.cpp.i
 
 # target to preprocess a source file
 racestate.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.i
 .PHONY : racestate.cpp.i
 
 racestate.s: racestate.cpp.s
@@ -413,7 +403,7 @@ racestate.s: racestate.cpp.s
 
 # target to generate assembly for a file
 racestate.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.s
 .PHONY : racestate.cpp.s
 
 racetrack.obj: racetrack.cpp.obj
@@ -421,7 +411,7 @@ racetrack.obj: racetrack.cpp.obj
 
 # target to build an object file
 racetrack.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj
 .PHONY : racetrack.cpp.obj
 
 racetrack.i: racetrack.cpp.i
@@ -429,7 +419,7 @@ racetrack.i: racetrack.cpp.i
 
 # target to preprocess a source file
 racetrack.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.i
 .PHONY : racetrack.cpp.i
 
 racetrack.s: racetrack.cpp.s
@@ -437,7 +427,7 @@ racetrack.s: racetrack.cpp.s
 
 # target to generate assembly for a file
 racetrack.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.s
 .PHONY : racetrack.cpp.s
 
 raceupdate.obj: raceupdate.cpp.obj
@@ -445,7 +435,7 @@ raceupdate.obj: raceupdate.cpp.obj
 
 # target to build an object file
 raceupdate.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj
 .PHONY : raceupdate.cpp.obj
 
 raceupdate.i: raceupdate.cpp.i
@@ -453,7 +443,7 @@ raceupdate.i: raceupdate.cpp.i
 
 # target to preprocess a source file
 raceupdate.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.i
 .PHONY : raceupdate.cpp.i
 
 raceupdate.s: raceupdate.cpp.s
@@ -461,7 +451,7 @@ raceupdate.s: raceupdate.cpp.s
 
 # target to generate assembly for a file
 raceupdate.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.s
 .PHONY : raceupdate.cpp.s
 
 raceutil.obj: raceutil.cpp.obj
@@ -469,7 +459,7 @@ raceutil.obj: raceutil.cpp.obj
 
 # target to build an object file
 raceutil.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj
 .PHONY : raceutil.cpp.obj
 
 raceutil.i: raceutil.cpp.i
@@ -477,7 +467,7 @@ raceutil.i: raceutil.cpp.i
 
 # target to preprocess a source file
 raceutil.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.i
 .PHONY : raceutil.cpp.i
 
 raceutil.s: raceutil.cpp.s
@@ -485,7 +475,7 @@ raceutil.s: raceutil.cpp.s
 
 # target to generate assembly for a file
 raceutil.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.s
 .PHONY : raceutil.cpp.s
 
 standardgame.obj: standardgame.cpp.obj
@@ -493,7 +483,7 @@ standardgame.obj: standardgame.cpp.obj
 
 # target to build an object file
 standardgame.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj
 .PHONY : standardgame.cpp.obj
 
 standardgame.i: standardgame.cpp.i
@@ -501,7 +491,7 @@ standardgame.i: standardgame.cpp.i
 
 # target to preprocess a source file
 standardgame.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.i
 .PHONY : standardgame.cpp.i
 
 standardgame.s: standardgame.cpp.s
@@ -509,7 +499,7 @@ standardgame.s: standardgame.cpp.s
 
 # target to generate assembly for a file
 standardgame.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/modules/racing/standardgame/CMakeFiles/standardgame.dir/build.make src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.s
 .PHONY : standardgame.cpp.s
 
 # Help Target
@@ -521,7 +511,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -580,6 +569,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

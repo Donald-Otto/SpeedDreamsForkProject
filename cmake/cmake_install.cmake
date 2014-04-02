@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,14 +29,14 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/cmake" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/splitargn.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/robot.def.in.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindENET.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindPLIB.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindSOLID.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindOGG.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindVORBISFILE.cmake"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/cmake/FindVORBIS.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/splitargn.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/robot.def.in.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindENET.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindPLIB.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindSOLID.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindOGG.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindVORBISFILE.cmake"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/cmake/FindVORBIS.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

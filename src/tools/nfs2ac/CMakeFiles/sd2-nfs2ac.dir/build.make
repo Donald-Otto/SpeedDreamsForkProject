@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/depend.make
@@ -55,17 +55,17 @@ include src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/flags.make
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj: src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/flags.make
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj: src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/includes_CXX.rsp
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj: src/tools/nfs2ac/mainnfs2ac.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac/mainnfs2ac.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac/mainnfs2ac.cpp"
 
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac/mainnfs2ac.cpp" > CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac/mainnfs2ac.cpp" > CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.i
 
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac/mainnfs2ac.cpp" -o CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac/mainnfs2ac.cpp" -o CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.s
 
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj.requires:
 .PHONY : src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.obj.requires
@@ -87,9 +87,9 @@ bin/sd2-nfs2ac.exe: src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.ob
 bin/sd2-nfs2ac.exe: src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/build.make
 bin/sd2-nfs2ac.exe: src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/sd2-nfs2ac.exe"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-nfs2ac.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-nfs2ac.dir/objects.a @CMakeFiles/sd2-nfs2ac.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-nfs2ac.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-nfs2ac.exe -Wl,--out-implib,libsd2-nfs2ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/sd2-nfs2ac.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && /c/MinGW/bin/ar.exe cr CMakeFiles/sd2-nfs2ac.dir/objects.a @CMakeFiles/sd2-nfs2ac.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && /c/MinGW/bin/g++.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles/sd2-nfs2ac.dir/objects.a -Wl,--no-whole-archive  -o ../../../bin/sd2-nfs2ac.exe -Wl,--out-implib,libsd2-nfs2ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/build: bin/sd2-nfs2ac.exe
@@ -99,10 +99,10 @@ src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/requires: src/tools/nfs2ac/CMakeFiles
 .PHONY : src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/requires
 
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-nfs2ac.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" && $(CMAKE_COMMAND) -P CMakeFiles/sd2-nfs2ac.dir/cmake_clean.cmake
 .PHONY : src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/clean
 
 src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/depend
 

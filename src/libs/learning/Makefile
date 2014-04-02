@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/learning/CMakeFiles/learning.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/CMakeFiles/learning.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/learning/CMakeFiles/learning.dir/rule
 .PHONY : src/libs/learning/CMakeFiles/learning.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ learning: src/libs/learning/CMakeFiles/learning.dir/rule
 
 # fast build rule for target.
 learning/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/build
 .PHONY : learning/fast
 
 ANN.obj: ANN.cpp.obj
@@ -181,7 +171,7 @@ ANN.obj: ANN.cpp.obj
 
 # target to build an object file
 ANN.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.obj
 .PHONY : ANN.cpp.obj
 
 ANN.i: ANN.cpp.i
@@ -189,7 +179,7 @@ ANN.i: ANN.cpp.i
 
 # target to preprocess a source file
 ANN.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.i
 .PHONY : ANN.cpp.i
 
 ANN.s: ANN.cpp.s
@@ -197,7 +187,7 @@ ANN.s: ANN.cpp.s
 
 # target to generate assembly for a file
 ANN.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.s
 .PHONY : ANN.cpp.s
 
 Distribution.obj: Distribution.cpp.obj
@@ -205,7 +195,7 @@ Distribution.obj: Distribution.cpp.obj
 
 # target to build an object file
 Distribution.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.obj
 .PHONY : Distribution.cpp.obj
 
 Distribution.i: Distribution.cpp.i
@@ -213,7 +203,7 @@ Distribution.i: Distribution.cpp.i
 
 # target to preprocess a source file
 Distribution.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.i
 .PHONY : Distribution.cpp.i
 
 Distribution.s: Distribution.cpp.s
@@ -221,7 +211,7 @@ Distribution.s: Distribution.cpp.s
 
 # target to generate assembly for a file
 Distribution.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.s
 .PHONY : Distribution.cpp.s
 
 List.obj: List.cpp.obj
@@ -229,7 +219,7 @@ List.obj: List.cpp.obj
 
 # target to build an object file
 List.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.obj
 .PHONY : List.cpp.obj
 
 List.i: List.cpp.i
@@ -237,7 +227,7 @@ List.i: List.cpp.i
 
 # target to preprocess a source file
 List.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.i
 .PHONY : List.cpp.i
 
 List.s: List.cpp.s
@@ -245,7 +235,7 @@ List.s: List.cpp.s
 
 # target to generate assembly for a file
 List.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/List.cpp.s
 .PHONY : List.cpp.s
 
 MathFunctions.obj: MathFunctions.cpp.obj
@@ -253,7 +243,7 @@ MathFunctions.obj: MathFunctions.cpp.obj
 
 # target to build an object file
 MathFunctions.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.obj
 .PHONY : MathFunctions.cpp.obj
 
 MathFunctions.i: MathFunctions.cpp.i
@@ -261,7 +251,7 @@ MathFunctions.i: MathFunctions.cpp.i
 
 # target to preprocess a source file
 MathFunctions.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.i
 .PHONY : MathFunctions.cpp.i
 
 MathFunctions.s: MathFunctions.cpp.s
@@ -269,7 +259,7 @@ MathFunctions.s: MathFunctions.cpp.s
 
 # target to generate assembly for a file
 MathFunctions.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.s
 .PHONY : MathFunctions.cpp.s
 
 ann_policy.obj: ann_policy.cpp.obj
@@ -277,7 +267,7 @@ ann_policy.obj: ann_policy.cpp.obj
 
 # target to build an object file
 ann_policy.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.obj
 .PHONY : ann_policy.cpp.obj
 
 ann_policy.i: ann_policy.cpp.i
@@ -285,7 +275,7 @@ ann_policy.i: ann_policy.cpp.i
 
 # target to preprocess a source file
 ann_policy.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.i
 .PHONY : ann_policy.cpp.i
 
 ann_policy.s: ann_policy.cpp.s
@@ -293,7 +283,7 @@ ann_policy.s: ann_policy.cpp.s
 
 # target to generate assembly for a file
 ann_policy.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.s
 .PHONY : ann_policy.cpp.s
 
 policy.obj: policy.cpp.obj
@@ -301,7 +291,7 @@ policy.obj: policy.cpp.obj
 
 # target to build an object file
 policy.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.obj
 .PHONY : policy.cpp.obj
 
 policy.i: policy.cpp.i
@@ -309,7 +299,7 @@ policy.i: policy.cpp.i
 
 # target to preprocess a source file
 policy.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.i
 .PHONY : policy.cpp.i
 
 policy.s: policy.cpp.s
@@ -317,7 +307,7 @@ policy.s: policy.cpp.s
 
 # target to generate assembly for a file
 policy.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/policy.cpp.s
 .PHONY : policy.cpp.s
 
 string_utils.obj: string_utils.cpp.obj
@@ -325,7 +315,7 @@ string_utils.obj: string_utils.cpp.obj
 
 # target to build an object file
 string_utils.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.obj
 .PHONY : string_utils.cpp.obj
 
 string_utils.i: string_utils.cpp.i
@@ -333,7 +323,7 @@ string_utils.i: string_utils.cpp.i
 
 # target to preprocess a source file
 string_utils.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.i
 .PHONY : string_utils.cpp.i
 
 string_utils.s: string_utils.cpp.s
@@ -341,7 +331,7 @@ string_utils.s: string_utils.cpp.s
 
 # target to generate assembly for a file
 string_utils.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/learning/CMakeFiles/learning.dir/build.make src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.s
 .PHONY : string_utils.cpp.s
 
 # Help Target
@@ -353,7 +343,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... learning"
 	@echo "... list_install_components"
 	@echo "... package"
@@ -391,6 +380,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

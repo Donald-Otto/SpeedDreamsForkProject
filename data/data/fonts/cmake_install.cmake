@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,19 +29,19 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/data/fonts" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/b5.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/b6.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/b7.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/digital.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/droid-sans-bold.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/droid-sans-normal.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/fragile.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/jura-normal.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/liberation-sans-bold.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/liberation-sans-normal.glf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/DejaVuLGCSans.ttf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/Vera.ttf"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/data/fonts/VeraMono.ttf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/b5.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/b6.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/b7.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/digital.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/droid-sans-bold.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/droid-sans-normal.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/fragile.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/jura-normal.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/liberation-sans-bold.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/liberation-sans-normal.glf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/DejaVuLGCSans.ttf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/Vera.ttf"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/data/fonts/VeraMono.ttf"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -60,9 +60,9 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/cardata.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/cardata.cpp
 src/drivers/kilo2008/cardata.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/cardata.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/cardata.h
 robottools.h
 -
 list
@@ -70,11 +70,11 @@ list
 algorithm
 -
 src/drivers/kilo2008/linalg.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/linalg.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/linalg.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/kdriver.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/kdriver.cpp
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 portability.h
 -
 robottools.h
@@ -88,17 +88,17 @@ list
 string
 -
 src/drivers/kilo2008/opponent.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/opponent.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/opponent.h
 src/drivers/kilo2008/strategy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/strategy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/strategy.h
 src/drivers/kilo2008/pit.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/pit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/pit.h
 src/drivers/kilo2008/raceline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/raceline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/raceline.h
 src/drivers/kilo2008/util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/util.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/util.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/kilo2008.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/kilo2008.cpp
 windows.h
 -
 robot.h
@@ -112,11 +112,11 @@ vector
 utility
 -
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/opponent.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/opponent.cpp
 src/drivers/kilo2008/opponent.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/opponent.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/opponent.h
 list
 -
 string
@@ -124,19 +124,19 @@ string
 algorithm
 -
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 src/drivers/kilo2008/util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/util.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/util.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/pit.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/pit.cpp
 src/drivers/kilo2008/pit.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/pit.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/pit.h
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/raceline.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/raceline.cpp
 src/drivers/kilo2008/raceline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/raceline.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/raceline.h
 robottools.h
 -
 utility
@@ -144,29 +144,19 @@ utility
 algorithm
 -
 src/drivers/kilo2008/linalg.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/linalg.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/linalg.h
 src/drivers/kilo2008/util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/util.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/util.h
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/spline.cpp
-src/drivers/kilo2008/spline.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/spline.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/strategy.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/strategy.cpp
 src/drivers/kilo2008/strategy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/strategy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/strategy.h
 deque
 -
 src/drivers/kilo2008/kdriver.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
-
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/util.cpp
-src/drivers/kilo2008/util.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/kilo2008/src/drivers/kilo2008/util.h
-cmath
--
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/kilo2008/src/drivers/kilo2008/kdriver.h
 
 config.h
 

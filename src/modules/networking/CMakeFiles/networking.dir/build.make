@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/networking/CMakeFiles/networking.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/includes_CXX.rsp
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj: src/modules/networking/network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/network.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/network.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.cpp"
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/network.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.cpp" > CMakeFiles/networking.dir/network.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.cpp" > CMakeFiles/networking.dir/network.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/network.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/network.cpp" -o CMakeFiles/networking.dir/network.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/network.cpp" -o CMakeFiles/networking.dir/network.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/networking/CMakeFiles/networking.dir/network.cpp.obj.provides.build:
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/includes_CXX.rsp
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj: src/modules/networking/server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/server.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/server.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/server.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/server.cpp"
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/server.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/server.cpp" > CMakeFiles/networking.dir/server.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/server.cpp" > CMakeFiles/networking.dir/server.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/server.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/server.cpp" -o CMakeFiles/networking.dir/server.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/server.cpp" -o CMakeFiles/networking.dir/server.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj.requires
@@ -103,17 +103,17 @@ src/modules/networking/CMakeFiles/networking.dir/server.cpp.obj.provides.build: 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/includes_CXX.rsp
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj: src/modules/networking/client.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/client.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/client.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/client.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/client.cpp"
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/client.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/client.cpp" > CMakeFiles/networking.dir/client.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/client.cpp" > CMakeFiles/networking.dir/client.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/client.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/client.cpp" -o CMakeFiles/networking.dir/client.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/client.cpp" -o CMakeFiles/networking.dir/client.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj.requires
@@ -127,17 +127,17 @@ src/modules/networking/CMakeFiles/networking.dir/client.cpp.obj.provides.build: 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/includes_CXX.rsp
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj: src/modules/networking/robotxml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/robotxml.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/robotxml.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.cpp"
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/robotxml.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.cpp" > CMakeFiles/networking.dir/robotxml.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.cpp" > CMakeFiles/networking.dir/robotxml.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/robotxml.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/robotxml.cpp" -o CMakeFiles/networking.dir/robotxml.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/robotxml.cpp" -o CMakeFiles/networking.dir/robotxml.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj.requires
@@ -151,17 +151,17 @@ src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.obj.provides.build
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/flags.make
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj: src/modules/networking/CMakeFiles/networking.dir/includes_CXX.rsp
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj: src/modules/networking/pack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/pack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/networking.dir/pack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.cpp"
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/networking.dir/pack.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.cpp" > CMakeFiles/networking.dir/pack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.cpp" > CMakeFiles/networking.dir/pack.cpp.i
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/networking.dir/pack.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/pack.cpp" -o CMakeFiles/networking.dir/pack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/pack.cpp" -o CMakeFiles/networking.dir/pack.cpp.s
 
 src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj.requires:
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/pack.cpp.obj.requires
@@ -204,9 +204,9 @@ bin/libnetworking.dll: src/libs/portability/libportability.dll.a
 bin/libnetworking.dll: C:/MinGW/msys/1.0/local/lib/libexpat.dll.a
 bin/libnetworking.dll: src/modules/networking/CMakeFiles/networking.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../bin/libnetworking.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/networking.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/ar.exe cr CMakeFiles/networking.dir/objects.a @CMakeFiles/networking.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libnetworking.dll -Wl,--out-implib,libnetworking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/networking.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libenet.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lWinmm -lws2_32 ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/networking.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/ar.exe cr CMakeFiles/networking.dir/objects.a @CMakeFiles/networking.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libnetworking.dll -Wl,--out-implib,libnetworking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/networking.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libenet.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lWinmm -lws2_32 ../../libs/portability/libportability.dll.a ../../libs/tgf/libtgf.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a ../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/networking/CMakeFiles/networking.dir/build: bin/libnetworking.dll
@@ -220,10 +220,10 @@ src/modules/networking/CMakeFiles/networking.dir/requires: src/modules/networkin
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/requires
 
 src/modules/networking/CMakeFiles/networking.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" && $(CMAKE_COMMAND) -P CMakeFiles/networking.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" && $(CMAKE_COMMAND) -P CMakeFiles/networking.dir/cmake_clean.cmake
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/clean
 
 src/modules/networking/CMakeFiles/networking.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/networking/CMakeFiles/networking.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/networking/CMakeFiles/networking.dir/depend
 

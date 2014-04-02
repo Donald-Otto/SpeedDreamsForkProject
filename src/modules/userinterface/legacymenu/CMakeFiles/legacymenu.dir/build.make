@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.mak
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj: src/modules/userinterface/legacymenu/mainscreens/splash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/splash.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/splash.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/splash.cpp" > CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/splash.cpp" > CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/splash.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/splash.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splas
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj: src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.obj.requires
@@ -103,17 +103,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainm
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj: src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.obj.requires
@@ -127,17 +127,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optio
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj: src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.obj.requires
@@ -151,17 +151,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/credi
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj: src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp" > CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp" -o CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.obj.requires
@@ -175,17 +175,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitm
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.obj.requires
@@ -199,17 +199,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playe
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.obj.requires
@@ -223,17 +223,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/contr
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.obj.requires
@@ -247,17 +247,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joyst
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.obj.requires
@@ -271,17 +271,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouse
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.obj.requires
@@ -295,17 +295,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2b
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.obj.requires
@@ -319,17 +319,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displ
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.obj.requires
@@ -343,17 +343,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graph
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.obj.requires
@@ -367,17 +367,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openg
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.obj.requires
@@ -391,17 +391,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monit
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.obj.requires
@@ -415,17 +415,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advan
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.obj.requires
@@ -439,17 +439,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuc
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.obj.requires
@@ -463,17 +463,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/sound
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj: src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp" > CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp" -o CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.obj.requires
@@ -487,17 +487,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aicon
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp" > CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp" > CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp" -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp" -o CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.obj.requires
@@ -511,17 +511,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carse
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj: src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp" > CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp" > CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp" -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp" -o CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.obj.requires
@@ -535,17 +535,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hosts
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.obj.requires
@@ -559,17 +559,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.obj.requires
@@ -583,17 +583,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racem
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj: src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.obj.requires
@@ -607,17 +607,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/files
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.obj.requires
@@ -631,17 +631,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/netwo
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj: src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.obj.requires
@@ -655,17 +655,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racec
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj: src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.obj.requires
@@ -679,17 +679,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/track
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj: src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp" > CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp" -o CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.obj.requires
@@ -703,17 +703,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/drive
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.obj.requires
@@ -727,17 +727,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garag
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.obj.requires
@@ -751,17 +751,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.obj.requires
@@ -775,17 +775,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racel
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp" > CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp" > CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.obj.requires
@@ -799,17 +799,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.obj.requires
@@ -823,17 +823,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.obj.requires
@@ -847,17 +847,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.obj.requires
@@ -871,17 +871,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj: src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp" > CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp" -o CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.obj.requires
@@ -895,17 +895,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj: src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp" > CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp" -o CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.obj.requires
@@ -919,17 +919,17 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racen
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/flags.make
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/includes_CXX.rsp
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj: src/modules/userinterface/legacymenu/legacymenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/legacymenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/legacymenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/legacymenu.dir/legacymenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/legacymenu.cpp"
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacymenu.dir/legacymenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/legacymenu.cpp" > CMakeFiles/legacymenu.dir/legacymenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/legacymenu.cpp" > CMakeFiles/legacymenu.dir/legacymenu.cpp.i
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacymenu.dir/legacymenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/legacymenu.cpp" -o CMakeFiles/legacymenu.dir/legacymenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/legacymenu.cpp" -o CMakeFiles/legacymenu.dir/legacymenu.cpp.s
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj.requires:
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.obj.requires
@@ -1054,9 +1054,9 @@ lib/modules/userinterface/legacymenu.dll: C:/MinGW/msys/1.0/local/lib/libplibul.
 lib/modules/userinterface/legacymenu.dll: C:/MinGW/msys/1.0/local/lib/libplibsg.a
 lib/modules/userinterface/legacymenu.dll: src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib/modules/userinterface/legacymenu.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/legacymenu.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/ar.exe cr CMakeFiles/legacymenu.dir/objects.a @CMakeFiles/legacymenu.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/userinterface/legacymenu.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/legacymenu.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../../libs/tgfdata/libtgfdata.dll.a ../../networking/libnetworking.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibjs.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/legacymenu.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/ar.exe cr CMakeFiles/legacymenu.dir/objects.a @CMakeFiles/legacymenu.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/userinterface/legacymenu.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/legacymenu.dir/objects.a -Wl,--no-whole-archive ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../../libs/tgfdata/libtgfdata.dll.a ../../networking/libnetworking.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibjs.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/build: lib/modules/userinterface/legacymenu.dll
@@ -1102,10 +1102,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/requires: src/mod
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/requires
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" && $(CMAKE_COMMAND) -P CMakeFiles/legacymenu.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" && $(CMAKE_COMMAND) -P CMakeFiles/legacymenu.dir/cmake_clean.cmake
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/clean
 
 src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/depend
 

@@ -4,10 +4,10 @@
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -32,13 +32,13 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -64,15 +64,15 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -107,17 +107,17 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecareer.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecareer.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -143,9 +143,9 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -174,11 +174,11 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
  src/interfaces/iraceengine.h
@@ -199,12 +199,12 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -227,11 +227,11 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -279,14 +279,14 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.ob
  C:/MinGW/msys/1.0/local/include/enet/win32.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racecars.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemessage.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racecars.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemessage.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -310,15 +310,15 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.ob
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
  src/interfaces/iraceengine.h
@@ -338,11 +338,11 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racetrack.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racetrack.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -366,14 +366,14 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racenetwork.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceresults.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesimusimu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racenetwork.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceresults.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesimusimu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  config.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
@@ -396,8 +396,8 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceutil.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceutil.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/robot.h
@@ -413,13 +413,13 @@ src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.obj
 src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.obj
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceinit.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racemain.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racesituation.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/racestate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/raceupdate.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/racing/standardgame/standardgame.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceinit.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racemain.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racesituation.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/racestate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/raceupdate.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/racing/standardgame/standardgame.h
  src/interfaces/car.h
  src/interfaces/iphysicsengine.h
  src/interfaces/iraceengine.h

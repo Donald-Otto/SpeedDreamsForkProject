@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -104,7 +94,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CPackSourceConfig.cmake"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && "/c/Program Files (x86)/CMake 2.8/bin/cpack.exe" --config ./CPackSourceConfig.cmake "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +123,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/CMakeFiles/progress.marks"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/CMakeFiles/progress.marks"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/clean
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/preinstall
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/robottools/CMakeFiles/robottools.dir/rule:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/CMakeFiles/robottools.dir/rule
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f CMakeFiles/Makefile2 src/libs/robottools/CMakeFiles/robottools.dir/rule
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rule
 
 # Convenience name for target.
@@ -173,7 +163,7 @@ robottools: src/libs/robottools/CMakeFiles/robottools.dir/rule
 
 # fast build rule for target.
 robottools/fast:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/build
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/build
 .PHONY : robottools/fast
 
 rthumandriver.obj: rthumandriver.cpp.obj
@@ -181,7 +171,7 @@ rthumandriver.obj: rthumandriver.cpp.obj
 
 # target to build an object file
 rthumandriver.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj
 .PHONY : rthumandriver.cpp.obj
 
 rthumandriver.i: rthumandriver.cpp.i
@@ -189,7 +179,7 @@ rthumandriver.i: rthumandriver.cpp.i
 
 # target to preprocess a source file
 rthumandriver.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.i
 .PHONY : rthumandriver.cpp.i
 
 rthumandriver.s: rthumandriver.cpp.s
@@ -197,7 +187,7 @@ rthumandriver.s: rthumandriver.cpp.s
 
 # target to generate assembly for a file
 rthumandriver.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.s
 .PHONY : rthumandriver.cpp.s
 
 rtteammanager.obj: rtteammanager.cpp.obj
@@ -205,7 +195,7 @@ rtteammanager.obj: rtteammanager.cpp.obj
 
 # target to build an object file
 rtteammanager.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj
 .PHONY : rtteammanager.cpp.obj
 
 rtteammanager.i: rtteammanager.cpp.i
@@ -213,7 +203,7 @@ rtteammanager.i: rtteammanager.cpp.i
 
 # target to preprocess a source file
 rtteammanager.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.i
 .PHONY : rtteammanager.cpp.i
 
 rtteammanager.s: rtteammanager.cpp.s
@@ -221,7 +211,7 @@ rtteammanager.s: rtteammanager.cpp.s
 
 # target to generate assembly for a file
 rtteammanager.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.s
 .PHONY : rtteammanager.cpp.s
 
 rttelem.obj: rttelem.cpp.obj
@@ -229,7 +219,7 @@ rttelem.obj: rttelem.cpp.obj
 
 # target to build an object file
 rttelem.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj
 .PHONY : rttelem.cpp.obj
 
 rttelem.i: rttelem.cpp.i
@@ -237,7 +227,7 @@ rttelem.i: rttelem.cpp.i
 
 # target to preprocess a source file
 rttelem.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.i
 .PHONY : rttelem.cpp.i
 
 rttelem.s: rttelem.cpp.s
@@ -245,7 +235,7 @@ rttelem.s: rttelem.cpp.s
 
 # target to generate assembly for a file
 rttelem.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.s
 .PHONY : rttelem.cpp.s
 
 rttimeanalysis.obj: rttimeanalysis.cpp.obj
@@ -253,7 +243,7 @@ rttimeanalysis.obj: rttimeanalysis.cpp.obj
 
 # target to build an object file
 rttimeanalysis.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj
 .PHONY : rttimeanalysis.cpp.obj
 
 rttimeanalysis.i: rttimeanalysis.cpp.i
@@ -261,7 +251,7 @@ rttimeanalysis.i: rttimeanalysis.cpp.i
 
 # target to preprocess a source file
 rttimeanalysis.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
 .PHONY : rttimeanalysis.cpp.i
 
 rttimeanalysis.s: rttimeanalysis.cpp.s
@@ -269,7 +259,7 @@ rttimeanalysis.s: rttimeanalysis.cpp.s
 
 # target to generate assembly for a file
 rttimeanalysis.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
 .PHONY : rttimeanalysis.cpp.s
 
 rttrack.obj: rttrack.cpp.obj
@@ -277,7 +267,7 @@ rttrack.obj: rttrack.cpp.obj
 
 # target to build an object file
 rttrack.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj
 .PHONY : rttrack.cpp.obj
 
 rttrack.i: rttrack.cpp.i
@@ -285,7 +275,7 @@ rttrack.i: rttrack.cpp.i
 
 # target to preprocess a source file
 rttrack.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.i
 .PHONY : rttrack.cpp.i
 
 rttrack.s: rttrack.cpp.s
@@ -293,7 +283,7 @@ rttrack.s: rttrack.cpp.s
 
 # target to generate assembly for a file
 rttrack.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.s
 .PHONY : rttrack.cpp.s
 
 rtutil.obj: rtutil.cpp.obj
@@ -301,7 +291,7 @@ rtutil.obj: rtutil.cpp.obj
 
 # target to build an object file
 rtutil.cpp.obj:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj
 .PHONY : rtutil.cpp.obj
 
 rtutil.i: rtutil.cpp.i
@@ -309,7 +299,7 @@ rtutil.i: rtutil.cpp.i
 
 # target to preprocess a source file
 rtutil.cpp.i:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.i
 .PHONY : rtutil.cpp.i
 
 rtutil.s: rtutil.cpp.s
@@ -317,7 +307,7 @@ rtutil.s: rtutil.cpp.s
 
 # target to generate assembly for a file
 rtutil.cpp.s:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(MAKE) -f src/libs/robottools/CMakeFiles/robottools.dir/build.make src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.s
 .PHONY : rtutil.cpp.s
 
 # Help Target
@@ -329,7 +319,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"
@@ -364,6 +353,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

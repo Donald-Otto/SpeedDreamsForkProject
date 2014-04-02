@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ANN.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ANN.cpp
 ANN.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ANN.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ANN.h
 string_utils.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/string_utils.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/string_utils.h
 Distribution.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/Distribution.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/Distribution.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ANN.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ANN.h
 cassert
 -
 cstdio
@@ -24,17 +24,17 @@ cstdlib
 cmath
 -
 learn_debug.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learn_debug.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learn_debug.h
 string_utils.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/string_utils.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/string_utils.h
 List.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/List.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/List.h
 real.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/real.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/real.h
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/Distribution.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/Distribution.cpp
 cstdio
 -
 cstdlib
@@ -42,25 +42,25 @@ cstdlib
 cmath
 -
 Distribution.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/Distribution.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/Distribution.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/Distribution.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/Distribution.h
 cmath
 -
 iostream
 -
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 real.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/real.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/real.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/List.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/List.cpp
 List.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/List.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/List.h
 learn_debug.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learn_debug.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learn_debug.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/List.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/List.h
 cstdlib
 -
 cstdio
@@ -68,53 +68,53 @@ cstdio
 cassert
 -
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/MathFunctions.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/MathFunctions.cpp
 MathFunctions.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/MathFunctions.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/MathFunctions.h
 cmath
 -
 cassert
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/MathFunctions.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/MathFunctions.h
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 real.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/real.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/real.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ann_policy.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ann_policy.cpp
 ann_policy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ann_policy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ann_policy.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ann_policy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ann_policy.h
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 policy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/policy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/policy.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learn_debug.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learn_debug.h
 real.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/real.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/real.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/policy.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/policy.cpp
 cstring
 -
 learn_debug.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learn_debug.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learn_debug.h
 policy.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/policy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/policy.h
 MathFunctions.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/MathFunctions.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/MathFunctions.h
 float.h
 -
 portability.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/policy.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/policy.h
 cmath
 -
 cstdlib
@@ -122,17 +122,17 @@ cstdlib
 cstdio
 -
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 ANN.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/ANN.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/ANN.h
 Distribution.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/Distribution.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/Distribution.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/real.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/real.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/string_utils.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/string_utils.cpp
 string_utils.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/string_utils.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/string_utils.h
 stdarg.h
 -
 stdlib.h
@@ -142,7 +142,7 @@ stdio.h
 portability.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/string_utils.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/string_utils.h
 cstdio
 -
 cstdlib
@@ -150,9 +150,9 @@ cstdlib
 cstring
 -
 learning.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learning.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learning.h
 learn_debug.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/learning/learn_debug.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/learning/learn_debug.h
 
 config.h
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/modules/track/trackv1/CMakeFiles/trackv1.dir/depend.make
@@ -55,17 +55,17 @@ include src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/includes_CXX.rsp
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj: src/modules/track/trackv1/track.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track.cpp"
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trackv1.dir/track.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track.cpp" > CMakeFiles/trackv1.dir/track.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track.cpp" > CMakeFiles/trackv1.dir/track.cpp.i
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trackv1.dir/track.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track.cpp" -o CMakeFiles/trackv1.dir/track.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track.cpp" -o CMakeFiles/trackv1.dir/track.cpp.s
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj.requires:
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj.requires
@@ -79,17 +79,17 @@ src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.obj.provides.build: s
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/includes_CXX.rsp
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj: src/modules/track/trackv1/track3.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track3.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track3.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track3.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track3.cpp"
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trackv1.dir/track3.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track3.cpp" > CMakeFiles/trackv1.dir/track3.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track3.cpp" > CMakeFiles/trackv1.dir/track3.cpp.i
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trackv1.dir/track3.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track3.cpp" -o CMakeFiles/trackv1.dir/track3.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track3.cpp" -o CMakeFiles/trackv1.dir/track3.cpp.s
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj.requires:
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj.requires
@@ -103,17 +103,17 @@ src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.obj.provides.build: 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/includes_CXX.rsp
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj: src/modules/track/trackv1/track4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track4.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track4.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/track4.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track4.cpp"
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trackv1.dir/track4.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track4.cpp" > CMakeFiles/trackv1.dir/track4.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track4.cpp" > CMakeFiles/trackv1.dir/track4.cpp.i
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trackv1.dir/track4.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/track4.cpp" -o CMakeFiles/trackv1.dir/track4.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/track4.cpp" -o CMakeFiles/trackv1.dir/track4.cpp.s
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj.requires:
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj.requires
@@ -127,17 +127,17 @@ src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.obj.provides.build: 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/includes_CXX.rsp
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj: src/modules/track/trackv1/trackitf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/trackitf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/trackitf.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackitf.cpp"
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trackv1.dir/trackitf.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.cpp" > CMakeFiles/trackv1.dir/trackitf.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackitf.cpp" > CMakeFiles/trackv1.dir/trackitf.cpp.i
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trackv1.dir/trackitf.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackitf.cpp" -o CMakeFiles/trackv1.dir/trackitf.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackitf.cpp" -o CMakeFiles/trackv1.dir/trackitf.cpp.s
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj.requires:
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj.requires
@@ -151,17 +151,17 @@ src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.obj.provides.build
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/flags.make
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj: src/modules/track/trackv1/CMakeFiles/trackv1.dir/includes_CXX.rsp
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj: src/modules/track/trackv1/trackutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/trackutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackutil.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trackv1.dir/trackutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackutil.cpp"
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trackv1.dir/trackutil.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackutil.cpp" > CMakeFiles/trackv1.dir/trackutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackutil.cpp" > CMakeFiles/trackv1.dir/trackutil.cpp.i
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trackv1.dir/trackutil.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/trackutil.cpp" -o CMakeFiles/trackv1.dir/trackutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/trackutil.cpp" -o CMakeFiles/trackv1.dir/trackutil.cpp.s
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj.requires:
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.obj.requires
@@ -224,9 +224,9 @@ lib/modules/track/trackv1.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 lib/modules/track/trackv1.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 lib/modules/track/trackv1.dll: src/modules/track/trackv1/CMakeFiles/trackv1.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../../../../lib/modules/track/trackv1.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/trackv1.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/ar.exe cr CMakeFiles/trackv1.dir/objects.a @CMakeFiles/trackv1.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/track/trackv1.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/trackv1.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/robottools/librobottools.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/trackv1.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/ar.exe cr CMakeFiles/trackv1.dir/objects.a @CMakeFiles/trackv1.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && /c/MinGW/bin/g++.exe     -shared -o ../../../../lib/modules/track/trackv1.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/trackv1.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a ../../../libs/portability/libportability.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/robottools/librobottools.dll.a ../../../libs/tgfclient/libtgfclient.dll.a ../../networking/libnetworking.dll.a ../../../libs/tgf/libtgf.dll.a ../../../libs/portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/build: lib/modules/track/trackv1.dll
@@ -240,10 +240,10 @@ src/modules/track/trackv1/CMakeFiles/trackv1.dir/requires: src/modules/track/tra
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/requires
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" && $(CMAKE_COMMAND) -P CMakeFiles/trackv1.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" && $(CMAKE_COMMAND) -P CMakeFiles/trackv1.dir/cmake_clean.cmake
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/clean
 
 src/modules/track/trackv1/CMakeFiles/trackv1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/track/trackv1/CMakeFiles/trackv1.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/track/trackv1/CMakeFiles/trackv1.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/modules/track/trackv1/CMakeFiles/trackv1.dir/depend
 

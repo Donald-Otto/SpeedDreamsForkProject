@@ -30,9 +30,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advan
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
  config.h
  src/interfaces/graphic.h
  src/libs/portability/portability.h
@@ -72,9 +72,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aicon
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/aiconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/aiconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -129,9 +129,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carse
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -179,12 +179,12 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/contr
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.h
  src/interfaces/car.h
  src/interfaces/playerpref.h
  src/interfaces/raceman.h
@@ -230,9 +230,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displ
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/displayconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/displayconfig.h
  src/interfaces/camera.h
  src/interfaces/igraphicsengine.h
  src/interfaces/iraceengine.h
@@ -274,9 +274,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graph
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/graphconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/graphconfig.h
  config.h
  src/interfaces/graphic.h
  src/libs/portability/portability.h
@@ -323,9 +323,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hosts
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.h
  src/interfaces/car.h
  src/interfaces/raceman.h
  src/interfaces/track.h
@@ -372,10 +372,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2b
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joy2butconfig.h
  src/interfaces/playerpref.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
@@ -412,10 +412,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joyst
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/joystickconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/joystickconfig.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -451,9 +451,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monit
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/monitorconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/monitorconfig.h
  src/interfaces/camera.h
  src/interfaces/graphic.h
  src/interfaces/igraphicsengine.h
@@ -496,10 +496,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouse
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/mouseconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/mouseconfig.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -535,9 +535,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openg
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/openglconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/openglconfig.h
  config.h
  src/interfaces/camera.h
  src/interfaces/igraphicsengine.h
@@ -583,10 +583,10 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playe
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/playerconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/controlconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/playerconfig.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -641,9 +641,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuc
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/simuconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/simuconfig.h
  config.h
  src/interfaces/car.h
  src/interfaces/raceman.h
@@ -692,9 +692,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/sound
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/confscreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/confscreens/soundconfig.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/confscreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/confscreens/soundconfig.h
  src/interfaces/camera.h
  src/interfaces/igraphicsengine.h
  src/interfaces/iraceengine.h
@@ -738,8 +738,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.ob
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/legacymenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/legacymenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/legacymenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/legacymenu.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -798,7 +798,7 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/credi
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -834,9 +834,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitm
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.h
  src/interfaces/camera.h
  src/interfaces/igraphicsengine.h
  src/interfaces/iraceengine.h
@@ -879,11 +879,11 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainm
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/exitmenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/mainmenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/creditsmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/exitmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/mainmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -931,8 +931,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optio
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/optionsmenu.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -977,8 +977,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splas
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/splash.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/mainscreens/splash.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/splash.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/mainscreens/splash.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -1016,9 +1016,9 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/drive
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/driverselect.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -1070,8 +1070,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/files
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/fileselect.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -1116,8 +1116,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garag
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/garagemenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/garagemenu.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h
@@ -1165,8 +1165,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/netwo
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1229,8 +1229,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racec
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1287,8 +1287,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racel
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h
  src/interfaces/raceman.h
@@ -1341,8 +1341,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racem
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1405,8 +1405,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racen
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1463,8 +1463,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/car.h
  src/interfaces/graphic.h
@@ -1517,8 +1517,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racep
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1572,8 +1572,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1632,8 +1632,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racer
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1688,8 +1688,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp
  src/interfaces/camera.h
  src/interfaces/car.h
  src/interfaces/igraphicsengine.h
@@ -1744,8 +1744,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1804,8 +1804,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/races
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp
  config.h
  src/interfaces/camera.h
  src/interfaces/car.h
@@ -1866,8 +1866,8 @@ src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/track
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/sg.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/racescreens.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/racescreens.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/modules/userinterface/legacymenu/racescreens/trackselect.cpp
  config.h
  src/interfaces/car.h
  src/interfaces/itrackloader.h

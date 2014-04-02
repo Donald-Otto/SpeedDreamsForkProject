@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/libs/robottools/CMakeFiles/robottools.dir/depend.make
@@ -55,17 +55,17 @@ include src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj: src/libs/robottools/rtteammanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtteammanager.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtteammanager.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtteammanager.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtteammanager.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rtteammanager.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtteammanager.cpp" > CMakeFiles/robottools.dir/rtteammanager.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtteammanager.cpp" > CMakeFiles/robottools.dir/rtteammanager.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rtteammanager.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtteammanager.cpp" -o CMakeFiles/robottools.dir/rtteammanager.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtteammanager.cpp" -o CMakeFiles/robottools.dir/rtteammanager.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj.requires
@@ -79,17 +79,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.obj.provides.bui
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj: src/libs/robottools/rttelem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttelem.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttelem.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttelem.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttelem.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttelem.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttelem.cpp" > CMakeFiles/robottools.dir/rttelem.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttelem.cpp" > CMakeFiles/robottools.dir/rttelem.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttelem.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttelem.cpp" -o CMakeFiles/robottools.dir/rttelem.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttelem.cpp" -o CMakeFiles/robottools.dir/rttelem.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj.requires
@@ -103,17 +103,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.obj.provides.build: sr
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj: src/libs/robottools/rttimeanalysis.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttimeanalysis.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttimeanalysis.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttimeanalysis.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttimeanalysis.cpp" > CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttimeanalysis.cpp" > CMakeFiles/robottools.dir/rttimeanalysis.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttimeanalysis.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttimeanalysis.cpp" -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttimeanalysis.cpp" -o CMakeFiles/robottools.dir/rttimeanalysis.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj.requires
@@ -127,17 +127,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.obj.provides.bu
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj: src/libs/robottools/rttrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttrack.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rttrack.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttrack.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rttrack.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttrack.cpp" > CMakeFiles/robottools.dir/rttrack.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttrack.cpp" > CMakeFiles/robottools.dir/rttrack.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rttrack.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rttrack.cpp" -o CMakeFiles/robottools.dir/rttrack.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rttrack.cpp" -o CMakeFiles/robottools.dir/rttrack.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj.requires
@@ -151,17 +151,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.obj.provides.build: sr
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj: src/libs/robottools/rtutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtutil.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rtutil.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtutil.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rtutil.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtutil.cpp" > CMakeFiles/robottools.dir/rtutil.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtutil.cpp" > CMakeFiles/robottools.dir/rtutil.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rtutil.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rtutil.cpp" -o CMakeFiles/robottools.dir/rtutil.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rtutil.cpp" -o CMakeFiles/robottools.dir/rtutil.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj.requires
@@ -175,17 +175,17 @@ src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.obj.provides.build: src
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/flags.make
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj: src/libs/robottools/CMakeFiles/robottools.dir/includes_CXX.rsp
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj: src/libs/robottools/rthumandriver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rthumandriver.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rthumandriver.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/robottools.dir/rthumandriver.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rthumandriver.cpp"
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robottools.dir/rthumandriver.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rthumandriver.cpp" > CMakeFiles/robottools.dir/rthumandriver.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rthumandriver.cpp" > CMakeFiles/robottools.dir/rthumandriver.cpp.i
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robottools.dir/rthumandriver.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/rthumandriver.cpp" -o CMakeFiles/robottools.dir/rthumandriver.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/rthumandriver.cpp" -o CMakeFiles/robottools.dir/rthumandriver.cpp.s
 
 src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj.requires:
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.obj.requires
@@ -249,9 +249,9 @@ bin/librobottools.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 bin/librobottools.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 bin/librobottools.dll: src/libs/robottools/CMakeFiles/robottools.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../bin/librobottools.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/robottools.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/ar.exe cr CMakeFiles/robottools.dir/objects.a @CMakeFiles/robottools.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/librobottools.dll -Wl,--out-implib,librobottools.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/robottools.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm ../portability/libportability.dll.a ../tgf/libtgf.dll.a ../tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../tgf/libtgf.dll.a ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/robottools.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/ar.exe cr CMakeFiles/robottools.dir/objects.a @CMakeFiles/robottools.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/librobottools.dll -Wl,--out-implib,librobottools.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/robottools.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm ../portability/libportability.dll.a ../tgf/libtgf.dll.a ../tgfclient/libtgfclient.dll.a ../../modules/networking/libnetworking.dll.a ../tgf/libtgf.dll.a ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a -lWinmm -lws2_32 /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibul.a /C/MinGW/msys/1.0/local/lib/libplibjs.a -lwinmm /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/libs/robottools/CMakeFiles/robottools.dir/build: bin/librobottools.dll
@@ -266,10 +266,10 @@ src/libs/robottools/CMakeFiles/robottools.dir/requires: src/libs/robottools/CMak
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/requires
 
 src/libs/robottools/CMakeFiles/robottools.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" && $(CMAKE_COMMAND) -P CMakeFiles/robottools.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" && $(CMAKE_COMMAND) -P CMakeFiles/robottools.dir/cmake_clean.cmake
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/clean
 
 src/libs/robottools/CMakeFiles/robottools.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/robottools/CMakeFiles/robottools.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/libs/robottools/CMakeFiles/robottools.dir/depend
 

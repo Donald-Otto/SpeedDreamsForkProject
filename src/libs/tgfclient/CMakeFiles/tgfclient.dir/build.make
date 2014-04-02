@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "/c/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_SOURCE_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta"
+CMAKE_BINARY_DIR = "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject"
 
 # Include any dependencies generated for this target.
 include src/libs/tgfclient/CMakeFiles/tgfclient.dir/depend.make
@@ -55,17 +55,17 @@ include src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj: src/libs/tgfclient/control.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/control.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/control.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/control.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/control.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/control.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/control.cpp" > CMakeFiles/tgfclient.dir/control.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/control.cpp" > CMakeFiles/tgfclient.dir/control.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/control.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/control.cpp" -o CMakeFiles/tgfclient.dir/control.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/control.cpp" -o CMakeFiles/tgfclient.dir/control.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj.requires
@@ -79,17 +79,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.obj.provides.build: src/
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj: src/libs/tgfclient/glfeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/glfeatures.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/glfeatures.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/glfeatures.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.cpp" > CMakeFiles/tgfclient.dir/glfeatures.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.cpp" > CMakeFiles/tgfclient.dir/glfeatures.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/glfeatures.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/glfeatures.cpp" -o CMakeFiles/tgfclient.dir/glfeatures.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/glfeatures.cpp" -o CMakeFiles/tgfclient.dir/glfeatures.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj.requires
@@ -103,17 +103,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.obj.provides.build: s
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj: src/libs/tgfclient/guibutton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guibutton.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guibutton.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guibutton.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guibutton.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guibutton.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guibutton.cpp" > CMakeFiles/tgfclient.dir/guibutton.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guibutton.cpp" > CMakeFiles/tgfclient.dir/guibutton.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guibutton.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guibutton.cpp" -o CMakeFiles/tgfclient.dir/guibutton.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guibutton.cpp" -o CMakeFiles/tgfclient.dir/guibutton.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj.requires
@@ -127,17 +127,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.obj.provides.build: sr
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj: src/libs/tgfclient/guifont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guifont.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guifont.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guifont.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.cpp" > CMakeFiles/tgfclient.dir/guifont.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.cpp" > CMakeFiles/tgfclient.dir/guifont.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guifont.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guifont.cpp" -o CMakeFiles/tgfclient.dir/guifont.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guifont.cpp" -o CMakeFiles/tgfclient.dir/guifont.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj.requires
@@ -151,17 +151,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.obj.provides.build: src/
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj: src/libs/tgfclient/guiimage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiimage.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiimage.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiimage.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiimage.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiimage.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiimage.cpp" > CMakeFiles/tgfclient.dir/guiimage.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiimage.cpp" > CMakeFiles/tgfclient.dir/guiimage.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiimage.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiimage.cpp" -o CMakeFiles/tgfclient.dir/guiimage.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiimage.cpp" -o CMakeFiles/tgfclient.dir/guiimage.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj.requires
@@ -175,17 +175,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.obj.provides.build: src
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj: src/libs/tgfclient/guimenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guimenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guimenu.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guimenu.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.cpp" > CMakeFiles/tgfclient.dir/guimenu.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.cpp" > CMakeFiles/tgfclient.dir/guimenu.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guimenu.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guimenu.cpp" -o CMakeFiles/tgfclient.dir/guimenu.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guimenu.cpp" -o CMakeFiles/tgfclient.dir/guimenu.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj.requires
@@ -199,17 +199,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.obj.provides.build: src/
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj: src/libs/tgfclient/guiscrollbar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollbar.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollbar.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollbar.cpp" > CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollbar.cpp" > CMakeFiles/tgfclient.dir/guiscrollbar.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollbar.cpp" -o CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollbar.cpp" -o CMakeFiles/tgfclient.dir/guiscrollbar.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj.requires
@@ -223,17 +223,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.obj.provides.build:
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj: src/libs/tgfclient/guitexture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guitexture.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guitexture.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guitexture.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guitexture.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guitexture.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guitexture.cpp" > CMakeFiles/tgfclient.dir/guitexture.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guitexture.cpp" > CMakeFiles/tgfclient.dir/guitexture.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guitexture.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guitexture.cpp" -o CMakeFiles/tgfclient.dir/guitexture.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guitexture.cpp" -o CMakeFiles/tgfclient.dir/guitexture.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj.requires
@@ -247,17 +247,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.obj.provides.build: s
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj: src/libs/tgfclient/tgfclient.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/tgfclient.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/tgfclient.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/tgfclient.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.cpp" > CMakeFiles/tgfclient.dir/tgfclient.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.cpp" > CMakeFiles/tgfclient.dir/tgfclient.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/tgfclient.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/tgfclient.cpp" -o CMakeFiles/tgfclient.dir/tgfclient.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/tgfclient.cpp" -o CMakeFiles/tgfclient.dir/tgfclient.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj.requires
@@ -271,17 +271,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.obj.provides.build: sr
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj: src/libs/tgfclient/gui.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/gui.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/gui.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/gui.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.cpp" > CMakeFiles/tgfclient.dir/gui.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.cpp" > CMakeFiles/tgfclient.dir/gui.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/gui.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/gui.cpp" -o CMakeFiles/tgfclient.dir/gui.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/gui.cpp" -o CMakeFiles/tgfclient.dir/gui.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj.requires
@@ -295,17 +295,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.obj.provides.build: src/libs
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj: src/libs/tgfclient/guiedit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiedit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiedit.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiedit.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiedit.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiedit.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiedit.cpp" > CMakeFiles/tgfclient.dir/guiedit.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiedit.cpp" > CMakeFiles/tgfclient.dir/guiedit.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiedit.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiedit.cpp" -o CMakeFiles/tgfclient.dir/guiedit.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiedit.cpp" -o CMakeFiles/tgfclient.dir/guiedit.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj.requires
@@ -319,17 +319,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.obj.provides.build: src/
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj: src/libs/tgfclient/guihelp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guihelp.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guihelp.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guihelp.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guihelp.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guihelp.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guihelp.cpp" > CMakeFiles/tgfclient.dir/guihelp.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guihelp.cpp" > CMakeFiles/tgfclient.dir/guihelp.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guihelp.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guihelp.cpp" -o CMakeFiles/tgfclient.dir/guihelp.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guihelp.cpp" -o CMakeFiles/tgfclient.dir/guihelp.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj.requires
@@ -343,17 +343,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.obj.provides.build: src/
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj: src/libs/tgfclient/guilabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guilabel.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guilabel.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guilabel.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guilabel.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guilabel.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guilabel.cpp" > CMakeFiles/tgfclient.dir/guilabel.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guilabel.cpp" > CMakeFiles/tgfclient.dir/guilabel.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guilabel.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guilabel.cpp" -o CMakeFiles/tgfclient.dir/guilabel.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guilabel.cpp" -o CMakeFiles/tgfclient.dir/guilabel.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj.requires
@@ -367,17 +367,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.obj.provides.build: src
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj: src/libs/tgfclient/guiobject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiobject.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiobject.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiobject.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiobject.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiobject.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiobject.cpp" > CMakeFiles/tgfclient.dir/guiobject.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiobject.cpp" > CMakeFiles/tgfclient.dir/guiobject.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiobject.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiobject.cpp" -o CMakeFiles/tgfclient.dir/guiobject.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiobject.cpp" -o CMakeFiles/tgfclient.dir/guiobject.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj.requires
@@ -391,17 +391,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.obj.provides.build: sr
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj: src/libs/tgfclient/guiscrollist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollist.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollist.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiscrollist.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollist.cpp" > CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollist.cpp" > CMakeFiles/tgfclient.dir/guiscrollist.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiscrollist.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscrollist.cpp" -o CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscrollist.cpp" -o CMakeFiles/tgfclient.dir/guiscrollist.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj.requires
@@ -415,17 +415,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.obj.provides.build:
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj: src/libs/tgfclient/guicombobox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guicombobox.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicombobox.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guicombobox.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicombobox.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guicombobox.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicombobox.cpp" > CMakeFiles/tgfclient.dir/guicombobox.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicombobox.cpp" > CMakeFiles/tgfclient.dir/guicombobox.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guicombobox.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicombobox.cpp" -o CMakeFiles/tgfclient.dir/guicombobox.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicombobox.cpp" -o CMakeFiles/tgfclient.dir/guicombobox.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj.requires
@@ -439,17 +439,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.obj.provides.build: 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj: src/libs/tgfclient/guicheckbox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicheckbox.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicheckbox.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guicheckbox.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicheckbox.cpp" > CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicheckbox.cpp" > CMakeFiles/tgfclient.dir/guicheckbox.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guicheckbox.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guicheckbox.cpp" -o CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guicheckbox.cpp" -o CMakeFiles/tgfclient.dir/guicheckbox.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj.requires
@@ -463,17 +463,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.obj.provides.build: 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj: src/libs/tgfclient/guiprogresbar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiprogresbar.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiprogresbar.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiprogresbar.cpp" > CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiprogresbar.cpp" > CMakeFiles/tgfclient.dir/guiprogresbar.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiprogresbar.cpp" -o CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiprogresbar.cpp" -o CMakeFiles/tgfclient.dir/guiprogresbar.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj.requires
@@ -487,17 +487,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.obj.provides.build
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj: src/libs/tgfclient/guiscreen.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscreen.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiscreen.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiscreen.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.cpp" > CMakeFiles/tgfclient.dir/guiscreen.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.cpp" > CMakeFiles/tgfclient.dir/guiscreen.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiscreen.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiscreen.cpp" -o CMakeFiles/tgfclient.dir/guiscreen.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiscreen.cpp" -o CMakeFiles/tgfclient.dir/guiscreen.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj.requires
@@ -511,17 +511,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.obj.provides.build: sr
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj: src/libs/tgfclient/guieventloop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guieventloop.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guieventloop.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guieventloop.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guieventloop.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guieventloop.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guieventloop.cpp" > CMakeFiles/tgfclient.dir/guieventloop.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guieventloop.cpp" > CMakeFiles/tgfclient.dir/guieventloop.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guieventloop.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guieventloop.cpp" -o CMakeFiles/tgfclient.dir/guieventloop.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guieventloop.cpp" -o CMakeFiles/tgfclient.dir/guieventloop.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj.requires
@@ -535,17 +535,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.obj.provides.build:
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj: src/libs/tgfclient/guiapplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiapplication.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiapplication.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/guiapplication.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiapplication.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/guiapplication.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiapplication.cpp" > CMakeFiles/tgfclient.dir/guiapplication.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiapplication.cpp" > CMakeFiles/tgfclient.dir/guiapplication.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/guiapplication.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/guiapplication.cpp" -o CMakeFiles/tgfclient.dir/guiapplication.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/guiapplication.cpp" -o CMakeFiles/tgfclient.dir/guiapplication.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj.requires
@@ -559,17 +559,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.obj.provides.buil
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj: src/libs/tgfclient/musicplayer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/musicplayer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/musicplayer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/musicplayer.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.cpp" > CMakeFiles/tgfclient.dir/musicplayer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.cpp" > CMakeFiles/tgfclient.dir/musicplayer.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/musicplayer.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/musicplayer.cpp" -o CMakeFiles/tgfclient.dir/musicplayer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/musicplayer.cpp" -o CMakeFiles/tgfclient.dir/musicplayer.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj.requires
@@ -583,17 +583,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.obj.provides.build: 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj: src/libs/tgfclient/soundstream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/soundstream.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/soundstream.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/soundstream.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.cpp" > CMakeFiles/tgfclient.dir/soundstream.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.cpp" > CMakeFiles/tgfclient.dir/soundstream.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/soundstream.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/soundstream.cpp" -o CMakeFiles/tgfclient.dir/soundstream.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/soundstream.cpp" -o CMakeFiles/tgfclient.dir/soundstream.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj.requires
@@ -607,17 +607,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.obj.provides.build: 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj: src/libs/tgfclient/oggsoundstream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.cpp" > CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.cpp" > CMakeFiles/tgfclient.dir/oggsoundstream.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/oggsoundstream.cpp" -o CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/oggsoundstream.cpp" -o CMakeFiles/tgfclient.dir/oggsoundstream.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj.requires
@@ -631,17 +631,17 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.obj.provides.buil
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/flags.make
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj: src/libs/tgfclient/CMakeFiles/tgfclient.dir/includes_CXX.rsp
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj: src/libs/tgfclient/openalmusicplayer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles" $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles" $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.cpp"
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.cpp"
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.cpp" > CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.cpp" > CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.i
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/openalmusicplayer.cpp" -o CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/openalmusicplayer.cpp" -o CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.s
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj.requires:
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.obj.requires
@@ -750,9 +750,9 @@ bin/libtgfclient.dll: C:/MinGW/msys/1.0/local/lib/libSDLmain.a
 bin/libtgfclient.dll: C:/MinGW/msys/1.0/local/lib/libSDL.dll.a
 bin/libtgfclient.dll: src/libs/tgfclient/CMakeFiles/tgfclient.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../bin/libtgfclient.dll"
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/tgfclient.dir/objects.a
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/ar.exe cr CMakeFiles/tgfclient.dir/objects.a @CMakeFiles/tgfclient.dir/objects1.rsp
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libtgfclient.dll -Wl,--out-implib,libtgfclient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/tgfclient.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a ../portability/libportability.dll.a ../tgf/libtgf.dll.a ../../modules/networking/libnetworking.dll.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a ../tgf/libtgf.dll.a ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lWinmm -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && "/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/tgfclient.dir/objects.a
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/ar.exe cr CMakeFiles/tgfclient.dir/objects.a @CMakeFiles/tgfclient.dir/objects1.rsp
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && /c/MinGW/bin/g++.exe     -shared -o ../../../bin/libtgfclient.dll -Wl,--out-implib,libtgfclient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/tgfclient.dir/objects.a -Wl,--no-whole-archive /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a ../portability/libportability.dll.a ../tgf/libtgf.dll.a ../../modules/networking/libnetworking.dll.a /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibsl.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lwinmm /C/MinGW/msys/1.0/local/lib/libpng.dll.a /C/MinGW/msys/1.0/local/lib/libzlib.dll.a /C/MinGW/msys/1.0/local/lib/libjpeg.dll.a -lglu32 -lopengl32 /C/MinGW/msys/1.0/local/lib/libOpenAL32.dll.a /C/MinGW/msys/1.0/local/lib/libvorbis.dll.a /C/MinGW/msys/1.0/local/lib/libvorbisfile.dll.a /C/MinGW/msys/1.0/local/lib/libogg.dll.a /C/MinGW/msys/1.0/local/lib/libplibjs.a /C/MinGW/msys/1.0/local/lib/libplibul.a -lwinmm /C/MinGW/msys/1.0/local/lib/libplibsg.a ../tgf/libtgf.dll.a ../portability/libportability.dll.a /C/MinGW/msys/1.0/local/lib/libexpat.dll.a /C/MinGW/msys/1.0/local/lib/libenet.a /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDLmain.a -lmingw32 /C/MinGW/msys/1.0/local/lib/libSDL.dll.a -lWinmm -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
 
 # Rule to build all files generated by this target.
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/build: bin/libtgfclient.dll
@@ -786,10 +786,10 @@ src/libs/tgfclient/CMakeFiles/tgfclient.dir/requires: src/libs/tgfclient/CMakeFi
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/requires
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/clean:
-	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" && $(CMAKE_COMMAND) -P CMakeFiles/tgfclient.dir/cmake_clean.cmake
+	cd "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" && $(CMAKE_COMMAND) -P CMakeFiles/tgfclient.dir/cmake_clean.cmake
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/clean
 
 src/libs/tgfclient/CMakeFiles/tgfclient.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient" "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/libs/tgfclient/CMakeFiles/tgfclient.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/libs/tgfclient/CMakeFiles/tgfclient.dir/depend
 

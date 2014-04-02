@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/drivers/usr
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/drivers/usr
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,44 +28,38 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr/usr.dll")
-  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/usr/usr.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/usr/usr.dll")
-    IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "c:/MinGW/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/drivers/usr/usr.dll")
-    ENDIF(CMAKE_INSTALL_DO_STRIP)
-  ENDIF()
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr" TYPE MODULE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr/usr.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_trb1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_trb1/usr_trb1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_trb1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_trb1/usr_trb1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_sc" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_sc/usr_sc.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_sc" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_sc/usr_sc.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_ls1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_ls1/usr_ls1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_ls1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_ls1/usr_ls1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_ls2" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_ls2/usr_ls2.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_ls2" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_ls2/usr_ls2.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_mpa1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_mpa1/usr_mpa1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_mpa1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_mpa1/usr_mpa1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_36GP" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_36GP/usr_36GP.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_36GP" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_36GP/usr_36GP.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_rs" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_rs/usr_rs.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_rs" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_rs/usr_rs.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_lp1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/lib/drivers/usr_lp1/usr_lp1.dll")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/drivers/usr_lp1" TYPE FILE FILES "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/lib/drivers/usr_lp1/usr_lp1.dll")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

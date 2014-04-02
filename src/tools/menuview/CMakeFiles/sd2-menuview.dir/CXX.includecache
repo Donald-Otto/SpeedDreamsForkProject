@@ -374,7 +374,7 @@ float.h
 errno.h
 -
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/main.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/main.cpp
 string
 -
 windows.h
@@ -384,9 +384,9 @@ portability.h
 tgfclient.h
 -
 previewmenu.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.cpp
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.cpp
 cstdio
 -
 tgfclient.h
@@ -394,9 +394,9 @@ tgfclient.h
 guimenu.h
 -
 previewmenu.h
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.h
 
-D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.h
+D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.h
 windows.h
 -
 

@@ -30,8 +30,8 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/main.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/main.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.h
  config.h
  src/libs/portability/portability.h
  src/libs/tgf/modinfo.h
@@ -69,8 +69,8 @@ src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.obj
  C:/MinGW/msys/1.0/local/include/SDL/close_code.h
  C:/MinGW/msys/1.0/local/include/plib/js.h
  C:/MinGW/msys/1.0/local/include/plib/ul.h
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.cpp
- D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/src/tools/menuview/previewmenu.h
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.cpp
+ D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/src/tools/menuview/previewmenu.h
  src/libs/tgf/modinfo.h
  src/libs/tgf/osspec.h
  src/libs/tgf/tgf.h

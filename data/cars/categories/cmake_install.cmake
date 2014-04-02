@@ -1,4 +1,4 @@
-# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories
+# Install script for directory: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,27 +29,27 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/cars/categories" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/Supercars.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/36GP.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/TRB1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/LS-GT1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/LS-GT2.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/MPA1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/MP5.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/RS.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/Preview.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/Supercars.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/36GP.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/TRB1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/LS-GT1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/LS-GT2.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/MPA1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/MP5.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/RS.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/Preview.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/cars/categories" TYPE FILE FILES
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/References.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/LS-P1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/LS-P2.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/MP1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/MP10.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/Raid-T1.xml"
-    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/data/cars/categories/Nascar.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/References.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/LS-P1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/LS-P2.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/MP1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/MP10.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/Raid-T1.xml"
+    "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/data/cars/categories/Nascar.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
