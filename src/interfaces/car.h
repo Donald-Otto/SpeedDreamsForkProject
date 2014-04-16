@@ -762,6 +762,7 @@ typedef struct CarElt
 
 #define PRM_SPEEDO_TEX		"speedometer texture"
 #define PRM_SPEEDO_TEX_MPH	"speedometer mph texture"
+#define PRM_SPEEDO_TEX_DIG	"speedometer digital texture"
 #define PRM_SPEEDO_XSZ		"speedometer width"
 #define PRM_SPEEDO_YSZ		"speedometer height"
 #define PRM_SPEEDO_XPOS		"speedometer x pos"

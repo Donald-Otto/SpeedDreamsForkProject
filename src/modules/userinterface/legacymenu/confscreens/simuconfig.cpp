@@ -60,11 +60,17 @@ static const int NbSpeedSchemes = sizeof(SpeedometerType) / sizeof(SpeedometerTy
 
 static int CurSpeedScheme=0;
 
+/*list of available speedometer options */
+static const char *SpeedometerStyle[]={"Digital", "Analog"};
+static const int NbSpeedStyles = sizeof(SpeedometerStyle) / sizeof(SpeedometerStyle[0]);
+
+static int CurSpeedStyle=0;
 /* gui label ids */
 static int SimuVersionId;
 static int MultiThreadSchemeId;
 static int ThreadAffinitySchemeId;
 static int SpeedometerSchemeId;
+static int SpeedometerStyleId;
 /* gui screen handles */
 static void *ScrHandle = NULL;
 static void *PrevScrHandle = NULL;
@@ -78,6 +84,7 @@ static void loadSimuCfg(void)
 	const char *multiThreadSchemeName;
 	const char *threadAffinitySchemeName;
 	const char *speedoSchemeName;
+	const char *speedoStyleName;
 	int i;
 
 	char buf[1024];
@@ -130,6 +137,15 @@ static void loadSimuCfg(void)
 		}
 	}
 
+	//Speedometer Style Scheme
+	speedoStyleName=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_STYLE,SpeedometerType[0]);
+	for (i = 0; i < NbSpeedStyles; i++) {
+		if (strcmp(speedoStyleName, SpeedometerStyle[i]) == 0) {
+			CurSpeedScheme = i;
+			break;
+		}
+	}
+
 	GfParmReleaseHandle(paramHandle);
 
 	GfuiLabelSetText(ScrHandle, SimuVersionId, SimuVersionDispNameList[CurSimuVersion]);
@@ -137,6 +153,7 @@ static void loadSimuCfg(void)
 	GfuiLabelSetText(ScrHandle, ThreadAffinitySchemeId, ThreadAffinitySchemeList[CurThreadAffinityScheme]);
 	//printf("%s\n",SpeedometerType[CurSpeedScheme]);
 	GfuiLabelSetText(ScrHandle, SpeedometerSchemeId, SpeedometerType[CurSpeedScheme]);
+	GfuiLabelSetText(ScrHandle, SpeedometerStyleId, SpeedometerStyle[CurSpeedStyle]);
 }
 
 
@@ -151,6 +168,7 @@ static void storeSimuCfg(void * /* dummy */)
 	GfParmSetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_MULTI_THREADING, MultiThreadSchemeList[CurMultiThreadScheme]);
 	GfParmSetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_THREAD_AFFINITY, ThreadAffinitySchemeList[CurThreadAffinityScheme]);
 	GfParmSetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_TYPE,SpeedometerType[CurSpeedScheme]);
+	GfParmSetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_STYLE,SpeedometerStyle[CurSpeedStyle]);
 	GfParmWriteFile(NULL, paramHandle, "raceengine");
 	GfParmReleaseHandle(paramHandle);
 	
@@ -201,6 +219,8 @@ onChangeThreadAffinityScheme(void *vp)
 	
 	GfuiLabelSetText(ScrHandle, ThreadAffinitySchemeId, ThreadAffinitySchemeList[CurThreadAffinityScheme]);
 }
+/* Change speedometer scheme*/
+
 static void
 	onChangeSpeedScheme(void *vp)
 {
@@ -210,6 +230,16 @@ static void
 	GfuiLabelSetText(ScrHandle, SpeedometerSchemeId, SpeedometerType[CurSpeedScheme]);
 }
 
+/* Change speedometer style*/
+
+static void
+	onChangeSpeedStyle(void *vp)
+{
+	CurSpeedStyle =
+		(CurSpeedStyle + NbSpeedStyles + (int)(long)vp) % NbSpeedStyles;
+	
+	GfuiLabelSetText(ScrHandle, SpeedometerStyleId, SpeedometerStyle[CurSpeedStyle]);
+}
 
 static void onActivate(void * /* dummy */)
 {
@@ -250,6 +280,11 @@ SimuMenuInit(void *prevMenu)
 
     GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "speedoleftarrow", (void*)-1, onChangeSpeedScheme);
     GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "speedorightarrow", (void*)1, onChangeSpeedScheme);
+
+	SpeedometerStyleId = GfuiMenuCreateLabelControl(ScrHandle, menuDescHdle, "speedostylelabel");
+
+    GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "speedostyleleftarrow", (void*)-1, onChangeSpeedStyle);
+    GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "speedostylerightarrow", (void*)1, onChangeSpeedStyle);
 	
     GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "ApplyButton", PrevScrHandle, storeSimuCfg);
     GfuiMenuCreateButtonControl(ScrHandle, menuDescHdle, "CancelButton", PrevScrHandle, GfuiScreenActivate);

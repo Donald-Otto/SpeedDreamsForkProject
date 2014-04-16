@@ -50,6 +50,7 @@ static const int DEFAULT_WIDTH = 800;
 
 static const int BUFSIZE = 256;
 const char* speedType;
+const char* speedStyle;
 
 cGrBoard::cGrBoard(int myid) :
     normal_color_(NULL), danger_color_(NULL), ok_color_(NULL),
@@ -1443,17 +1444,25 @@ void grInitBoardCar(tCarElt *car)
   char buf[1024];
   snprintf(buf, sizeof(buf), "%s%s", GfLocalDir(), RACE_ENG_CFG);
   void *paramHandle = GfParmReadFile(buf, GFPARM_RMODE_REREAD | GFPARM_RMODE_CREAT);
+  speedStyle=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_STYLE,"Analog");
   speedType=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_TYPE,"KPH");
-  if (strcmp(speedType,"MPH")==0){
-	param=GfParmGetStr(handle,SECT_GROBJECTS, PRM_SPEEDO_TEX_MPH, "speed360mph.png");
-  }else
-	param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
+  if (strcmp(speedStyle,"Analog")==0){
+	  if (strcmp(speedType,"MPH")==0){
+		param=GfParmGetStr(handle,SECT_GROBJECTS, PRM_SPEEDO_TEX_MPH, "speed360mph.png");
+	  }else
+		param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
 	
-  
+  }else{
+	  printf("%s",PRM_SPEEDO_TEX_DIG);
+	  param=GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX_DIG, "DigitalSpeedometer.png");
+  }
   curInst->texture = (ssgSimpleState*)grSsgLoadTexState(param);
-  if (curInst->texture == 0)
-	//if MPH==false
-    curInst->texture = (ssgSimpleState*)grSsgLoadTexState("speed360.rgb");
+	  if (curInst->texture == 0){
+		  speedStyle="Analog";
+		//if MPH==false
+		curInst->texture = (ssgSimpleState*)grSsgLoadTexState("speed360.rgb");
+	  }
+
     //if MPH==true
 		//curInst->texture = (ssgSimpleState*)grSsgLoadTexState("speed360_mph.rgb");
 
@@ -1499,12 +1508,16 @@ void grInitBoardCar(tCarElt *car)
                                 PRM_NEEDLE_BLUE, (char*)NULL, 0.0);
   curInst->needleColor[3] = GfParmGetNum(handle, SECT_GROBJECTS,
                                 PRM_NEEDLE_ALPHA, (char*)NULL, 1.0);
+  GLfloat alpha;
+  if (strcmp(speedStyle,"Analog")==0){
+	alpha=0.0;
+  }else alpha=1.0;
 
   curInst->CounterList = glGenLists(1);
   glNewList(curInst->CounterList, GL_COMPILE);
   glBegin(GL_TRIANGLE_STRIP);
   {
-    glColor4f(1.0, 1.0, 1.0, 0.0);
+    glColor4f(1.0, 1.0, 1.0, alpha);
     glTexCoord2f(0.0, 0.0);
     glVertex2f(xpos, ypos);
     glTexCoord2f(0.0, 1.0);
@@ -1521,8 +1534,13 @@ void grInitBoardCar(tCarElt *car)
   glNewList(curInst->needleList, GL_COMPILE);
   glBegin(GL_TRIANGLE_STRIP);
   {
-    glColor4f(curInst->needleColor[0], curInst->needleColor[1],
+	  if (strcmp(speedStyle,"Analog")==0){
+		glColor4f(curInst->needleColor[0], curInst->needleColor[1],
                 curInst->needleColor[2], curInst->needleColor[3]);
+	  }else{
+		  glColor4f(curInst->needleColor[0], curInst->needleColor[1],
+                curInst->needleColor[2], 0.0);
+	  }
     glVertex2f(0, -needleySz);
     glVertex2f(0, needleySz);
     glVertex2f(needlexSz, -needleySz / 2.0);

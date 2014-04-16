@@ -427,6 +427,7 @@ typedef struct RmInfo
 #define RM_ATTR_THREAD_AFFINITY		"thread affinity"
 
 #define RM_ATTR_SPEEDO_TYPE		"Speed Readout"
+#define RM_ATTR_SPEEDO_STYLE	"Speedometer Style"
 
 #define RM_VAL_AUTO		"auto"
 #define RM_VAL_ON		"on"
