@@ -49,7 +49,7 @@ static const int BOTTOM_ANCHOR = 0;
 static const int DEFAULT_WIDTH = 800;
 
 static const int BUFSIZE = 256;
-
+const char* speedType;
 
 cGrBoard::cGrBoard(int myid) :
     normal_color_(NULL), danger_color_(NULL), ok_color_(NULL),
@@ -517,7 +517,10 @@ cGrBoard::grDispCarBoard1(const tSituation *s)
 
   // Display top speed
   GfuiDrawString("Top Speed:", normal_color_, GFUI_FONT_SMALL_C, x, y);
-  snprintf(buf, sizeof(buf), "%d", (int)(car_->_topSpeed * 3.6));
+  if (strcmp(speedType,"MPH")==0){
+  snprintf(buf, sizeof(buf), "%d", (int)(car_->_topSpeed * 3.6*.62137));
+  }else
+	  snprintf(buf, sizeof(buf), "%d", (int)(car_->_topSpeed * 3.6));
   GfuiDrawString(buf, normal_color_, GFUI_FONT_SMALL_C, x2, y, dxc, GFUI_ALIGN_HR);
   y -= dy;
 }  // grDispCarBoard1
@@ -981,7 +984,10 @@ cGrBoard::grDispCounterBoard2()
   if (curInst->digital) {
     // Do not add "%3d" or something, because the digital font
     // DOES NOT SUPPORT BLANKS!!!!
-    snprintf(buf, sizeof(buf), "%d", abs((int)(car_->_speed_x * 3.6)));
+	if (strcmp(speedType,"MPH")==0){
+		snprintf(buf, sizeof(buf), "%d", abs((int)(car_->_speed_x * 3.6*.62137)));
+	}else
+		snprintf(buf, sizeof(buf), "%d", abs((int)(car_->_speed_x * 3.6)));
     GfuiDrawString(buf, curInst->needleColor, GFUI_FONT_LARGE_C,
                     (int)curInst->digitXCenter - 30,
                     (int)curInst->digitYCenter,
@@ -1083,7 +1089,10 @@ cGrBoard::grDispArcade(const tSituation *s)
   // Display speed and gear
   dy = GfuiFontHeight(GFUI_FONT_LARGE_C);
   y = YM + dy;
-  snprintf(buf, sizeof(buf), "%3d km/h", abs((int)(car_->_speed_x * 3.6)));
+  if (strcmp(speedType,"MPH")==0){
+	   snprintf(buf, sizeof(buf), "%3d km/h", abs((int)(car_->_speed_x * 3.6*.62137)));
+  }else
+	snprintf(buf, sizeof(buf), "%3d km/h", abs((int)(car_->_speed_x * 3.6)));
   GfuiDrawString(buf, arcade_color_, GFUI_FONT_BIG_C, x, y,
                 width, GFUI_ALIGN_HR);
   y = YM;
@@ -1434,9 +1443,8 @@ void grInitBoardCar(tCarElt *car)
   char buf[1024];
   snprintf(buf, sizeof(buf), "%s%s", GfLocalDir(), RACE_ENG_CFG);
   void *paramHandle = GfParmReadFile(buf, GFPARM_RMODE_REREAD | GFPARM_RMODE_CREAT);
-  const char* speedType=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_TYPE,"KPH");
+  speedType=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_TYPE,"KPH");
   if (strcmp(speedType,"MPH")==0){
-	printf("%s",PRM_SPEEDO_TEX_MPH);
 	param=GfParmGetStr(handle,SECT_GROBJECTS, PRM_SPEEDO_TEX_MPH, "speed360mph.png");
   }else
 	param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
@@ -1467,8 +1475,13 @@ void grInitBoardCar(tCarElt *car)
   curInst->needleYCenter = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_YCENTER, (char*)NULL, ySz / 2.0) + ypos;
   curInst->digitXCenter = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_XDIGITCENTER, (char*)NULL, xSz / 2.0) + xpos;
   curInst->digitYCenter = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_YDIGITCENTER, (char*)NULL, 10) + ypos;
-  curInst->minValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MINVAL, (char*)NULL, 0);
-  curInst->maxValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MAXVAL, (char*)NULL, 100) - curInst->minValue;
+  if (strcmp(speedType,"MPH")==0){
+  curInst->minValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MINVAL_MPH, (char*)NULL, 0);
+  curInst->maxValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MAXVAL_MPH, (char*)NULL, 100) - curInst->minValue;
+  }else{
+	  curInst->minValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MINVAL, (char*)NULL, 0);
+	  curInst->maxValue = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MAXVAL, (char*)NULL, 100) - curInst->minValue;
+  }
   curInst->minAngle = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MINANG, "deg", 225);
   curInst->maxAngle = GfParmGetNum(handle, SECT_GROBJECTS, PRM_SPEEDO_MAXANG, "deg", -45) - curInst->minAngle;
   curInst->monitored = &(car->_speed_x);
