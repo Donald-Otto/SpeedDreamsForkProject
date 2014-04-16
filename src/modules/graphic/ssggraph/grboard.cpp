@@ -989,10 +989,27 @@ cGrBoard::grDispCounterBoard2()
 		snprintf(buf, sizeof(buf), "%d", abs((int)(car_->_speed_x * 3.6*.62137)));
 	}else
 		snprintf(buf, sizeof(buf), "%d", abs((int)(car_->_speed_x * 3.6)));
-    GfuiDrawString(buf, curInst->needleColor, GFUI_FONT_LARGE_C,
+	if (strcmp(speedStyle,"Analog")==0){
+		GfuiDrawString(buf, curInst->needleColor, GFUI_FONT_LARGE_C,
                     (int)curInst->digitXCenter - 30,
                     (int)curInst->digitYCenter,
                     60, GFUI_ALIGN_HC);
+	}else{
+		GfuiDrawString(buf, curInst->needleColor, GFUI_FONT_BIG,
+                    (int)curInst->digitXCenter - 30,
+                    (int)curInst->digitYCenter + 45,
+                    60, GFUI_ALIGN_HC);
+		if (strcmp(speedType,"MPH")==0){
+		snprintf(buf, sizeof(buf), "%s", "MPH");
+		}else
+		snprintf(buf, sizeof(buf), "%s", "KPH");
+		GfuiDrawString(buf, curInst->needleColor, GFUI_FONT_MEDIUM,
+                    (int)curInst->digitXCenter - 30,
+                    (int)curInst->digitYCenter + 35,
+                    60, GFUI_ALIGN_HC);
+	}
+
+    
   }
 
   glTranslatef(-centerAnchor, -BOTTOM_ANCHOR, 0);
@@ -1453,7 +1470,7 @@ void grInitBoardCar(tCarElt *car)
 		param = GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX, "speed360.png");
 	
   }else{
-	  printf("%s",PRM_SPEEDO_TEX_DIG);
+	  
 	  param=GfParmGetStr(handle, SECT_GROBJECTS, PRM_SPEEDO_TEX_DIG, "DigitalSpeedometer.png");
   }
   curInst->texture = (ssgSimpleState*)grSsgLoadTexState(param);

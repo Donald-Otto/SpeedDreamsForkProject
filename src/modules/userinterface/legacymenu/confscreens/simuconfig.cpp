@@ -141,7 +141,7 @@ static void loadSimuCfg(void)
 	speedoStyleName=GfParmGetStr(paramHandle, RM_SECT_RACE_ENGINE, RM_ATTR_SPEEDO_STYLE,SpeedometerType[0]);
 	for (i = 0; i < NbSpeedStyles; i++) {
 		if (strcmp(speedoStyleName, SpeedometerStyle[i]) == 0) {
-			CurSpeedScheme = i;
+			CurSpeedStyle = i;
 			break;
 		}
 	}
