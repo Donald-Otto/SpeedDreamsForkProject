@@ -48,8 +48,11 @@
 		<attnum name="tachometer min value" unit="rpm" val="0"/>
 		<attnum name="tachometer max value" unit="rpm" val="10000"/>
 		<attstr name="speedometer texture" val="sc-spirit-300-speed.png"/>
+		<attstr name="speedometer mph texture" val="sc-spirit-300-speedmph.png"/>
 		<attnum name="speedometer min value" unit="km/h" val="0"/>
 		<attnum name="speedometer max value" unit="km/h" val="360"/>
+		<attstr name="speedometer mph min value" unit="mph" val="0"/>
+		<attstr name="speedometer mph max value" unit="mph" val="240"/> 
 		<attnum name="needle red" val="0.8"/>
 		<attnum name="needle green" val="0.8"/>
 		<attnum name="needle blue" val="0.8"/>

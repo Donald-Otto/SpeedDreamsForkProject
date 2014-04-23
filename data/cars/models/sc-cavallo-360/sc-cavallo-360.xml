@@ -50,8 +50,11 @@
 		<attnum name="tachometer min value" val="0" unit="rpm"/>
 		<attnum name="tachometer max value" val="10000" unit="rpm"/>
 		<attstr name="speedometer texture" val="sc-cavallo-360-speed.png"/>
-		<attnum name="speedometer min value" val="0" unit="km/h"/>
-		<attnum name="speedometer max value" val="360" unit="km/h"/>
+		<attstr name="speedometer mph texture" val="sc-cavallo-360-speedmph.png"/>
+		<attnum name="speedometer min value" unit="km/h" val="0"/>
+		<attnum name="speedometer max value" unit="km/h" val="360"/>
+		<attstr name="speedometer mph min value" unit="mph" val="0"/>
+		<attstr name="speedometer mph max value" unit="mph" val="240"/>
 		<section name="Ranges">
 			<section name="1">
 				<attnum name="threshold" val="0"/>

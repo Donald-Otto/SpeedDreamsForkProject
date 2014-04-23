@@ -44,8 +44,11 @@
 		<attnum name="tachometer max value" unit="rpm" val="10000"/>
 		<attstr name="tachometer texture" val="sc-murasama-nsx-rpm.png"/>
 		<attstr name="speedometer texture" val="sc-murasama-nsx-speed.png"/>
+		<attstr name="speedometer mph texture" val="sc-murasama-nsx-speedmph.png"/>
 		<attnum name="speedometer min value" unit="km/h" val="0"/>
 		<attnum name="speedometer max value" unit="km/h" val="360"/>
+		<attstr name="speedometer mph min value" unit="mph" val="0"/>
+		<attstr name="speedometer mph max value" unit="mph" val="240"/> 
 		<attnum name="needle red" val="1.0"/>
 		<attnum name="needle green" val="0"/>
 		<attnum name="needle blue" val="0"/>
