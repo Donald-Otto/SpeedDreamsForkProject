@@ -1,0 +1,604 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: c:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/2.8.12.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: c:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/2.8.12.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1786672977/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1786672977.dir/build.make CMakeFiles/cmTryCompileExec1786672977.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1786672977.dir/testCCompiler.c.obj
+/c/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec1786672977.dir/testCCompiler.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTryCompileExec1786672977.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1786672977.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1786672977.dir/objects.a @CMakeFiles/cmTryCompileExec1786672977.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe       -Wl,--whole-archive CMakeFiles/cmTryCompileExec1786672977.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1786672977.exe -Wl,--out-implib,libcmTryCompileExec1786672977.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3559446774/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3559446774.dir/build.make CMakeFiles/cmTryCompileExec3559446774.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3559446774.dir/CMakeCCompilerABI.c.obj
+/c/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec3559446774.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec3559446774.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3559446774.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3559446774.dir/objects.a @CMakeFiles/cmTryCompileExec3559446774.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec3559446774.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3559446774.exe -Wl,--out-implib,libcmTryCompileExec3559446774.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=c:\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.8.1/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3559446774.exe' '-mtune=generic' '-march=pentiumpro'
+ c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTryCompileExec3559446774.exe c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles/cmTryCompileExec3559446774.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec3559446774.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3559446774/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3559446774.dir/build.make CMakeFiles/cmTryCompileExec3559446774.dir/build]
+  ignore line: [make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp']
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3559446774.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/c/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec3559446774.dir/CMakeCCompilerABI.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec3559446774.exe]
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3559446774.dir/objects.a]
+  ignore line: [/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3559446774.dir/objects.a @CMakeFiles/cmTryCompileExec3559446774.dir/objects1.rsp]
+  ignore line: [/c/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec3559446774.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3559446774.exe -Wl,--out-implib,libcmTryCompileExec3559446774.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=c:\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3559446774.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTryCompileExec3559446774.exe c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles/cmTryCompileExec3559446774.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec3559446774.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3559446774.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3559446774.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec3559446774.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [c:/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [c:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [c:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [c:/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/MinGW/lib/gcc/mingw32/4.8.1;c:/MinGW/lib/gcc;c:/MinGW/mingw32/lib;c:/MinGW/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1161231227/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1161231227.dir/build.make CMakeFiles/cmTryCompileExec1161231227.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1161231227.dir/testCXXCompiler.cxx.obj
+/c/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec1161231227.dir/testCXXCompiler.cxx.obj -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTryCompileExec1161231227.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1161231227.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1161231227.dir/objects.a @CMakeFiles/cmTryCompileExec1161231227.dir/objects1.rsp
+/c/MinGW/bin/g++.exe       -Wl,--whole-archive CMakeFiles/cmTryCompileExec1161231227.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1161231227.exe -Wl,--out-implib,libcmTryCompileExec1161231227.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2878776407/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2878776407.dir/build.make CMakeFiles/cmTryCompileExec2878776407.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec2878776407.dir/CMakeCXXCompilerABI.cpp.obj
+/c/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec2878776407.dir/CMakeCXXCompilerABI.cpp.obj -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec2878776407.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2878776407.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2878776407.dir/objects.a @CMakeFiles/cmTryCompileExec2878776407.dir/objects1.rsp
+/c/MinGW/bin/g++.exe     -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec2878776407.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2878776407.exe -Wl,--out-implib,libcmTryCompileExec2878776407.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=c:\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.8.1/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2878776407.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec2878776407.exe c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles/cmTryCompileExec2878776407.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec2878776407.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2878776407/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2878776407.dir/build.make CMakeFiles/cmTryCompileExec2878776407.dir/build]
+  ignore line: [make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp']
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2878776407.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/c/MinGW/bin/g++.exe     -o CMakeFiles/cmTryCompileExec2878776407.dir/CMakeCXXCompilerABI.cpp.obj -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec2878776407.exe]
+  ignore line: ["/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2878776407.dir/objects.a]
+  ignore line: [/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2878776407.dir/objects.a @CMakeFiles/cmTryCompileExec2878776407.dir/objects1.rsp]
+  ignore line: [/c/MinGW/bin/g++.exe     -v -Wl,--whole-archive CMakeFiles/cmTryCompileExec2878776407.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2878776407.exe -Wl,--out-implib,libcmTryCompileExec2878776407.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=c:\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2878776407.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec2878776407.exe c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles/cmTryCompileExec2878776407.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec2878776407.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2878776407.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2878776407.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec2878776407.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [c:/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [c:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [c:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [c:/MinGW/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/MinGW/lib/gcc/mingw32/4.8.1;c:/MinGW/lib/gcc;c:/MinGW/mingw32/lib;c:/MinGW/lib]
+  implicit fwks: []
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2131740356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2131740356.dir/build.make CMakeFiles/cmTryCompileExec2131740356.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2131740356.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec2131740356.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec2131740356.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2131740356.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2131740356.dir/objects.a @CMakeFiles/cmTryCompileExec2131740356.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec2131740356.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2131740356.exe -Wl,--out-implib,libcmTryCompileExec2131740356.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec810195185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec810195185.dir/build.make CMakeFiles/cmTryCompileExec810195185.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec810195185.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec810195185.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec810195185.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec810195185.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec810195185.dir/objects.a @CMakeFiles/cmTryCompileExec810195185.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec810195185.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec810195185.exe -Wl,--out-implib,libcmTryCompileExec810195185.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1792014386/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1792014386.dir/build.make CMakeFiles/cmTryCompileExec1792014386.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1792014386.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec1792014386.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1792014386.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1792014386.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1792014386.dir/objects.a @CMakeFiles/cmTryCompileExec1792014386.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec1792014386.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1792014386.exe -Wl,--out-implib,libcmTryCompileExec1792014386.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3775188301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3775188301.dir/build.make CMakeFiles/cmTryCompileExec3775188301.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3775188301.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3775188301.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3775188301.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3775188301.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3775188301.dir/objects.a @CMakeFiles/cmTryCompileExec3775188301.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec3775188301.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3775188301.exe -Wl,--out-implib,libcmTryCompileExec3775188301.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3807714269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3807714269.dir/build.make CMakeFiles/cmTryCompileExec3807714269.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3807714269.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3807714269.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3807714269.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3807714269.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3807714269.dir/objects.a @CMakeFiles/cmTryCompileExec3807714269.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec3807714269.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3807714269.exe -Wl,--out-implib,libcmTryCompileExec3807714269.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec4143725502/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4143725502.dir/build.make CMakeFiles/cmTryCompileExec4143725502.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4143725502.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec4143725502.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec4143725502.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec4143725502.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec4143725502.dir/objects.a @CMakeFiles/cmTryCompileExec4143725502.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec4143725502.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4143725502.exe -Wl,--out-implib,libcmTryCompileExec4143725502.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3611866363/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3611866363.dir/build.make CMakeFiles/cmTryCompileExec3611866363.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3611866363.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3611866363.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3611866363.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3611866363.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3611866363.dir/objects.a @CMakeFiles/cmTryCompileExec3611866363.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec3611866363.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3611866363.exe -Wl,--out-implib,libcmTryCompileExec3611866363.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec779635970/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec779635970.dir/build.make CMakeFiles/cmTryCompileExec779635970.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec779635970.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec779635970.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec779635970.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec779635970.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec779635970.dir/objects.a @CMakeFiles/cmTryCompileExec779635970.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec779635970.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec779635970.exe -Wl,--out-implib,libcmTryCompileExec779635970.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1667442041/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1667442041.dir/build.make CMakeFiles/cmTryCompileExec1667442041.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1667442041.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec1667442041.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1667442041.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1667442041.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1667442041.dir/objects.a @CMakeFiles/cmTryCompileExec1667442041.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec1667442041.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1667442041.exe -Wl,--out-implib,libcmTryCompileExec1667442041.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec892820325/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec892820325.dir/build.make CMakeFiles/cmTryCompileExec892820325.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec892820325.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=isnan   -o CMakeFiles/cmTryCompileExec892820325.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+<command-line>:0:23: warning: conflicting types for built-in function 'isnan' [enabled by default]
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec892820325.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec892820325.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec892820325.dir/objects.a @CMakeFiles/cmTryCompileExec892820325.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=isnan    -Wl,--whole-archive CMakeFiles/cmTryCompileExec892820325.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec892820325.exe -Wl,--out-implib,libcmTryCompileExec892820325.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1447912806/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1447912806.dir/build.make CMakeFiles/cmTryCompileExec1447912806.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1447912806.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec1447912806.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1447912806.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1447912806.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1447912806.dir/objects.a @CMakeFiles/cmTryCompileExec1447912806.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec1447912806.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1447912806.exe -Wl,--out-implib,libcmTryCompileExec1447912806.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3500490230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3500490230.dir/build.make CMakeFiles/cmTryCompileExec3500490230.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3500490230.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3500490230.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3500490230.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec3500490230.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec3500490230.dir/objects.a @CMakeFiles/cmTryCompileExec3500490230.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec3500490230.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3500490230.exe -Wl,--out-implib,libcmTryCompileExec3500490230.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2094944584/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2094944584.dir/build.make CMakeFiles/cmTryCompileExec2094944584.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2094944584.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec2094944584.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec2094944584.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2094944584.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2094944584.dir/objects.a @CMakeFiles/cmTryCompileExec2094944584.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec2094944584.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2094944584.exe -Wl,--out-implib,libcmTryCompileExec2094944584.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1665615814/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1665615814.dir/build.make CMakeFiles/cmTryCompileExec1665615814.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1665615814.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec1665615814.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1665615814.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1665615814.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1665615814.dir/objects.a @CMakeFiles/cmTryCompileExec1665615814.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec1665615814.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1665615814.exe -Wl,--out-implib,libcmTryCompileExec1665615814.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec783112555/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec783112555.dir/build.make CMakeFiles/cmTryCompileExec783112555.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec783112555.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec783112555.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec783112555.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec783112555.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec783112555.dir/objects.a @CMakeFiles/cmTryCompileExec783112555.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec783112555.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec783112555.exe -Wl,--out-implib,libcmTryCompileExec783112555.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec4039772209/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4039772209.dir/build.make CMakeFiles/cmTryCompileExec4039772209.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4039772209.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec4039772209.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec4039772209.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec4039772209.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec4039772209.dir/objects.a @CMakeFiles/cmTryCompileExec4039772209.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec4039772209.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4039772209.exe -Wl,--out-implib,libcmTryCompileExec4039772209.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2723370409/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2723370409.dir/build.make CMakeFiles/cmTryCompileExec2723370409.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2723370409.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec2723370409.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec2723370409.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2723370409.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2723370409.dir/objects.a @CMakeFiles/cmTryCompileExec2723370409.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec2723370409.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2723370409.exe -Wl,--out-implib,libcmTryCompileExec2723370409.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1518887681/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1518887681.dir/build.make CMakeFiles/cmTryCompileExec1518887681.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1518887681.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec1518887681.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1518887681.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1518887681.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1518887681.dir/objects.a @CMakeFiles/cmTryCompileExec1518887681.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec1518887681.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1518887681.exe -Wl,--out-implib,libcmTryCompileExec1518887681.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2794894815/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2794894815.dir/build.make CMakeFiles/cmTryCompileExec2794894815.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2794894815.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec2794894815.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec2794894815.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2794894815.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2794894815.dir/objects.a @CMakeFiles/cmTryCompileExec2794894815.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers     -Wl,--whole-archive CMakeFiles/cmTryCompileExec2794894815.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2794894815.exe -Wl,--out-implib,libcmTryCompileExec2794894815.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec2745085085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2745085085.dir/build.make CMakeFiles/cmTryCompileExec2745085085.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2745085085.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=isnan   -o CMakeFiles/cmTryCompileExec2745085085.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+<command-line>:0:23: warning: conflicting types for built-in function 'isnan' [enabled by default]
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2745085085.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec2745085085.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec2745085085.dir/objects.a @CMakeFiles/cmTryCompileExec2745085085.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=isnan    -Wl,--whole-archive CMakeFiles/cmTryCompileExec2745085085.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2745085085.exe -Wl,--out-implib,libcmTryCompileExec2745085085.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+
+

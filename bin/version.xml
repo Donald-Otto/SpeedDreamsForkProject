@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE params SYSTEM "params.dtd">
+
+
+<params name="versions">
+  <section name="versions">
+    <section name="0">
+      <attstr name="Data location" val="config/logging.xml"/>
+      <attstr name="Local location" val="config/logging.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="5"/>
+    </section>
+
+    <section name="1">
+      <attstr name="Data location" val="config/raceengine.xml"/>
+      <attstr name="Local location" val="config/raceengine.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="7"/>
+    </section>
+
+    <section name="2">
+      <attstr name="Data location" val="config/screen.xml"/>
+      <attstr name="Local location" val="config/screen.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="18"/>
+    </section>
+
+    <section name="3">
+      <attstr name="Data location" val="config/graph.xml"/>
+      <attstr name="Local location" val="config/graph.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="13"/>
+    </section>
+
+    <section name="4">
+      <attstr name="Data location" val="config/sound.xml"/>
+      <attstr name="Local location" val="config/sound.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="1"/>
+    </section>
+
+    <section name="5">
+      <attstr name="Data location" val="config/raceman/practice.xml"/>
+      <attstr name="Local location" val="config/raceman/practice.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="5"/>
+    </section>
+
+    <section name="6">
+      <attstr name="Data location" val="config/raceman/quickrace.xml"/>
+      <attstr name="Local location" val="config/raceman/quickrace.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="21"/>
+    </section>
+
+    <section name="7">
+      <attstr name="Data location" val="config/raceman/singleevent-challenge.xml"/>
+      <attstr name="Local location" val="config/raceman/singleevent-challenge.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="8"/>
+    </section>
+
+    <section name="8">
+      <attstr name="Data location" val="config/raceman/singleevent-endurance.xml"/>
+      <attstr name="Local location" val="config/raceman/singleevent-endurance.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="20"/>
+    </section>
+
+    <section name="9">
+      <attstr name="Data location" val="config/raceman/singleevent-mp5.xml"/>
+      <attstr name="Local location" val="config/raceman/singleevent-mp5.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="3"/>
+    </section>
+
+    <section name="10">
+      <attstr name="Data location" val="config/raceman/extra/skill.xml"/>
+      <attstr name="Local location" val="config/raceman/extra/skill.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="0"/>
+    </section>
+
+    <section name="11">
+      <attstr name="Data location" val="drivers/human/human.xml"/>
+      <attstr name="Local location" val="drivers/human/human.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="0"/>
+    </section>
+
+    <section name="12">
+      <attstr name="Data location" val="drivers/human/preferences.xml"/>
+      <attstr name="Local location" val="drivers/human/preferences.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="2"/>
+    </section>
+
+    <section name="13">
+      <attstr name="Data location" val="drivers/human/car.xml"/>
+      <attstr name="Local location" val="drivers/human/car.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="2"/>
+    </section>
+
+    <section name="14">
+      <attstr name="Data location" val="drivers/networkhuman/networkhuman.xml"/>
+      <attstr name="Local location" val="drivers/networkhuman/networkhuman.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="0"/>
+    </section>
+
+    <section name="15">
+      <attstr name="Data location" val="drivers/networkhuman/preferences.xml"/>
+      <attstr name="Local location" val="drivers/networkhuman/preferences.xml"/>
+      <attnum name="Major version" val="1"/>
+      <attnum name="Minor version" val="2"/>
+    </section>
+
+    <section name="16">
+      <attstr name="Data location" val="drivers/networkhuman/car.xml"/>
+      <attstr name="Local location" val="drivers/networkhuman/car.xml"/>
+      <attnum name="Major version" val="0"/>
+      <attnum name="Minor version" val="0"/>
+    </section>
+
+  </section>
+
+</params>

@@ -1,0 +1,136 @@
+Determining if the function strndup exists failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec285627615/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec285627615.dir/build.make CMakeFiles/cmTryCompileExec285627615.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec285627615.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strndup   -o CMakeFiles/cmTryCompileExec285627615.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+<command-line>:0:23: warning: conflicting types for built-in function 'strndup' [enabled by default]
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec285627615.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec285627615.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec285627615.dir/objects.a @CMakeFiles/cmTryCompileExec285627615.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strndup    -Wl,--whole-archive CMakeFiles/cmTryCompileExec285627615.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec285627615.exe -Wl,--out-implib,libcmTryCompileExec285627615.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec285627615.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strndup'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec285627615.exe] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec285627615/fast] Error 2
+
+
+Determining if the function strtok_r exists failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1401210955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1401210955.dir/build.make CMakeFiles/cmTryCompileExec1401210955.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1401210955.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTryCompileExec1401210955.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec1401210955.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1401210955.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1401210955.dir/objects.a @CMakeFiles/cmTryCompileExec1401210955.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strtok_r    -Wl,--whole-archive CMakeFiles/cmTryCompileExec1401210955.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1401210955.exe -Wl,--out-implib,libcmTryCompileExec1401210955.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec1401210955.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strtok_r'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1401210955.exe] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1401210955/fast] Error 2
+
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3860830057/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3860830057.dir/build.make CMakeFiles/cmTryCompileExec3860830057.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3860830057.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3860830057.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+d:/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3860830057.dir/CheckIncludeFiles.c.obj] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3860830057/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the function strndup exists failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1840400426/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1840400426.dir/build.make CMakeFiles/cmTryCompileExec1840400426.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1840400426.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strndup   -o CMakeFiles/cmTryCompileExec1840400426.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+<command-line>:0:23: warning: conflicting types for built-in function 'strndup' [enabled by default]
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1840400426.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1840400426.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1840400426.dir/objects.a @CMakeFiles/cmTryCompileExec1840400426.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strndup    -Wl,--whole-archive CMakeFiles/cmTryCompileExec1840400426.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1840400426.exe -Wl,--out-implib,libcmTryCompileExec1840400426.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec1840400426.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strndup'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1840400426.exe] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1840400426/fast] Error 2
+
+
+Determining if the function strtok_r exists failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec1136555592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1136555592.dir/build.make CMakeFiles/cmTryCompileExec1136555592.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1136555592.dir/CheckFunctionExists.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTryCompileExec1136555592.dir/CheckFunctionExists.c.obj   -c "/c/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec1136555592.exe
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E remove -f CMakeFiles/cmTryCompileExec1136555592.dir/objects.a
+/c/MinGW/bin/ar.exe cr CMakeFiles/cmTryCompileExec1136555592.dir/objects.a @CMakeFiles/cmTryCompileExec1136555592.dir/objects1.rsp
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=strtok_r    -Wl,--whole-archive CMakeFiles/cmTryCompileExec1136555592.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1136555592.exe -Wl,--out-implib,libcmTryCompileExec1136555592.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec1136555592.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strtok_r'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1136555592.exe] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1136555592/fast] Error 2
+
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/msys/1.0/bin/make.exe "cmTryCompileExec3028885474/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3028885474.dir/build.make CMakeFiles/cmTryCompileExec3028885474.dir/build
+make[1]: Entering directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+"/c/Program Files (x86)/CMake 2.8/bin/cmake.exe" -E cmake_progress_report "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3028885474.dir/CheckIncludeFiles.c.obj
+/c/MinGW/bin/gcc.exe   -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers    -o CMakeFiles/cmTryCompileExec3028885474.dir/CheckIncludeFiles.c.obj   -c "/D/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+d:/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3028885474.dir/CheckIncludeFiles.c.obj] Error 1
+make[1]: Leaving directory `/d/CIS 3238/speed-dreams-src-base-2.1.0-beta/SpeedDreamsForkProject/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3028885474/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
